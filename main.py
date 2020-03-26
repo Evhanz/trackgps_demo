@@ -1,5 +1,6 @@
 import requests
 from facade import *
+from repository import *
 
 def fetchData (data):
     #se habilita que informacion es necesaria
@@ -13,9 +14,22 @@ def fetchData (data):
             name = pokemon['name']
             print(name)
 
-
-
 def main():
+   points =  getPoints(4 , 10,'2020-03-25', ['00:00:00','23:59:00'])
+   #print(points)
+   for point in points:
+       position = point['position']
+       velocity = point['velocity']
+       print("================>")
+       print(getTimeLima(point["utc"]))
+       print({"altitude": position["altitude"],
+            "longitude": position["longitude"],
+            "latitude": position["latitude"],
+            "direction":velocity["heading"]
+            })
+  
+
+def mainLast():
   url = 'https://pokeapi.co/api/v2/pokemon-form'
   
   response = requests.get(url)

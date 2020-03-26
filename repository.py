@@ -1,5 +1,6 @@
 #Esta libreria se encarga de traer la data
-import time
+from datetime import datetime, date, time, timedelta
+import calendar
 import requests
 
 #variables globales
@@ -8,33 +9,38 @@ server = "http://trackingmss.server93.com/comGpsGate/api/v.1"
 
 def getToken(idAplication = 4):
     global server
-    url = "{server}/applications/{idAplication}/tokens"
-    json = {"password": "Mss$2045", "username": "admin"}
+    url = server+"/applications/"+str(idAplication)+"/tokens"
+    json = {"password": "Mss$2045", "username": "admin"} #demo
     token = ""
-    try:
-        response = requests.post(url, json=json)
-        if response.status_code == 200:
-            response_json = response.json()
-            token = response_json['token']
-    except:
-            print("La url no existe , o no es accesible")
+    response = requests.post(url, json=json)
+    if response.status_code == 200:
+        response_json = response.json()
+        token = response_json['token']
     return token
 
 
 def getPoints(idAplication = 4 , idDevice = 10, fecha = None, timeRange = []):
     #la comuniacion es por get : revisar la documentacion
-    dateNow = time.strftime("%d/%m/%y")
+    global server
+    dateNow = datetime.now().strftime("%y/%m/%d")
     data = []
-
+    
     if fecha is None:
         fecha = dateNow
     if len(timeRange) !=2:
-        timeRange[0]=   
+        timeRange[0]=   datetime.now() -  timedelta(hours=1)
+        timeRange[0] = timeRange[0].strftime("%H:%M:%S")
+        timeRange[1]=   datetime.now()
+        timeRange[1] = timeRange[0].strftime("%H:%M:%S")
 
-    apiGetPoints = "/applications/{idAplication}/users/{idDevice}/tracks?Date={fecha}&From={timeRange[0]}&Until={timeRange[1]}Filtered=true"
+    params = {"Date":fecha, "From":timeRange[0], "Until": timeRange[1], "Filtered":"true"}
+
+    apiGetPoints = server+"/applications/"+str(idAplication)+"/users/"+str(idDevice)+"/tracks"
     token = getToken();
 
-    response = requests.get(apiGetPoints,headers={"Authorization": token})
+    print(apiGetPoints)
+    response = requests.get(apiGetPoints,headers={"Authorization": token}, params=params)
+    print(response)
     if response.status_code == 200:
         data = response.json()
 

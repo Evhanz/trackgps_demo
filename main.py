@@ -1,44 +1,59 @@
 import requests
 from facade import *
-from repository import *
-
-def fetchData (data):
-    #se habilita que informacion es necesaria
-    coorx = data.get('coorx', [])
-    coory = data.get('coory', [])
-    coorz = data.get('coorz', [])
-    results = data.get('results',[])
-    
-    if results:
-        for pokemon in results:
-            name = pokemon['name']
-            print(name)
+from apiRepository import *
+from dbRepository import * 
+from helpers import *
+from datetime import datetime, date, time, timedelta
 
 def main():
-   points =  getPoints(4 , 10,'2020-03-25', ['00:00:00','23:59:00'])
-   #print(points)
-   for point in points:
-       position = point['position']
-       velocity = point['velocity']
-       print("================>")
-       print(getTimeLima(point["utc"]))
-       print({"altitude": position["altitude"],
-            "longitude": position["longitude"],
-            "latitude": position["latitude"],
-            "direction":velocity["heading"]
-            })
-  
+  global cantMaxValuesArray
+  #getPointsByEquipmentApi(4, 10, '2020-03-25', ['00:00:00','23:59:00'])
+  getEquipmentAllowed()
 
-def mainLast():
-  url = 'https://pokeapi.co/api/v2/pokemon-form'
-  
-  response = requests.get(url)
-  if response.status_code == 200:
+def getPointsByEquipmentApi(equipment , application, date , ragettime):
+    points =  getPoints(4 , 10,'2020-03-25', ['00:00:00','23:59:00'])
+    response = []
+    #print(points)
+    for point in points:
+     # print("================>")
+      newPoint = getPointFormated(point)
+      #print(newPoint)
+      response.append(newPoint)
+    return response
 
-      data = response.json()
-      print('Ahora se imprimira el resultado ====>')
-      fetchData(data)
-      funy()
-  
-  
+def getEquipmentAllowed():
+    global cantMaxValuesArray #que generalmente esta en 360
+    equipments = getAllEquipment()
+
+    for equiment in equipments:
+       newEquipment = getEquipmentFormated(equiment)
+       nowDate = datetime.now().strftime("%y-%m-%d %H:%M:%S")
+       lastDate = getTimeStampAddCantInterval(newEquipment['tiem_creac'], newEquipment['cant_values'])
+       #obtenemos los puntos que tiene el equipo
+       pointsEquipment = getPointsByEquipmentApi(newEquipment['id'], 10, '2020-03-25', [lastDate, nowDate])
+       if(len(pointsEquipment)>0):
+           flagFullValues = newEquipment['cant_values'] + len(pointsEquipment)
+            #evaluamos si supera el maximo de valores
+           if(flagFullValues>cantMaxValuesArray): #quiere decir que exceden a la hora
+               print('son mayores')
+               cantValuesInsert = (cantMaxValuesArray -  newEquipment['cant_values']) # cantidad de valores para insertar normalmente
+               if(cantValuesInsert>0): 
+                   valuesForInsert = pointsEquipment[0:(cantValuesInsert-1)]
+                   insertPoints(valuesForInsert) # se insertan los puntos
+                   #================= iteramos los puntos restantes ===========
+                   cantIterators = getCantIterator(len(pointsEquipment) - cantValuesInsert)
+                   for i in range(cantIterators):
+                       indexIni = cantValuesInsert + (cantMaxValuesArray*i)
+                       indexFin = indexIni + cantMaxValuesArray - 1
+                       valuesForInsert = pointsEquipment[indexIni:indexFin]
+                       insertPoints(valuesForInsert)
+               else: 
+                   print('Exite un error de mayores de 360 valores', len(pointsEquipment))
+
+           else:
+               #se inserta normalmente
+               print('Se inserta normalmente')
+
+
+
 main()

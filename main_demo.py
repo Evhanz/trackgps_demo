@@ -19,5 +19,17 @@ def main():
 
   except:
       print("La url no existe , o no es accesible")
+
+def mainLast():
+  url = 'https://pokeapi.co/api/v2/pokemon-form'
+  
+  response = requests.get(url)
+  if response.status_code == 200:
+
+      data = response.json()
+      print('Ahora se imprimira el resultado ====>')
+      fetchData(data)
+      funy()
+  
   
 main()

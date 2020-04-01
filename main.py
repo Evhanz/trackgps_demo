@@ -8,9 +8,25 @@ from datetime import datetime, date, time, timedelta
 def main():
   global cantMaxValuesArray
   #getPointsByEquipmentApi(4, 10, '2020-03-25', ['00:00:00','23:59:00'])
-  getEquipmentAllowed()
+  #proccessEquipmentAllowed()
+  getConfigurationDB()
 
-def getPointsByEquipmentApi(equipment , application, date , ragettime):
+def getConfigurationDB():
+    global mainConfiguration
+    mainConfiguration = []
+
+    configuration = getConfiguration()
+    mainConfiguration = {
+        configuration[0][0] : configuration[0][1],
+        configuration[1][0] : configuration[1][1],
+        configuration[2][0] : configuration[2][1],
+        configuration[3][0] : configuration[3][1],
+        configuration[4][0] : configuration[4][1],
+        configuration[5][0] : configuration[5][1],
+        configuration[6][0] : configuration[6][1],   
+    }
+
+def getPointsByEquipmentApi(equipment , application, date , rangTime):
     points =  getPoints(4 , 10,'2020-03-25', ['00:00:00','23:59:00'])
     response = []
     #print(points)
@@ -21,7 +37,7 @@ def getPointsByEquipmentApi(equipment , application, date , ragettime):
       response.append(newPoint)
     return response
 
-def getEquipmentAllowed():
+def proccessEquipmentAllowed():
     global cantMaxValuesArray #que generalmente esta en 360
     equipments = getAllEquipment()
 
@@ -39,20 +55,21 @@ def getEquipmentAllowed():
                cantValuesInsert = (cantMaxValuesArray -  newEquipment['cant_values']) # cantidad de valores para insertar normalmente
                if(cantValuesInsert>0): 
                    valuesForInsert = pointsEquipment[0:(cantValuesInsert-1)]
-                   insertPoints(valuesForInsert) # se insertan los puntos
+                   insertPoints(newEquipment['id'], valuesForInsert) # se insertan los puntos
                    #================= iteramos los puntos restantes ===========
                    cantIterators = getCantIterator(len(pointsEquipment) - cantValuesInsert)
                    for i in range(cantIterators):
                        indexIni = cantValuesInsert + (cantMaxValuesArray*i)
                        indexFin = indexIni + cantMaxValuesArray - 1
                        valuesForInsert = pointsEquipment[indexIni:indexFin]
-                       insertPoints(valuesForInsert)
+                       insertPoints(newEquipment['id'], valuesForInsert)
                else: 
                    print('Exite un error de mayores de 360 valores', len(pointsEquipment))
 
            else:
                #se inserta normalmente
                print('Se inserta normalmente')
+               insertPoints(newEquipment['id'], pointsEquipment)
 
 
 

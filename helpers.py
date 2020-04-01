@@ -7,5 +7,5 @@ def getCantIterator(value):
     cant = value // cantMaxValuesArray
     if(value%cantMaxValuesArray >0): 
         cant = cant + 1
-    print(cant, value)
+    #print(cant, value)
     return cant

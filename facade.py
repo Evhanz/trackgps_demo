@@ -1,6 +1,7 @@
 
 #Esta libreria es para formatear los datos si son necesario
 from datetime import datetime, date, time, timedelta
+from math import sin , cos
 import utm
 interval = 10
 def funy():
@@ -49,3 +50,27 @@ def getEquipmentFormated(equipment):
         "tiem_creac": equipment[4]
     }
     return response
+
+def getArrayFakeByValue(cant, value):
+    response = []
+    for i in range(cant):
+        response.append(value)
+    return response
+
+def getUTMtoLocal(xcoorlong, ycoorlong, configuration):
+
+    xlf = configuration['201']
+    ylf = configuration['202']
+    xwf = configuration['203']
+    ywf = configuration['204']
+    rot = configuration['205']
+    FUtmLoc = configuration['206']
+    FlocUtm = configuration['207']
+
+    coorxLoc = (xlf + ((xcoorlong - xwf)*(cos(rot)) - (ycoorlong- ywf)*sin(rot))*FUtmLoc)
+    cooryLoc = (ylf + ((ycoorlong - ywf)*(cos(rot)) - (xcoorlong- ywf)*sin(rot))*FUtmLoc)
+
+    return { 'coorxLoc': coorxLoc , 'cooryLoc':cooryLoc}
+
+           
+

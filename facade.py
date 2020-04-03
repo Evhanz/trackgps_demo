@@ -4,6 +4,7 @@ from datetime import datetime, date, time, timedelta
 from math import sin , cos
 import utm
 interval = 10
+mainConfiguration = {}
 def funy():
     print('hola')
 
@@ -26,19 +27,43 @@ def getCordinateToUTM(latitude,longitude):
     utmValue = utm.from_latlon(latitude, longitude) 
     return utmValue
 
-def getPointFormated(point):
+def getPointFormatedLast(point):
+    #global mainConfiguration
     position = point['position']
     velocity = point['velocity']
 
     utmValues = getCordinateToUTM(position["latitude"], position["longitude"])
+    localValues = getUTMtoLocal(utmValues[0], utmValues[1], mainConfiguration)
 
     response = {
-            "time":getTimeLima(point["utc"]),
+            "time":point["utc"],
             "altitude": position["altitude"],
             "longitude": position["longitude"],
             "latitude": position["latitude"],
             "direction":velocity["heading"],
-            "utm":utmValues #utmValues[0]
+            "velocity":velocity["velocity"],
+            "utm_x":utmValues[0], #utmValues[0],
+            "utm_y":utmValues[1],
+            "coorxLoc": localValues['coorxLoc'],
+            "cooryLoc": localValues['cooryLoc']
+            }
+    return response 
+
+def getPointFormated(point, configuration):
+    utmValues = getCordinateToUTM(point["latitude"], point["longitude"])
+    localValues = getUTMtoLocal(utmValues[0], utmValues[1], configuration)
+
+    response = {
+            "time":point["timeReg"],
+            "altitude": point["altitude"],
+            "longitude": point["longitude"],
+            "latitude": point["latitude"],
+            "direction":point["heading"],
+            "velocity":point["velocity"],
+            "utm_x":utmValues[0], #utmValues[0],
+            "utm_y":utmValues[1],
+            "coorxLoc": localValues['coorxLoc'],
+            "cooryLoc": localValues['cooryLoc']
             }
     return response      
 
@@ -59,13 +84,13 @@ def getArrayFakeByValue(cant, value):
 
 def getUTMtoLocal(xcoorlong, ycoorlong, configuration):
 
-    xlf = configuration['201']
-    ylf = configuration['202']
-    xwf = configuration['203']
-    ywf = configuration['204']
-    rot = configuration['205']
-    FUtmLoc = configuration['206']
-    FlocUtm = configuration['207']
+    xlf =float(configuration[201])
+    ylf =float(configuration[202])
+    xwf =float(configuration[203])
+    ywf =float(configuration[204])
+    rot =float(configuration[205])
+    FUtmLoc =float(configuration[206])
+    FlocUtm =float(configuration[207])
 
     coorxLoc = (xlf + ((xcoorlong - xwf)*(cos(rot)) - (ycoorlong- ywf)*sin(rot))*FUtmLoc)
     cooryLoc = (ylf + ((ycoorlong - ywf)*(cos(rot)) - (xcoorlong- ywf)*sin(rot))*FUtmLoc)

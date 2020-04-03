@@ -3,7 +3,6 @@ import psycopg2
 from facade import *
 from config import config
 viewTrack = "equipment_tracks_gps"
-mainConfiguration = {}
  
 def connectDemo():
     """ Connect to the PostgreSQL database server """
@@ -69,6 +68,8 @@ def executeQueryWithValues(query="", values={}):
         cur = conn.cursor()
          # execute a statement
         cur.execute(query, values)
+        conn.commit()
+        print(cur.query)
         result = cur.fetchall()
        # close the communication with the PostgreSQL
         cur.close()
@@ -92,25 +93,48 @@ def getConfiguration():
 
 def insertPoints(idEquipo , points = []):
     cant_values = len(points)
+
+    id_trabajador = getArrayFakeByValue(cant_values,0)
+    velocidadv = []
+    xcoorv = []
+    ycoorv = []
+    zcoorv = []
+    direccionv = []
+    tiem_creacv = []
+    tiem_updatev = []
+    latitudev = []
+    longitudv = []
+
+    for point in points:
+        velocidadv.append(point['velocity'])
+        xcoorv.append( point['coorxLoc'])
+        ycoorv.append( point['cooryLoc'])
+        zcoorv.append( point['altitude'])
+        direccionv.append(point['direction'])
+        tiem_creacv.append(point['time'])
+        tiem_updatev.append(point['time'])
+        #latitudev.append(point['utm_x']*1000000)
+        #longitudv.append(point['utm_y']*1000000)
+        latitudev.append(point['utm_x'])
+        longitudv.append(point['utm_y'])
+
     values = {
         "idEquipo":idEquipo,
-        "id_trabajadorv": getArrayFakeByValue(cant_values,0)
+        "id_trabajadorv":   id_trabajador,
+        "velocidadv":       velocidadv,
+        "xcoorv" :          xcoorv,
+        "ycoorv" :          ycoorv,
+        "zcoorv" :          zcoorv,
+        "direccionv":       direccionv,
+        "tiem_creacv":      tiem_creacv,
+        "tiem_updatev":     tiem_updatev,
+        "latitudev":        latitudev,
+        "longitudv":        longitudv
     }
 
-
-    query = "select  datacamiones_tracking_update("
-    query +="%(idEquipo)s::bigint,'{%(id_trabajadorv)s}'::integer[],'{%(senhalgpsv)s}'::smallint[],'{%(senhalwirelessv)s}'::smallint[],'{%(tempeje1v)s}'::smallint[],"
-    query +="'{%(tempeje2v)s}'::smallint[],'{%(tempeje3v)s}'::smallint[],'{%(tempeje4v)s}'::smallint[],'{%(tempeje5v)s}'::smallint[],'{%(tempeje6v)s}'::smallint[],"
-    query +="'{%(presllanta1v)s}'::smallint[],'{%(presllanta2v)s}'::smallint[],'{%(presllanta3v)s}'::smallint[],'{%(presllanta4v)s}'::smallint[],'{%(presllanta5v)s}'::smallint[],"
-    query +="'{%(presllanta6v)s}'::smallint[],'{%(velocidadv)s}'::smallint[],'{%(isloadv)s}'::boolean[],'{%(tonelajev)s}'::integer[],'{%(marchav)s}'::smallint[],"
-    query +="'{%(incl_rollv)s}'::smallint[],'{%(incl_pitchv)s}'::smallint[],'{%(latitudev)s}'::integer[],'{%(longitudv)s}'::integer[],'{%(xcoorv)s}'::integer[],"
-    query +="'{%(ycoorv)s}'::integer[],'{%(zcoorv)s}'::integer[],'{%(precisiongpsv)s}'::integer[],'{%(tramosidsv)s}'::integer[],'{%(tiem_creacv)s}'::timestamp without time zone[],"
-    query +="'{%(tiem_updatev)s}'::timestamp without time zone[],'{%(direccionv)s}'::smallint[],'{%(calidad_wirelessv)s}'::smallint[],'{%(porcentaje_combustv)s}'::smallint[],'{%(porcentaje_bateria)s}'::smallint[],"
-    query +="'{%(templlanta1v)s}'::smallint[],'{%(templlanta2v)s}'::smallint[],'{%(templlanta3v)s}'::smallint[],'{%(templlanta4v)s}'::smallint[],'{%(templlanta5v)s}'::smallint[],"
-    query +="'{%(templlanta6v)s}'::smallint[],'{%(bateriasensorllanta1v)s}'::smallint[],'{%(bateriasensorllanta2v)s}'::smallint[],'{%(bateriasensorllanta3v)s}'::smallint[],'{%(bateriasensorllanta4v)s}'::smallint[],"
-    query +="'{%(bateriasensorllanta5v)s}'::smallint[],'{%(bateriasensorllanta6v)s}'::smallint[],'{%(segmentangle)s}'::smallint[])"
-
-
-
-
-    #print (query)
+    query =  "select public.datacamiones_tracking_update_last(%(idEquipo)s ::bigint, %(id_trabajadorv)s ::  integer[],"
+    query += "%(velocidadv)s :: smallint[],%(xcoorv)s :: bigint[],%(ycoorv)s :: bigint[], %(zcoorv)s :: bigint[]," 
+    query += "%(direccionv)s :: smallint[],%(tiem_creacv)s :: timestamp without time zone[],%(tiem_updatev)s :: timestamp without time zone[],"
+    query += "%(latitudev)s :: bigint[], %(longitudv)s :: bigint[])"
+    
+    res = executeQueryWithValues(query, values)

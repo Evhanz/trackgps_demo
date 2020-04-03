@@ -7,9 +7,10 @@ from datetime import datetime, date, time, timedelta
 
 def main():
   global cantMaxValuesArray
-  #getPointsByEquipmentApi(4, 10, '2020-03-25', ['00:00:00','23:59:00'])
-  #proccessEquipmentAllowed()
   getConfigurationDB()
+  #getPointsByEquipmentApi(4, 10, '2020-03-25', ['00:00:00','23:59:00'])
+  proccessEquipmentAllowed()
+  
 
 def getConfigurationDB():
     global mainConfiguration
@@ -32,7 +33,7 @@ def getPointsByEquipmentApi(equipment , application, date , rangTime):
     #print(points)
     for point in points:
      # print("================>")
-      newPoint = getPointFormated(point)
+      newPoint = getPointFormated(point, mainConfiguration)
       #print(newPoint)
       response.append(newPoint)
     return response
@@ -44,9 +45,10 @@ def proccessEquipmentAllowed():
     for equiment in equipments:
        newEquipment = getEquipmentFormated(equiment)
        nowDate = datetime.now().strftime("%y-%m-%d %H:%M:%S")
-       lastDate = getTimeStampAddCantInterval(newEquipment['tiem_creac'], newEquipment['cant_values'])
+       lastDate     = getTimeStampAddCantInterval(newEquipment['tiem_creac'], newEquipment['cant_values']).strftime("%Y-%m-%d %H:%M:%S")
+       untilDate    = getTimeStampAddCantInterval(lastDate, newEquipment['cant_values']).strftime("%Y-%m-%d %H:%M:%S")
        #obtenemos los puntos que tiene el equipo
-       pointsEquipment = getPointsByEquipmentApi(newEquipment['id'], 10, '2020-03-25', [lastDate, nowDate])
+       pointsEquipment = getPointsByEquipmentApi(newEquipment['id'], 10, '2020-03-25', [lastDate, untilDate])
        if(len(pointsEquipment)>0):
            flagFullValues = newEquipment['cant_values'] + len(pointsEquipment)
             #evaluamos si supera el maximo de valores

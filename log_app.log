@@ -1,0 +1,220 @@
+========= Empieza traer equipos === 
+====== teminar :  20-04-06 13:05:03
+======== Equipo : 76 ======== 
+======= Empieza traer API === 20-04-06 13:05:03=== Last | until =>  2020-02-11 17:37:02|2020-02-11 19:07:02
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+====== teminar :  20-04-06 13:05:03
+========= Empieza Insertar en BD ===> 1
+b"select public.datacamiones_tracking_update_last(76 ::bigint, ARRAY[0] ::  integer[],ARRAY[0.0] :: smallint[],ARRAY[292185.6992028999] :: bigint[],ARRAY[8645129.340095486] :: bigint[], ARRAY[46.0] :: bigint[],ARRAY[196.0] :: smallint[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY[291930.53251284827] :: bigint[], ARRAY[8644766.840711238] :: bigint[])"
+====== temina :  20-04-06 13:05:04
+========= Empieza traer equipos === 
+====== teminar :  20-04-06 14:05:03
+======== Equipo : 76 ======== 
+======= Empieza traer API === 20-04-06 14:05:03=== Last | until =>  2020-02-11 17:37:02|2020-02-11 19:07:02
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+====== teminar :  20-04-06 14:05:03
+========= Empieza Insertar en BD ===> 1
+b"select public.datacamiones_tracking_update_last(76 ::bigint, ARRAY[0] ::  integer[],ARRAY[0.0] :: smallint[],ARRAY[292185.6992028999] :: bigint[],ARRAY[8645129.340095486] :: bigint[], ARRAY[46.0] :: bigint[],ARRAY[196.0] :: smallint[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY[291930.53251284827] :: bigint[], ARRAY[8644766.840711238] :: bigint[])"
+====== temina :  20-04-06 14:05:05
+========= Empieza traer equipos === 
+====== teminar :  20-04-06 15:00:02
+======== Equipo : 76 ======== 
+======= Empieza traer API === 20-04-06 15:00:02=== Last | until =>  2020-02-11 17:37:02|2020-02-11 19:07:02
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+====== teminar :  20-04-06 15:00:02
+========= Empieza Insertar en BD ===> 1
+b"select public.datacamiones_tracking_update_last(76 ::bigint, ARRAY[0] ::  integer[],ARRAY[0.0] :: smallint[],ARRAY[292185.6992028999] :: bigint[],ARRAY[8645129.340095486] :: bigint[], ARRAY[46.0] :: bigint[],ARRAY[196.0] :: smallint[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY[291930.53251284827] :: bigint[], ARRAY[8644766.840711238] :: bigint[])"
+====== temina :  20-04-06 15:00:03
+========= Empieza traer equipos === 
+====== teminar :  20-04-06 15:05:03
+======== Equipo : 76 ======== 
+======= Empieza traer API === 20-04-06 15:05:03=== Last | until =>  2020-02-11 17:37:02|2020-02-11 19:07:02
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+====== teminar :  20-04-06 15:05:03
+========= Empieza Insertar en BD ===> 1
+b"select public.datacamiones_tracking_update_last(76 ::bigint, ARRAY[0] ::  integer[],ARRAY[0.0] :: smallint[],ARRAY[292185.6992028999] :: bigint[],ARRAY[8645129.340095486] :: bigint[], ARRAY[46.0] :: bigint[],ARRAY[196.0] :: smallint[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY[291930.53251284827] :: bigint[], ARRAY[8644766.840711238] :: bigint[])"
+====== temina :  20-04-06 15:05:04
+========= Empieza traer equipos === 
+====== teminar :  20-04-06 15:10:02
+======== Equipo : 76 ======== 
+======= Empieza traer API === 20-04-06 15:10:02=== Last | until =>  2020-02-11 17:37:02|2020-02-11 19:07:02
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+====== teminar :  20-04-06 15:10:03
+========= Empieza Insertar en BD ===> 1
+b"select public.datacamiones_tracking_update_last(76 ::bigint, ARRAY[0] ::  integer[],ARRAY[0.0] :: smallint[],ARRAY[292185.6992028999] :: bigint[],ARRAY[8645129.340095486] :: bigint[], ARRAY[46.0] :: bigint[],ARRAY[196.0] :: smallint[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY[291930.53251284827] :: bigint[], ARRAY[8644766.840711238] :: bigint[])"
+====== temina :  20-04-06 15:10:04
+========= Empieza traer equipos === 
+====== teminar :  20-04-06 15:15:03
+======== Equipo : 76 ======== 
+======= Empieza traer API === 20-04-06 15:15:03=== Last | until =>  2020-02-11 17:37:02|2020-02-11 19:07:02
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+====== teminar :  20-04-06 15:15:03
+========= Empieza Insertar en BD ===> 1
+b"select public.datacamiones_tracking_update_last(76 ::bigint, ARRAY[0] ::  integer[],ARRAY[0.0] :: smallint[],ARRAY[292185.6992028999] :: bigint[],ARRAY[8645129.340095486] :: bigint[], ARRAY[46.0] :: bigint[],ARRAY[196.0] :: smallint[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY[291930.53251284827] :: bigint[], ARRAY[8644766.840711238] :: bigint[])"
+====== temina :  20-04-06 15:15:04
+========= Empieza traer equipos === 
+====== teminar :  20-04-06 15:20:02
+======== Equipo : 76 ======== 
+======= Empieza traer API === 20-04-06 15:20:02=== Last | until =>  2020-02-11 17:37:02|2020-02-11 19:07:02
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+====== teminar :  20-04-06 15:20:03
+========= Empieza Insertar en BD ===> 1
+b"select public.datacamiones_tracking_update_last(76 ::bigint, ARRAY[0] ::  integer[],ARRAY[0.0] :: smallint[],ARRAY[292185.6992028999] :: bigint[],ARRAY[8645129.340095486] :: bigint[], ARRAY[46.0] :: bigint[],ARRAY[196.0] :: smallint[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY[291930.53251284827] :: bigint[], ARRAY[8644766.840711238] :: bigint[])"
+====== temina :  20-04-06 15:20:04
+========= Empieza traer equipos === 
+====== teminar :  20-04-06 15:25:02
+======== Equipo : 76 ======== 
+======= Empieza traer API === 20-04-06 15:25:02=== Last | until =>  2020-02-11 17:37:02|2020-02-11 19:07:02
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+====== teminar :  20-04-06 15:25:02
+========= Empieza Insertar en BD ===> 1
+b"select public.datacamiones_tracking_update_last(76 ::bigint, ARRAY[0] ::  integer[],ARRAY[0.0] :: smallint[],ARRAY[292185.6992028999] :: bigint[],ARRAY[8645129.340095486] :: bigint[], ARRAY[46.0] :: bigint[],ARRAY[196.0] :: smallint[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY[291930.53251284827] :: bigint[], ARRAY[8644766.840711238] :: bigint[])"
+====== temina :  20-04-06 15:25:03
+========= Empieza traer equipos === 
+====== teminar :  20-04-06 15:30:03
+======== Equipo : 76 ======== 
+======= Empieza traer API === 20-04-06 15:30:03=== Last | until =>  2020-02-11 17:37:02|2020-02-11 19:07:02
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+====== teminar :  20-04-06 15:30:04
+========= Empieza Insertar en BD ===> 1
+b"select public.datacamiones_tracking_update_last(76 ::bigint, ARRAY[0] ::  integer[],ARRAY[0.0] :: smallint[],ARRAY[292185.6992028999] :: bigint[],ARRAY[8645129.340095486] :: bigint[], ARRAY[46.0] :: bigint[],ARRAY[196.0] :: smallint[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY[291930.53251284827] :: bigint[], ARRAY[8644766.840711238] :: bigint[])"
+====== temina :  20-04-06 15:30:05
+========= Empieza traer equipos === 
+====== teminar :  20-04-06 15:35:02
+======== Equipo : 76 ======== 
+======= Empieza traer API === 20-04-06 15:35:02=== Last | until =>  2020-02-11 17:37:02|2020-02-11 19:07:02
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+====== teminar :  20-04-06 15:35:02
+========= Empieza Insertar en BD ===> 1
+b"select public.datacamiones_tracking_update_last(76 ::bigint, ARRAY[0] ::  integer[],ARRAY[0.0] :: smallint[],ARRAY[292185.6992028999] :: bigint[],ARRAY[8645129.340095486] :: bigint[], ARRAY[46.0] :: bigint[],ARRAY[196.0] :: smallint[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY[291930.53251284827] :: bigint[], ARRAY[8644766.840711238] :: bigint[])"
+====== temina :  20-04-06 15:35:03
+========= Empieza traer equipos === 
+====== teminar :  20-04-06 15:40:02
+======== Equipo : 76 ======== 
+======= Empieza traer API === 20-04-06 15:40:02=== Last | until =>  2020-02-11 17:37:02|2020-02-11 19:07:02
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+====== teminar :  20-04-06 15:40:03
+========= Empieza Insertar en BD ===> 1
+b"select public.datacamiones_tracking_update_last(76 ::bigint, ARRAY[0] ::  integer[],ARRAY[0.0] :: smallint[],ARRAY[292185.6992028999] :: bigint[],ARRAY[8645129.340095486] :: bigint[], ARRAY[46.0] :: bigint[],ARRAY[196.0] :: smallint[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY[291930.53251284827] :: bigint[], ARRAY[8644766.840711238] :: bigint[])"
+====== temina :  20-04-06 15:40:03
+========= Empieza traer equipos === 
+====== teminar :  20-04-06 15:45:03
+======== Equipo : 76 ======== 
+======= Empieza traer API === 20-04-06 15:45:03=== Last | until =>  2020-02-11 17:37:02|2020-02-11 19:07:02
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+====== teminar :  20-04-06 15:45:03
+========= Empieza Insertar en BD ===> 1
+b"select public.datacamiones_tracking_update_last(76 ::bigint, ARRAY[0] ::  integer[],ARRAY[0.0] :: smallint[],ARRAY[292185.6992028999] :: bigint[],ARRAY[8645129.340095486] :: bigint[], ARRAY[46.0] :: bigint[],ARRAY[196.0] :: smallint[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY[291930.53251284827] :: bigint[], ARRAY[8644766.840711238] :: bigint[])"
+====== temina :  20-04-06 15:45:04
+========= Empieza traer equipos === 
+====== teminar :  20-04-06 15:50:02
+======== Equipo : 76 ======== 
+======= Empieza traer API === 20-04-06 15:50:02=== Last | until =>  2020-02-11 17:37:02|2020-02-11 19:07:02
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+====== teminar :  20-04-06 15:50:02
+========= Empieza Insertar en BD ===> 1
+b"select public.datacamiones_tracking_update_last(76 ::bigint, ARRAY[0] ::  integer[],ARRAY[0.0] :: smallint[],ARRAY[292185.6992028999] :: bigint[],ARRAY[8645129.340095486] :: bigint[], ARRAY[46.0] :: bigint[],ARRAY[196.0] :: smallint[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY[291930.53251284827] :: bigint[], ARRAY[8644766.840711238] :: bigint[])"
+====== temina :  20-04-06 15:50:03
+========= Empieza traer equipos === 
+====== teminar :  20-04-06 15:55:02
+======== Equipo : 76 ======== 
+======= Empieza traer API === 20-04-06 15:55:02=== Last | until =>  2020-02-11 17:37:02|2020-02-11 19:07:02
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+====== teminar :  20-04-06 15:55:02
+========= Empieza Insertar en BD ===> 1
+b"select public.datacamiones_tracking_update_last(76 ::bigint, ARRAY[0] ::  integer[],ARRAY[0.0] :: smallint[],ARRAY[292185.6992028999] :: bigint[],ARRAY[8645129.340095486] :: bigint[], ARRAY[46.0] :: bigint[],ARRAY[196.0] :: smallint[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY[291930.53251284827] :: bigint[], ARRAY[8644766.840711238] :: bigint[])"
+====== temina :  20-04-06 15:55:03
+========= Empieza traer equipos === 
+====== teminar :  20-04-06 16:00:02
+======== Equipo : 76 ======== 
+======= Empieza traer API === 20-04-06 16:00:02=== Last | until =>  2020-02-11 17:37:02|2020-02-11 19:07:02
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+====== teminar :  20-04-06 16:00:02
+========= Empieza Insertar en BD ===> 1
+b"select public.datacamiones_tracking_update_last(76 ::bigint, ARRAY[0] ::  integer[],ARRAY[0.0] :: smallint[],ARRAY[292185.6992028999] :: bigint[],ARRAY[8645129.340095486] :: bigint[], ARRAY[46.0] :: bigint[],ARRAY[196.0] :: smallint[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY[291930.53251284827] :: bigint[], ARRAY[8644766.840711238] :: bigint[])"
+====== temina :  20-04-06 16:00:03
+========= Empieza traer equipos === 
+====== teminar :  20-04-06 16:05:03
+======== Equipo : 76 ======== 
+======= Empieza traer API === 20-04-06 16:05:03=== Last | until =>  2020-02-11 17:37:02|2020-02-11 19:07:02
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+====== teminar :  20-04-06 16:05:03
+========= Empieza Insertar en BD ===> 1
+b"select public.datacamiones_tracking_update_last(76 ::bigint, ARRAY[0] ::  integer[],ARRAY[0.0] :: smallint[],ARRAY[292185.6992028999] :: bigint[],ARRAY[8645129.340095486] :: bigint[], ARRAY[46.0] :: bigint[],ARRAY[196.0] :: smallint[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY[291930.53251284827] :: bigint[], ARRAY[8644766.840711238] :: bigint[])"
+====== temina :  20-04-06 16:05:04
+========= Empieza traer equipos === 
+====== teminar :  20-04-06 16:10:03
+======== Equipo : 76 ======== 
+======= Empieza traer API === 20-04-06 16:10:03=== Last | until =>  2020-02-11 17:37:02|2020-02-11 19:07:02
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+====== teminar :  20-04-06 16:10:03
+========= Empieza Insertar en BD ===> 1
+b"select public.datacamiones_tracking_update_last(76 ::bigint, ARRAY[0] ::  integer[],ARRAY[0.0] :: smallint[],ARRAY[292185.6992028999] :: bigint[],ARRAY[8645129.340095486] :: bigint[], ARRAY[46.0] :: bigint[],ARRAY[196.0] :: smallint[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY[291930.53251284827] :: bigint[], ARRAY[8644766.840711238] :: bigint[])"
+====== temina :  20-04-06 16:10:04
+========= Empieza traer equipos === 
+====== teminar :  20-04-06 16:15:03
+======== Equipo : 76 ======== 
+======= Empieza traer API === 20-04-06 16:15:03=== Last | until =>  2020-02-11 17:37:02|2020-02-11 19:07:02
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+====== teminar :  20-04-06 16:15:03
+========= Empieza Insertar en BD ===> 1
+b"select public.datacamiones_tracking_update_last(76 ::bigint, ARRAY[0] ::  integer[],ARRAY[0.0] :: smallint[],ARRAY[292185.6992028999] :: bigint[],ARRAY[8645129.340095486] :: bigint[], ARRAY[46.0] :: bigint[],ARRAY[196.0] :: smallint[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY[291930.53251284827] :: bigint[], ARRAY[8644766.840711238] :: bigint[])"
+====== temina :  20-04-06 16:15:04
+========= Empieza traer equipos === 
+====== teminar :  20-04-06 16:20:15
+======== Equipo : 76 ======== 
+======= Empieza traer API === 20-04-06 16:20:15=== Last | until =>  2020-02-11 17:37:02|2020-02-11 19:07:02
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+====== teminar :  20-04-06 16:20:15
+========= Empieza Insertar en BD ===> 1
+b"select public.datacamiones_tracking_update_last(76 ::bigint, ARRAY[0] ::  integer[],ARRAY[0.0] :: smallint[],ARRAY[292185.6992028999] :: bigint[],ARRAY[8645129.340095486] :: bigint[], ARRAY[46.0] :: bigint[],ARRAY[196.0] :: smallint[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY[291930.53251284827] :: bigint[], ARRAY[8644766.840711238] :: bigint[])"
+====== temina :  20-04-06 16:20:20
+========= Empieza traer equipos === 
+====== teminar :  20-04-06 16:25:03
+======== Equipo : 76 ======== 
+======= Empieza traer API === 20-04-06 16:25:03=== Last | until =>  2020-02-11 17:37:02|2020-02-11 19:07:02
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+====== teminar :  20-04-06 16:25:03
+========= Empieza Insertar en BD ===> 1
+b"select public.datacamiones_tracking_update_last(76 ::bigint, ARRAY[0] ::  integer[],ARRAY[0.0] :: smallint[],ARRAY[292185.6992028999] :: bigint[],ARRAY[8645129.340095486] :: bigint[], ARRAY[46.0] :: bigint[],ARRAY[196.0] :: smallint[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY[291930.53251284827] :: bigint[], ARRAY[8644766.840711238] :: bigint[])"
+====== temina :  20-04-06 16:25:04
+========= Empieza traer equipos === 
+====== teminar :  20-04-06 16:30:03
+======== Equipo : 76 ======== 
+======= Empieza traer API === 20-04-06 16:30:03=== Last | until =>  2020-02-11 17:37:02|2020-02-11 19:07:02
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+====== teminar :  20-04-06 16:30:03
+========= Empieza Insertar en BD ===> 1
+b"select public.datacamiones_tracking_update_last(76 ::bigint, ARRAY[0] ::  integer[],ARRAY[0.0] :: smallint[],ARRAY[292185.6992028999] :: bigint[],ARRAY[8645129.340095486] :: bigint[], ARRAY[46.0] :: bigint[],ARRAY[196.0] :: smallint[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY[291930.53251284827] :: bigint[], ARRAY[8644766.840711238] :: bigint[])"
+====== temina :  20-04-06 16:30:04
+========= Empieza traer equipos === 
+====== teminar :  20-04-06 16:35:05
+======== Equipo : 76 ======== 
+======= Empieza traer API === 20-04-06 16:35:05=== Last | until =>  2020-02-11 17:37:02|2020-02-11 19:07:02
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+====== teminar :  20-04-06 16:35:05
+========= Empieza Insertar en BD ===> 1
+b"select public.datacamiones_tracking_update_last(76 ::bigint, ARRAY[0] ::  integer[],ARRAY[0.0] :: smallint[],ARRAY[292185.6992028999] :: bigint[],ARRAY[8645129.340095486] :: bigint[], ARRAY[46.0] :: bigint[],ARRAY[196.0] :: smallint[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY[291930.53251284827] :: bigint[], ARRAY[8644766.840711238] :: bigint[])"
+====== temina :  20-04-06 16:35:11

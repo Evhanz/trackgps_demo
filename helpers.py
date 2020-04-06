@@ -9,3 +9,7 @@ def getCantIterator(value):
         cant = cant + 1
     #print(cant, value)
     return cant
+
+def getDateNow():
+    response = datetime.now().strftime("%y-%m-%d %H:%M:%S")
+    return response

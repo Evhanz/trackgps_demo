@@ -28,7 +28,7 @@ def getConfigurationDB():
     }
 
 def getPointsByEquipmentApi(equipment , application, date , rangTime):
-    points =  getPoints(4 , 10,'2020-03-25', ['00:00:00','23:59:00'])
+    points =  getPoints(4 , 10,'2020-03-25', rangTime)
     response = []
     #print(points)
     for point in points:
@@ -38,7 +38,7 @@ def getPointsByEquipmentApi(equipment , application, date , rangTime):
       response.append(newPoint)
     return response
 
-def proccessEquipmentAllowed():
+def proccessEquipmentAllowedLast():
     global cantMaxValuesArray #que generalmente esta en 360
     equipments = getAllEquipment()
 
@@ -73,6 +73,29 @@ def proccessEquipmentAllowed():
                print('Se inserta normalmente')
                insertPoints(newEquipment['id'], pointsEquipment)
 
+def proccessEquipmentAllowed():
+    global cantMaxValuesArray #que generalmente esta en 360
+    print("========= Empieza traer equipos === ")
+    equipments = getAllEquipment()
 
+    print("====== teminar :  " + getDateNow())
+
+    for equiment in equipments:
+       newEquipment = getEquipmentFormated(equiment)
+       print("======== Equipo : "+ str(newEquipment['id']) +" ======== ")
+       nowDate = datetime.now().strftime("%y-%m-%d %H:%M:%S")
+       lastDate     = getTimeStampAddCantInterval(newEquipment['tiem_creac'], newEquipment['cant_values']).strftime("%Y-%m-%d %H:%M:%S")
+       untilDate    = getTimeStampAddCantInterval(lastDate, 2700).strftime("%Y-%m-%d %H:%M:%S")
+       #obtenemos los puntos que tiene el equipo 
+       # Insertar log para el inicio del proceso 
+       print("======= Empieza traer API === "+ getDateNow() +"=== Last | until =>  "+lastDate+"|"+untilDate)
+       pointsEquipment = getPointsByEquipmentApi(newEquipment['id'], 10, '2020-03-25', [lastDate, untilDate])
+       print("====== teminar :  " + getDateNow())
+       #insertar log para el inicio dle proceso de insercion
+       print("========= Empieza Insertar en BD ===> "+str(len(pointsEquipment)))
+       insertPoints(newEquipment['id'], pointsEquipment)
+       #insertar log para el inicio dle proceso de insercion
+       print("====== temina :  " + getDateNow())
+               
 
 main()

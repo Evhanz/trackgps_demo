@@ -6,7 +6,7 @@ import json
 def main():
     data = []
 
-    timeTemplate = "2020-02-11 09:10:00"
+    timeTemplate = "2020-02-11 09:15:00"
 
     fake = Faker()
     Faker.seed(0)

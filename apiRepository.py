@@ -4,7 +4,7 @@ import calendar
 import requests
 
 #variables globales
-server = "http://127.0.0.1:3333"
+server = "http://190.12.73.86"
 
 
 def getToken(idAplication = 4):
@@ -50,24 +50,15 @@ def getPointsLast(idAplication = 4 , idDevice = 10, fecha = None, timeRange = []
 def getPoints(idAplication = 4 , idDevice = 10, fecha = None, timeRange = []):
     #la comuniacion es por get : revisar la documentacion
     global server
-    dateNow = datetime.now().strftime("%y/%m/%d")
     data = []
     
-    if fecha is None:
-        fecha = dateNow
-    if len(timeRange) !=2:
-        timeRange[0]    = datetime.now() -  timedelta(hours=1)
-        timeRange[0]    = timeRange[0].strftime("%H:%M:%S")
-        timeRange[1]    = datetime.now()
-        timeRange[1]    = timeRange[0].strftime("%H:%M:%S")
+    params = {"placa":"ARI-875", "inicio":timeRange[0], "final": timeRange[1]}
 
-    params = {"Date":fecha, "From":timeRange[0], "Until": timeRange[1], "Filtered":"true"}
-
-    apiGetPoints = server+"/demo.json"
-    token = getToken();
+    apiGetPoints = server+"/json/minesense/history.php"
+    #token = getToken();
 
     print(apiGetPoints)
-    response = requests.get(apiGetPoints,headers={"Authorization": token}, params=params)
+    response = requests.post(apiGetPoints, json=params)
     print(response)
     if response.status_code == 200:
         data = response.json()

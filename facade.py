@@ -3,7 +3,7 @@
 from datetime import datetime, date, time, timedelta
 from math import sin , cos
 import utm
-interval = 10
+interval = 2
 mainConfiguration = {}
 def funy():
     print('hola')
@@ -16,8 +16,9 @@ def getTimeLima(dateInput):
     return newDate
 
 def getTimeStampAddCantInterval(dateInput,cant_interval):
+    global interval
     format = '%Y-%m-%d %H:%M:%S'
-    secondAdd = cant_interval * 10
+    secondAdd = cant_interval * interval
     response = datetime.strptime(str(dateInput), format)
     response = response +  timedelta(seconds=secondAdd)
     return response
@@ -50,20 +51,20 @@ def getPointFormatedLast(point):
     return response 
 
 def getPointFormated(point, configuration):
-    utmValues = getCordinateToUTM(point["latitude"], point["longitude"])
+    utmValues = getCordinateToUTM(float(point["latitude"]), float(point["longitude"]))
     localValues = getUTMtoLocal(utmValues[0], utmValues[1], configuration)
 
     response = {
             "time":point["timeReg"],
-            "altitude": point["altitude"],
-            "longitude": point["longitude"],
-            "latitude": point["latitude"],
-            "direction":point["heading"],
-            "velocity":point["velocity"],
-            "utm_x":utmValues[0], #utmValues[0],
-            "utm_y":utmValues[1],
-            "coorxLoc": localValues['coorxLoc'],
-            "cooryLoc": localValues['cooryLoc']
+            "altitude":     float(point["altitude"]),
+            "longitude":    float(point["longitude"]),
+            "latitude":     float(point["latitude"]),
+            "direction":    float(point["heading"]),
+            "velocity":     float(point["velocity"]),
+            "utm_x":        utmValues[0], #utmValues[0],
+            "utm_y":        utmValues[1],
+            "coorxLoc":     localValues['coorxLoc'],
+            "cooryLoc":     localValues['cooryLoc']
             }
     return response      
 

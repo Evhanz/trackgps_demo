@@ -23,6 +23,14 @@ def getTimeStampAddCantInterval(dateInput,cant_interval):
     response = response +  timedelta(seconds=secondAdd)
     return response
 
+def getTimeStampSubCantInterval(dateInput,cant_interval):
+    global interval
+    format = '%Y-%m-%d %H:%M:%S'
+    secondAdd = cant_interval * interval
+    response = datetime.strptime(str(dateInput), format)
+    response = response -  timedelta(seconds=secondAdd)
+    return response
+
 
 def getCordinateToUTM(latitude,longitude):
     utmValue = utm.from_latlon(latitude, longitude) 

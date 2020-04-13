@@ -83,9 +83,16 @@ def proccessEquipmentAllowed():
     for equiment in equipments:
        newEquipment = getEquipmentFormated(equiment)
        print("======== Equipo : "+ str(newEquipment['id']) +" ======== ")
-       nowDate = datetime.now().strftime("%y-%m-%d %H:%M:%S")
-       lastDate     = getTimeStampAddCantInterval(newEquipment['tiem_creac'], newEquipment['cant_values']).strftime("%Y-%m-%d %H:%M:%S")
-       untilDate    = getTimeStampAddCantInterval(lastDate, 2700).strftime("%Y-%m-%d %H:%M:%S")
+       nowDate = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+       # ======== Antes se usaba 
+       #lastDate     = getTimeStampAddCantInterval(newEquipment['tiem_creac'], newEquipment['cant_values']).strftime("%Y-%m-%d %H:%M:%S")
+       #untilDate    = getTimeStampAddCantInterval(lastDate, 2700).strftime("%Y-%m-%d %H:%M:%S")
+
+       lastDate     = getTimeStampSubCantInterval(nowDate, 2700).strftime("%Y-%m-%d %H:%M:%S")
+       untilDate    = nowDate
+
+
        #obtenemos los puntos que tiene el equipo 
        # Insertar log para el inicio del proceso 
        print("======= Empieza traer API === "+ getDateNow() +"=== Last | until =>  "+lastDate+"|"+untilDate)

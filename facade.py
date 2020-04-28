@@ -31,6 +31,11 @@ def getTimeStampSubCantInterval(dateInput,cant_interval):
     response = response -  timedelta(seconds=secondAdd)
     return response
 
+def getTimeStampSubCantlDay(dateInput,daysIn):
+    format = '%Y-%m-%d %H:%M:%S'
+    response = datetime.strptime(str(dateInput), format)
+    response = response -  timedelta(days=daysIn)
+    return response
 
 def getCordinateToUTM(latitude,longitude):
     utmValue = utm.from_latlon(latitude, longitude) 

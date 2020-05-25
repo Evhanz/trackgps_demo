@@ -86,7 +86,8 @@ def getEquipmentFormated(equipment):
         "id": equipment[0],
         "nombre": equipment[1],
         "cant_values" : equipment[3],
-        "tiem_creac": equipment[4]
+        "tiem_creac": equipment[4],
+        "placa":equipment[5]
     }
     return response
 

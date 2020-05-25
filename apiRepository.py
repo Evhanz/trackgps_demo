@@ -47,12 +47,12 @@ def getPointsLast(idAplication = 4 , idDevice = 10, fecha = None, timeRange = []
     return data
 
 
-def getPoints(idAplication = 4 , idDevice = 10, fecha = None, timeRange = []):
+def getPoints(placa = "", idDevice = 10, fecha = None, timeRange = []):
     #la comuniacion es por get : revisar la documentacion
     global server
     data = []
     
-    params = {"placa":"ARI-875", "inicio":timeRange[0], "final": timeRange[1]}
+    params = {"placa":placa, "inicio":timeRange[0], "final": timeRange[1]}
 
     apiGetPoints = server+"/json/minesense/history.php"
     #token = getToken();

@@ -28,7 +28,7 @@ def getConfigurationDB():
     }
 
 def getPointsByEquipmentApi(equipment , application, date , rangTime):
-    points =  getPoints(4 , 10,'2020-03-25', rangTime)
+    points =  getPoints(equipment , application,date, rangTime)
     response = []
     #print(points)
     for point in points:
@@ -96,7 +96,7 @@ def proccessEquipmentAllowed():
        #obtenemos los puntos que tiene el equipo 
        # Insertar log para el inicio del proceso 
        print("======= Empieza traer API === "+ getDateNow() +"=== Last | until =>  "+lastDate+"|"+untilDate)
-       pointsEquipment = getPointsByEquipmentApi(newEquipment['id'], 10, '2020-03-25', [lastDate, untilDate])
+       pointsEquipment = getPointsByEquipmentApi(newEquipment['placa'], 10, '2020-03-25', [lastDate, untilDate])
        print("====== teminar :  " + getDateNow())
        #insertar log para el inicio dle proceso de insercion
        print("========= Empieza Insertar en BD ===> "+str(len(pointsEquipment)))

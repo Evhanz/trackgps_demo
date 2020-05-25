@@ -334,7 +334,8 @@ AS SELECT te.id,
     te.nombre,
     te.ipequipo,
     tdh.cant,
-    tdh.tiem_creac
+    tdh.tiem_creac,
+    te.placa
    FROM ts_equipos te
      LEFT JOIN LATERAL ( SELECT array_length(tdh_1.latitude, 1) AS cant,
             tdh_1.tiem_creac

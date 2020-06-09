@@ -28,13 +28,13 @@ def getConfigurationDB():
     }
 
 def getPointsByEquipmentApi(equipment , application, date , rangTime):
-    points =  getPoints(equipment , application,date, rangTime)
+    points =  getPoints(equipment , 10,date, rangTime)
     response = []
     #print(points)
     for point in points:
      # print("================>")
       newPoint = getPointFormated(point, mainConfiguration)
-      #print(newPoint)
+      print(newPoint)
       response.append(newPoint)
     return response
 
@@ -82,7 +82,7 @@ def proccessEquipmentAllowed():
 
     for equiment in equipments:
        newEquipment = getEquipmentFormated(equiment)
-       print("======== Equipo : "+ str(newEquipment['id']) +" ======== ")
+       print("======== Equipo : "+ str(newEquipment['placa']) +" ======== ")
        nowDate = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
        # ======== Antes se usaba 
@@ -92,15 +92,22 @@ def proccessEquipmentAllowed():
        lastDate     = getTimeStampSubCantInterval(nowDate, 2700).strftime("%Y-%m-%d %H:%M:%S")
        untilDate    = nowDate
 
-
        #obtenemos los puntos que tiene el equipo 
        # Insertar log para el inicio del proceso 
        print("======= Empieza traer API === "+ getDateNow() +"=== Last | until =>  "+lastDate+"|"+untilDate)
        pointsEquipment = getPointsByEquipmentApi(newEquipment['placa'], 10, '2020-03-25', [lastDate, untilDate])
        print("====== teminar :  " + getDateNow())
        #insertar log para el inicio dle proceso de insercion
+
+       if len(pointsEquipment) > 0:
+           print('Si tiene data')
+
        print("========= Empieza Insertar en BD ===> "+str(len(pointsEquipment)))
        insertPoints(newEquipment['id'], pointsEquipment)
+       print("====== temina :  " + getDateNow())
+
+       print("====== Empieza actualizar position :  " + getDateNow()) 
+       updatePositionEquipment(newEquipment['id'], pointsEquipment)
        #insertar log para el inicio dle proceso de insercion
        print("====== temina :  " + getDateNow())
                

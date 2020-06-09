@@ -1,220 +1,1322 @@
 ========= Empieza traer equipos === 
-====== teminar :  20-04-06 13:05:03
-======== Equipo : 76 ======== 
-======= Empieza traer API === 20-04-06 13:05:03=== Last | until =>  2020-02-11 17:37:02|2020-02-11 19:07:02
+====== teminar :  20-06-09 13:38:10
+======== Equipo : 2020 ======== 
+======= Empieza traer API === 20-06-09 13:38:10=== Last | until =>  2020-06-09 12:08:10|2020-06-09 13:38:10
 http://190.12.73.86/json/minesense/history.php
 <Response [200]>
-====== teminar :  20-04-06 13:05:03
-========= Empieza Insertar en BD ===> 1
-b"select public.datacamiones_tracking_update_last(76 ::bigint, ARRAY[0] ::  integer[],ARRAY[0.0] :: smallint[],ARRAY[292185.6992028999] :: bigint[],ARRAY[8645129.340095486] :: bigint[], ARRAY[46.0] :: bigint[],ARRAY[196.0] :: smallint[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY[291930.53251284827] :: bigint[], ARRAY[8644766.840711238] :: bigint[])"
-====== temina :  20-04-06 13:05:04
+error al traer la data del api
+====== teminar :  20-06-09 13:38:10
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:38:10
+====== Empieza actualizar position :  20-06-09 13:38:10
+====== temina :  20-06-09 13:38:10
+======== Equipo : T9X-845 ======== 
+======= Empieza traer API === 20-06-09 13:38:10=== Last | until =>  2020-06-09 12:08:10|2020-06-09 13:38:10
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:38:10
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:38:11
+====== Empieza actualizar position :  20-06-09 13:38:11
+====== temina :  20-06-09 13:38:11
+======== Equipo : T9X-852 ======== 
+======= Empieza traer API === 20-06-09 13:38:11=== Last | until =>  2020-06-09 12:08:11|2020-06-09 13:38:11
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:38:11
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:38:11
+====== Empieza actualizar position :  20-06-09 13:38:11
+====== temina :  20-06-09 13:38:11
+======== Equipo : T9G-907 ======== 
+======= Empieza traer API === 20-06-09 13:38:11=== Last | until =>  2020-06-09 12:08:11|2020-06-09 13:38:11
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:38:12
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:38:12
+====== Empieza actualizar position :  20-06-09 13:38:12
+====== temina :  20-06-09 13:38:12
+======== Equipo : T9Y-936 ======== 
+======= Empieza traer API === 20-06-09 13:38:12=== Last | until =>  2020-06-09 12:08:12|2020-06-09 13:38:12
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:38:12
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:38:13
+====== Empieza actualizar position :  20-06-09 13:38:13
+====== temina :  20-06-09 13:38:13
+======== Equipo : T9S-812 ======== 
+======= Empieza traer API === 20-06-09 13:38:13=== Last | until =>  2020-06-09 12:08:13|2020-06-09 13:38:13
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:38:13
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:38:13
+====== Empieza actualizar position :  20-06-09 13:38:13
+====== temina :  20-06-09 13:38:13
+======== Equipo : T9G-913 ======== 
+======= Empieza traer API === 20-06-09 13:38:13=== Last | until =>  2020-06-09 12:08:13|2020-06-09 13:38:13
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:38:13
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:38:14
+====== Empieza actualizar position :  20-06-09 13:38:14
+====== temina :  20-06-09 13:38:14
+======== Equipo : T9H-889 ======== 
+======= Empieza traer API === 20-06-09 13:38:14=== Last | until =>  2020-06-09 12:08:14|2020-06-09 13:38:14
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:38:14
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:38:14
+====== Empieza actualizar position :  20-06-09 13:38:14
+====== temina :  20-06-09 13:38:14
+======== Equipo : AEU-862 ======== 
+======= Empieza traer API === 20-06-09 13:38:14=== Last | until =>  2020-06-09 12:08:14|2020-06-09 13:38:14
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:38:14
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:38:15
+====== Empieza actualizar position :  20-06-09 13:38:15
+====== temina :  20-06-09 13:38:15
+======== Equipo : ASM-855 ======== 
+======= Empieza traer API === 20-06-09 13:38:15=== Last | until =>  2020-06-09 12:08:15|2020-06-09 13:38:15
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+====== teminar :  20-06-09 13:38:15
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:38:15
+====== Empieza actualizar position :  20-06-09 13:38:15
+====== temina :  20-06-09 13:38:15
+======== Equipo : T9G-874 ======== 
+======= Empieza traer API === 20-06-09 13:38:15=== Last | until =>  2020-06-09 12:08:15|2020-06-09 13:38:15
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:38:15
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:38:16
+====== Empieza actualizar position :  20-06-09 13:38:16
+====== temina :  20-06-09 13:38:16
+======== Equipo : AXM-920 ======== 
+======= Empieza traer API === 20-06-09 13:38:16=== Last | until =>  2020-06-09 12:08:16|2020-06-09 13:38:16
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+{'time': '2020-06-09 12:08:21', 'altitude': 394800.0, 'longitude': -78636490.0, 'latitude': -6774680.0, 'direction': 198.0, 'velocity': 16.0, 'utm_x': 761247.8463170144, 'utm_y': 9250523.448937366, 'coorxLoc': 76150316.37416299, 'cooryLoc': 925099804.2979423, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 12:08:22', 'altitude': 394800.0, 'longitude': -78636510.0, 'latitude': -6774720.0, 'direction': 217.0, 'velocity': 16.0, 'utm_x': 761245.6128645684, 'utm_y': 9250519.03420278, 'coorxLoc': 76150093.03469539, 'cooryLoc': 925099362.8272971, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 12:08:23', 'altitude': 394900.0, 'longitude': -78636540.0, 'latitude': -6774750.0, 'direction': 234.0, 'velocity': 16.0, 'utm_x': 761242.2788471028, 'utm_y': 9250515.73122912, 'coorxLoc': 76149759.6372157, 'cooryLoc': 925099032.5342402, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 12:08:24', 'altitude': 395000.0, 'longitude': -78636580.0, 'latitude': -6774770.0, 'direction': 259.0, 'velocity': 15.0, 'utm_x': 761237.8442647604, 'utm_y': 9250513.540016184, 'coorxLoc': 76149316.1817382, 'cooryLoc': 925098813.4187512, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 12:08:25', 'altitude': 395000.0, 'longitude': -78636620.0, 'latitude': -6774760.0, 'direction': 282.0, 'velocity': 15.0, 'utm_x': 761233.4258430474, 'utm_y': 9250514.667930985, 'coorxLoc': 76148874.33792499, 'cooryLoc': 925098926.2161251, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 12:08:26', 'altitude': 395000.0, 'longitude': -78636660.0, 'latitude': -6774750.0, 'direction': 299.0, 'velocity': 15.0, 'utm_x': 761229.0074212684, 'utm_y': 9250515.795845356, 'coorxLoc': 76148432.49410519, 'cooryLoc': 925099039.0134559, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 12:08:28', 'altitude': 395100.0, 'longitude': -78636720.0, 'latitude': -6774690.0, 'direction': 321.0, 'velocity': 16.0, 'utm_x': 761222.4040274844, 'utm_y': 9250522.46640772, 'coorxLoc': 76147772.14566597, 'cooryLoc': 925099706.0786662, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 12:08:29', 'altitude': 395100.0, 'longitude': -78636740.0, 'latitude': -6774650.0, 'direction': 339.0, 'velocity': 16.0, 'utm_x': 761220.2136685733, 'utm_y': 9250526.902679987, 'coorxLoc': 76147553.10382217, 'cooryLoc': 925100149.7089436, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 12:08:36', 'altitude': 395200.0, 'longitude': -78636830.0, 'latitude': -6774370.0, 'direction': 319.0, 'velocity': 15.0, 'utm_x': 761210.410907398, 'utm_y': 9250557.929660602, 'coorxLoc': 76146572.78625536, 'cooryLoc': 925103252.4210297, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 12:08:38', 'altitude': 395200.0, 'longitude': -78636890.0, 'latitude': -6774320.0, 'direction': 304.0, 'velocity': 16.0, 'utm_x': 761203.8021193192, 'utm_y': 9250563.49384221, 'coorxLoc': 76145911.89985289, 'cooryLoc': 925103808.848135, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 12:08:42', 'altitude': 395300.0, 'longitude': -78637050.0, 'latitude': -6774250.0, 'direction': 288.0, 'velocity': 17.0, 'utm_x': 761186.1445712369, 'utm_y': 9250571.324607775, 'coorxLoc': 76144146.13407843, 'cooryLoc': 925104591.9483552, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 12:08:45', 'altitude': 395400.0, 'longitude': -78637170.0, 'latitude': -6774190.0, 'direction': 303.0, 'velocity': 17.0, 'utm_x': 761172.9054466274, 'utm_y': 9250578.027458608, 'coorxLoc': 76142822.21229315, 'cooryLoc': 925105262.2512088, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 12:08:48', 'altitude': 395500.0, 'longitude': -78637260.0, 'latitude': -6774110.0, 'direction': 318.0, 'velocity': 17.0, 'utm_x': 761162.9949481803, 'utm_y': 9250586.926907972, 'coorxLoc': 76141831.15032345, 'cooryLoc': 925106152.2095764, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:08:53', 'altitude': 395500.0, 'longitude': -78637420.0, 'latitude': -6773950.0, 'direction': 296.0, 'velocity': 17.0, 'utm_x': 761145.3858484545, 'utm_y': 9250604.715033377, 'coorxLoc': 76140070.21618876, 'cooryLoc': 925107931.0460478, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:08:54', 'altitude': 395600.0, 'longitude': -78637460.0, 'latitude': -6773940.0, 'direction': 278.0, 'velocity': 16.0, 'utm_x': 761140.967419297, 'utm_y': 9250605.842937257, 'coorxLoc': 76139628.37163112, 'cooryLoc': 925108043.8423295, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:08:55', 'altitude': 395600.0, 'longitude': -78637510.0, 'latitude': -6773950.0, 'direction': 260.0, 'velocity': 16.0, 'utm_x': 761135.4322686922, 'utm_y': 9250604.763472151, 'coorxLoc': 76139074.85781725, 'cooryLoc': 925107935.9031193, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:08:56', 'altitude': 395600.0, 'longitude': -78637540.0, 'latitude': -6773960.0, 'direction': 235.0, 'velocity': 17.0, 'utm_x': 761132.1090249402, 'utm_y': 9250603.673242753, 'coorxLoc': 76138742.53477651, 'cooryLoc': 925107826.8845478, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 12:08:57', 'altitude': 395600.0, 'longitude': -78637570.0, 'latitude': -6774000.0, 'direction': 215.0, 'velocity': 18.0, 'utm_x': 761128.7696296037, 'utm_y': 9250599.263887528, 'coorxLoc': 76138408.60097596, 'cooryLoc': 925107385.9533048, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 12:08:58', 'altitude': 395600.0, 'longitude': -78637590.0, 'latitude': -6774040.0, 'direction': 192.0, 'velocity': 18.0, 'utm_x': 761126.5361877594, 'utm_y': 9250594.849150421, 'coorxLoc': 76138185.26256853, 'cooryLoc': 925106944.4824073, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 12:08:59', 'altitude': 395700.0, 'longitude': -78637590.0, 'latitude': -6774090.0, 'direction': 174.0, 'velocity': 17.0, 'utm_x': 761126.5092680339, 'utm_y': 9250589.317274371, 'coorxLoc': 76138182.57792704, 'cooryLoc': 925106391.2946541, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 12:09:02', 'altitude': 395800.0, 'longitude': -78637550.0, 'latitude': -6774210.0, 'direction': 157.0, 'velocity': 17.0, 'utm_x': 761130.8684704099, 'utm_y': 9250576.019243615, 'coorxLoc': 76138618.51593487, 'cooryLoc': 925105061.4853585, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 12:09:05', 'altitude': 396000.0, 'longitude': -78637510.0, 'latitude': -6774340.0, 'direction': 173.0, 'velocity': 17.0, 'utm_x': 761135.222285234, 'utm_y': 9250561.61483641, 'coorxLoc': 76139053.91665372, 'cooryLoc': 925103621.0383883, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 12:09:06', 'altitude': 396000.0, 'longitude': -78637510.0, 'latitude': -6774380.0, 'direction': 189.0, 'velocity': 16.0, 'utm_x': 761135.2007477887, 'utm_y': 9250557.189335275, 'coorxLoc': 76139051.76877403, 'cooryLoc': 925103178.4881562, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 12:09:07', 'altitude': 396000.0, 'longitude': -78637530.0, 'latitude': -6774420.0, 'direction': 210.0, 'velocity': 16.0, 'utm_x': 761132.9673058379, 'utm_y': 9250552.774598788, 'coorxLoc': 76138828.43035597, 'cooryLoc': 925102737.0173209, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 12:09:08', 'altitude': 396100.0, 'longitude': -78637560.0, 'latitude': -6774450.0, 'direction': 227.0, 'velocity': 16.0, 'utm_x': 761129.6332964082, 'utm_y': 9250549.471619856, 'coorxLoc': 76138495.03367987, 'cooryLoc': 925102406.7237366, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 12:09:09', 'altitude': 396200.0, 'longitude': -78637590.0, 'latitude': -6774470.0, 'direction': 246.0, 'velocity': 15.0, 'utm_x': 761126.3046716558, 'utm_y': 9250547.275016079, 'coorxLoc': 76138162.1740053, 'cooryLoc': 925102187.0676975, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 12:09:10', 'altitude': 396200.0, 'longitude': -78637630.0, 'latitude': -6774480.0, 'direction': 263.0, 'velocity': 16.0, 'utm_x': 761121.8754794564, 'utm_y': 9250546.190169526, 'coorxLoc': 76137719.25607589, 'cooryLoc': 925102078.5888767, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 12:09:11', 'altitude': 396200.0, 'longitude': -78637670.0, 'latitude': -6774480.0, 'direction': 278.0, 'velocity': 17.0, 'utm_x': 761117.45167165, 'utm_y': 9250546.211697834, 'coorxLoc': 76137276.87511958, 'cooryLoc': 925102080.7475716, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 12:09:26', 'altitude': 396500.0, 'longitude': -78638360.0, 'latitude': -6774420.0, 'direction': 260.0, 'velocity': 17.0, 'utm_x': 761041.1733015634, 'utm_y': 9250553.221251333, 'coorxLoc': 76129649.02628328, 'cooryLoc': 925102781.804254, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 12:09:49', 'altitude': 396300.0, 'longitude': -78640100.0, 'latitude': -6775020.0, 'direction': 246.0, 'velocity': 43.0, 'utm_x': 760848.4151287404, 'utm_y': 9250487.774699707, 'coorxLoc': 76110373.28933246, 'cooryLoc': 925096237.4023964, 'gpsAccuracy': 17.0}
+{'time': '2020-06-09 12:10:12', 'altitude': 396900.0, 'longitude': -78642220.0, 'latitude': -6775920.0, 'direction': 262.0, 'velocity': 39.0, 'utm_x': 760613.4704535822, 'utm_y': 9250389.340639899, 'coorxLoc': 76086878.9444666, 'cooryLoc': 925086394.3045375, 'gpsAccuracy': 15.0}
+{'time': '2020-06-09 12:10:17', 'altitude': 397100.0, 'longitude': -78642710.0, 'latitude': -6775890.0, 'direction': 278.0, 'velocity': 38.0, 'utm_x': 760559.2952740188, 'utm_y': 9250392.922991395, 'coorxLoc': 76081461.41996025, 'cooryLoc': 925086752.6116103, 'gpsAccuracy': 15.0}
+{'time': '2020-06-09 12:10:28', 'altitude': 397000.0, 'longitude': -78643740.0, 'latitude': -6775780.0, 'direction': 260.0, 'velocity': 32.0, 'utm_x': 760445.4420861166, 'utm_y': 9250405.646221705, 'coorxLoc': 76070076.08051968, 'cooryLoc': 925088025.0859658, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:10:30', 'altitude': 396900.0, 'longitude': -78643890.0, 'latitude': -6775840.0, 'direction': 238.0, 'velocity': 29.0, 'utm_x': 760428.8206978461, 'utm_y': 9250399.088534521, 'coorxLoc': 76068413.94983134, 'cooryLoc': 925087369.3390594, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:10:32', 'altitude': 396800.0, 'longitude': -78643990.0, 'latitude': -6775940.0, 'direction': 213.0, 'velocity': 28.0, 'utm_x': 760417.7075507864, 'utm_y': 9250388.078519197, 'coorxLoc': 76067302.64934841, 'cooryLoc': 925086268.35189, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:10:38', 'altitude': 396400.0, 'longitude': -78644180.0, 'latitude': -6776360.0, 'direction': 197.0, 'velocity': 33.0, 'utm_x': 760396.4690600355, 'utm_y': 9250341.712974252, 'coorxLoc': 76065178.86101985, 'cooryLoc': 925081631.8240027, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 12:10:41', 'altitude': 396200.0, 'longitude': -78644210.0, 'latitude': -6776630.0, 'direction': 182.0, 'velocity': 37.0, 'utm_x': 760393.0062225627, 'utm_y': 9250311.85708602, 'coorxLoc': 76064832.61672844, 'cooryLoc': 925078646.2387761, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 12:10:51', 'altitude': 395700.0, 'longitude': -78644310.0, 'latitude': -6777560.0, 'direction': 166.0, 'velocity': 35.0, 'utm_x': 760381.4473026975, 'utm_y': 9250209.018353876, 'coorxLoc': 76063676.86066006, 'cooryLoc': 925068362.3774614, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 12:10:52', 'altitude': 395700.0, 'longitude': -78644280.0, 'latitude': -6777630.0, 'direction': 151.0, 'velocity': 33.0, 'utm_x': 760384.7275218286, 'utm_y': 9250201.257655064, 'coorxLoc': 76064004.89296831, 'cooryLoc': 925067586.3029745, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 12:10:54', 'altitude': 395600.0, 'longitude': -78644170.0, 'latitude': -6777760.0, 'direction': 132.0, 'velocity': 33.0, 'utm_x': 760396.8230247675, 'utm_y': 9250186.815777607, 'coorxLoc': 76065214.46280581, 'cooryLoc': 925066142.098717, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 12:11:00', 'altitude': 395400.0, 'longitude': -78643800.0, 'latitude': -6778130.0, 'direction': 150.0, 'velocity': 29.0, 'utm_x': 760437.5439929646, 'utm_y': 9250145.68137264, 'coorxLoc': 76069286.61549957, 'cooryLoc': 925062028.6028806, 'gpsAccuracy': 17.0}
+{'time': '2020-06-09 12:11:01', 'altitude': 395300.0, 'longitude': -78643780.0, 'latitude': -6778190.0, 'direction': 165.0, 'velocity': 25.0, 'utm_x': 760439.7236324392, 'utm_y': 9250139.032407599, 'coorxLoc': 76069504.58833209, 'cooryLoc': 925061363.7032664, 'gpsAccuracy': 17.0}
+{'time': '2020-06-09 12:11:02', 'altitude': 395200.0, 'longitude': -78643770.0, 'latitude': -6778240.0, 'direction': 184.0, 'velocity': 20.0, 'utm_x': 760440.80270566, 'utm_y': 9250133.495183857, 'coorxLoc': 76069612.50302911, 'cooryLoc': 925060809.9792776, 'gpsAccuracy': 17.0}
+{'time': '2020-06-09 12:11:03', 'altitude': 395200.0, 'longitude': -78643790.0, 'latitude': -6778290.0, 'direction': 201.0, 'velocity': 20.0, 'utm_x': 760438.5639630418, 'utm_y': 9250127.974073142, 'coorxLoc': 76069388.63601051, 'cooryLoc': 925060257.8709898, 'gpsAccuracy': 17.0}
+{'time': '2020-06-09 12:11:04', 'altitude': 395200.0, 'longitude': -78643820.0, 'latitude': -6778340.0, 'direction': 219.0, 'velocity': 22.0, 'utm_x': 760435.2192823833, 'utm_y': 9250122.458333476, 'coorxLoc': 76069054.17514399, 'cooryLoc': 925059706.3012729, 'gpsAccuracy': 17.0}
+{'time': '2020-06-09 12:11:05', 'altitude': 395100.0, 'longitude': -78643860.0, 'latitude': -6778380.0, 'direction': 238.0, 'velocity': 24.0, 'utm_x': 760430.7740371277, 'utm_y': 9250118.054335259, 'coorxLoc': 76068609.65630764, 'cooryLoc': 925059265.9071963, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 12:11:06', 'altitude': 395000.0, 'longitude': -78643920.0, 'latitude': -6778400.0, 'direction': 257.0, 'velocity': 25.0, 'utm_x': 760424.1276622728, 'utm_y': 9250115.873819487, 'coorxLoc': 76067945.02149113, 'cooryLoc': 925059047.8643557, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 12:11:07', 'altitude': 395000.0, 'longitude': -78643990.0, 'latitude': -6778400.0, 'direction': 276.0, 'velocity': 28.0, 'utm_x': 760416.3860956943, 'utm_y': 9250115.911414525, 'coorxLoc': 76067170.86452594, 'cooryLoc': 925059051.6341215, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 12:11:08', 'altitude': 394900.0, 'longitude': -78644060.0, 'latitude': -6778380.0, 'direction': 294.0, 'velocity': 30.0, 'utm_x': 760408.655274642, 'utm_y': 9250118.161749115, 'coorxLoc': 76066397.77918099, 'cooryLoc': 925059276.6779019, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 12:11:10', 'altitude': 394600.0, 'longitude': -78644180.0, 'latitude': -6778280.0, 'direction': 315.0, 'velocity': 32.0, 'utm_x': 760395.4377411357, 'utm_y': 9250129.289895443, 'coorxLoc': 76065076.01064146, 'cooryLoc': 925060389.5104233, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 12:11:16', 'altitude': 394100.0, 'longitude': -78644530.0, 'latitude': -6777800.0, 'direction': 337.0, 'velocity': 41.0, 'utm_x': 760356.9877281016, 'utm_y': 9250182.583593313, 'coorxLoc': 76061230.93742357, 'cooryLoc': 925065718.9329445, 'gpsAccuracy': 17.0}
+{'time': '2020-06-09 12:11:18', 'altitude': 394000.0, 'longitude': -78644570.0, 'latitude': -6777590.0, 'direction': 357.0, 'velocity': 41.0, 'utm_x': 760352.676760125, 'utm_y': 9250205.838837061, 'coorxLoc': 76060799.80965999, 'cooryLoc': 925068044.4638066, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 12:11:24', 'altitude': 393600.0, 'longitude': -78644660.0, 'latitude': -6776970.0, 'direction': 334.0, 'velocity': 40.0, 'utm_x': 760343.056265388, 'utm_y': 9250274.482083598, 'coorxLoc': 76059837.66888644, 'cooryLoc': 925074908.8034947, 'gpsAccuracy': 17.0}
+{'time': '2020-06-09 12:11:27', 'altitude': 393500.0, 'longitude': -78644830.0, 'latitude': -6776730.0, 'direction': 316.0, 'velocity': 40.0, 'utm_x': 760324.3841431306, 'utm_y': 9250301.126208536, 'coorxLoc': 76057970.42072546, 'cooryLoc': 925077573.2416227, 'gpsAccuracy': 17.0}
+{'time': '2020-06-09 12:11:33', 'altitude': 393000.0, 'longitude': -78645330.0, 'latitude': -6776270.0, 'direction': 301.0, 'velocity': 47.0, 'utm_x': 760269.3340279036, 'utm_y': 9250352.287537806, 'coorxLoc': 76052465.33956237, 'cooryLoc': 925082689.4492149, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 12:11:35', 'altitude': 392800.0, 'longitude': -78645550.0, 'latitude': -6776180.0, 'direction': 283.0, 'velocity': 47.0, 'utm_x': 760245.0516154375, 'utm_y': 9250362.362904413, 'coorxLoc': 76050037.08415417, 'cooryLoc': 925083697.0183946, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 12:11:37', 'altitude': 392700.0, 'longitude': -78645790.0, 'latitude': -6776160.0, 'direction': 266.0, 'velocity': 47.0, 'utm_x': 760218.5197453424, 'utm_y': 9250364.704404015, 'coorxLoc': 76047383.89315875, 'cooryLoc': 925083931.2035981, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 12:11:46', 'altitude': 391800.0, 'longitude': -78646850.0, 'latitude': -6776210.0, 'direction': 288.0, 'velocity': 41.0, 'utm_x': 760101.2631381806, 'utm_y': 9250359.741102397, 'coorxLoc': 76035658.23512076, 'cooryLoc': 925083435.0286834, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 12:12:03', 'altitude': 390500.0, 'longitude': -78648710.0, 'latitude': -6775570.0, 'direction': 272.0, 'velocity': 46.0, 'utm_x': 759895.9013139746, 'utm_y': 9250431.545578046, 'coorxLoc': 76015121.95069969, 'cooryLoc': 925090615.7508235, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 12:12:19', 'altitude': 389100.0, 'longitude': -78650570.0, 'latitude': -6775540.0, 'direction': 255.0, 'velocity': 36.0, 'utm_x': 759690.2125143516, 'utm_y': 9250435.860802004, 'coorxLoc': 75994553.0581764, 'cooryLoc': 925091047.5459831, 'gpsAccuracy': 17.0}
+{'time': '2020-06-09 12:12:43', 'altitude': 388300.0, 'longitude': -78652090.0, 'latitude': -6776110.0, 'direction': 240.0, 'velocity': 25.0, 'utm_x': 759521.8047269045, 'utm_y': 9250373.61150359, 'coorxLoc': 75977712.35633546, 'cooryLoc': 925084822.837279, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 12:12:50', 'altitude': 388000.0, 'longitude': -78652590.0, 'latitude': -6776360.0, 'direction': 255.0, 'velocity': 37.0, 'utm_x': 759466.3741019901, 'utm_y': 9250346.21990164, 'coorxLoc': 75972169.32830517, 'cooryLoc': 925082083.749641, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 12:13:10', 'altitude': 387000.0, 'longitude': -78654660.0, 'latitude': -6776860.0, 'direction': 238.0, 'velocity': 41.0, 'utm_x': 759237.1781592864, 'utm_y': 9250292.008635689, 'coorxLoc': 75949249.79826301, 'cooryLoc': 925076662.9250191, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 12:13:21', 'altitude': 386300.0, 'longitude': -78655610.0, 'latitude': -6777340.0, 'direction': 224.0, 'velocity': 33.0, 'utm_x': 759131.8579634477, 'utm_y': 9250239.410969205, 'coorxLoc': 75938717.84488903, 'cooryLoc': 925071403.2962129, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 12:13:23', 'altitude': 386100.0, 'longitude': -78655700.0, 'latitude': -6777490.0, 'direction': 202.0, 'velocity': 35.0, 'utm_x': 759121.8244027155, 'utm_y': 9250222.863638526, 'coorxLoc': 75937714.51041393, 'cooryLoc': 925069748.575893, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:13:30', 'altitude': 385800.0, 'longitude': -78655920.0, 'latitude': -6778070.0, 'direction': 221.0, 'velocity': 32.0, 'utm_x': 759097.1839129952, 'utm_y': 9250158.812238019, 'coorxLoc': 75935250.54551615, 'cooryLoc': 925063343.4663706, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:13:32', 'altitude': 385700.0, 'longitude': -78656060.0, 'latitude': -6778170.0, 'direction': 247.0, 'velocity': 35.0, 'utm_x': 759081.647450714, 'utm_y': 9250147.823429175, 'coorxLoc': 75933696.91333584, 'cooryLoc': 925062244.6057127, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:13:57', 'altitude': 384400.0, 'longitude': -78658690.0, 'latitude': -6779090.0, 'direction': 248.0, 'velocity': 44.0, 'utm_x': 758790.2971160297, 'utm_y': 9250047.442785233, 'coorxLoc': 75904562.00322123, 'cooryLoc': 925052206.9241358, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:14:05', 'altitude': 384000.0, 'longitude': -78659480.0, 'latitude': -6779600.0, 'direction': 232.0, 'velocity': 46.0, 'utm_x': 758702.656817209, 'utm_y': 9249991.440102411, 'coorxLoc': 75895798.04465012, 'cooryLoc': 925046606.7701495, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:14:10', 'altitude': 383700.0, 'longitude': -78659870.0, 'latitude': -6780020.0, 'direction': 217.0, 'velocity': 44.0, 'utm_x': 758659.3016376442, 'utm_y': 9249945.181153368, 'coorxLoc': 75891462.58656324, 'cooryLoc': 925041980.9311695, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 12:14:17', 'altitude': 383300.0, 'longitude': -78660280.0, 'latitude': -6780720.0, 'direction': 199.0, 'velocity': 47.0, 'utm_x': 758613.5852478738, 'utm_y': 9249867.954844344, 'coorxLoc': 75886891.04842147, 'cooryLoc': 925034258.358291, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:14:29', 'altitude': 382900.0, 'longitude': -78660640.0, 'latitude': -6781960.0, 'direction': 174.0, 'velocity': 30.0, 'utm_x': 758573.1103440683, 'utm_y': 9249730.958553838, 'coorxLoc': 75882843.73826975, 'cooryLoc': 925020558.778329, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:14:31', 'altitude': 382800.0, 'longitude': -78660590.0, 'latitude': -6782100.0, 'direction': 157.0, 'velocity': 30.0, 'utm_x': 758578.5652025318, 'utm_y': 9249715.442869574, 'coorxLoc': 75883389.24486203, 'cooryLoc': 925019007.2021567, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:14:40', 'altitude': 382500.0, 'longitude': -78660350.0, 'latitude': -6782740.0, 'direction': 172.0, 'velocity': 19.0, 'utm_x': 758604.7655438441, 'utm_y': 9249644.507906284, 'coorxLoc': 75886009.37388207, 'cooryLoc': 925011913.6687424, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:14:43', 'altitude': 382400.0, 'longitude': -78660360.0, 'latitude': -6782880.0, 'direction': 190.0, 'velocity': 16.0, 'utm_x': 758603.5848857423, 'utm_y': 9249629.02423263, 'coorxLoc': 75885891.32855469, 'cooryLoc': 925010365.3024267, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:14:45', 'altitude': 382400.0, 'longitude': -78660390.0, 'latitude': -6782950.0, 'direction': 211.0, 'velocity': 13.0, 'utm_x': 758600.2297689707, 'utm_y': 9249621.295737578, 'coorxLoc': 75885555.8270093, 'cooryLoc': 925009592.4571114, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:14:48', 'altitude': 382300.0, 'longitude': -78660450.0, 'latitude': -6783030.0, 'direction': 229.0, 'velocity': 15.0, 'utm_x': 758593.5515698716, 'utm_y': 9249612.476894662, 'coorxLoc': 75884888.01856576, 'cooryLoc': 925008710.5813777, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:15:05', 'altitude': 382000.0, 'longitude': -78661030.0, 'latitude': -6783540.0, 'direction': 206.0, 'velocity': 17.0, 'utm_x': 758529.1363117336, 'utm_y': 9249556.36215222, 'coorxLoc': 75878446.56498398, 'cooryLoc': 925003099.1906432, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:15:09', 'altitude': 382000.0, 'longitude': -78661090.0, 'latitude': -6783700.0, 'direction': 188.0, 'velocity': 15.0, 'utm_x': 758522.4154296672, 'utm_y': 9249538.692448284, 'coorxLoc': 75877774.49997324, 'cooryLoc': 925001332.2285697, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:15:10', 'altitude': 382000.0, 'longitude': -78661080.0, 'latitude': -6783740.0, 'direction': 169.0, 'velocity': 16.0, 'utm_x': 758523.499991057, 'utm_y': 9249534.26168322, 'coorxLoc': 75877882.96202083, 'cooryLoc': 925000889.1504785, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:15:11', 'altitude': 382000.0, 'longitude': -78661070.0, 'latitude': -6783780.0, 'direction': 147.0, 'velocity': 17.0, 'utm_x': 758524.584552146, 'utm_y': 9249529.830918064, 'coorxLoc': 75877991.42403834, 'cooryLoc': 925000446.072378, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:15:15', 'altitude': 382000.0, 'longitude': -78660980.0, 'latitude': -6783920.0, 'direction': 180.0, 'velocity': 15.0, 'utm_x': 758534.4630309604, 'utm_y': 9249514.293891305, 'coorxLoc': 75878979.29284117, 'cooryLoc': 924998892.3560923, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:15:16', 'altitude': 382000.0, 'longitude': -78660990.0, 'latitude': -6783950.0, 'direction': 197.0, 'velocity': 14.0, 'utm_x': 758533.3411040927, 'utm_y': 9249510.980155066, 'coorxLoc': 75878867.1045091, 'cooryLoc': 924998560.9838452, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:15:17', 'altitude': 382000.0, 'longitude': -78661010.0, 'latitude': -6783990.0, 'direction': 215.0, 'velocity': 14.0, 'utm_x': 758531.1079269918, 'utm_y': 9249506.565397482, 'coorxLoc': 75878643.79257606, 'cooryLoc': 924998119.5108999, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:15:19', 'altitude': 381900.0, 'longitude': -78661060.0, 'latitude': -6784030.0, 'direction': 242.0, 'velocity': 11.0, 'utm_x': 758525.5570142558, 'utm_y': 9249502.166647924, 'coorxLoc': 75878088.70694794, 'cooryLoc': 924997679.6431549, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 12:15:21', 'altitude': 381900.0, 'longitude': -78661110.0, 'latitude': -6784040.0, 'direction': 264.0, 'velocity': 10.0, 'utm_x': 758520.0221165647, 'utm_y': 9249501.086970124, 'coorxLoc': 75877535.21842574, 'cooryLoc': 924997571.682675, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 12:15:23', 'altitude': 381900.0, 'longitude': -78661160.0, 'latitude': -6784040.0, 'direction': 292.0, 'velocity': 9.0, 'utm_x': 758514.492557182, 'utm_y': 9249501.113649132, 'coorxLoc': 75876982.26226817, 'cooryLoc': 924997574.3579054, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:15:24', 'altitude': 381900.0, 'longitude': -78661180.0, 'latitude': -6784020.0, 'direction': 306.0, 'velocity': 9.0, 'utm_x': 758512.2914091627, 'utm_y': 9249503.33703515, 'coorxLoc': 75876762.14444615, 'cooryLoc': 924997796.6994987, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:15:26', 'altitude': 382000.0, 'longitude': -78661210.0, 'latitude': -6783990.0, 'direction': 328.0, 'velocity': 7.0, 'utm_x': 758508.9896867909, 'utm_y': 9249506.672113884, 'coorxLoc': 75876431.96767883, 'cooryLoc': 924998130.2118592, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:15:28', 'altitude': 381900.0, 'longitude': -78661220.0, 'latitude': -6783950.0, 'direction': 351.0, 'velocity': 8.0, 'utm_x': 758507.9051256655, 'utm_y': 9249511.102878481, 'coorxLoc': 75876323.50565767, 'cooryLoc': 924998573.2899036, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:15:51', 'altitude': 381900.0, 'longitude': -78661230.0, 'latitude': -6783910.0, 'direction': 121.0, 'velocity': 0.0, 'utm_x': 758506.8205642408, 'utm_y': 9249515.533642987, 'coorxLoc': 75876215.0436066, 'cooryLoc': 924999016.3679391, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:20:30', 'altitude': 382000.0, 'longitude': -78661230.0, 'latitude': -6783890.0, 'direction': 63.0, 'velocity': 0.0, 'utm_x': 758506.831239488, 'utm_y': 9249517.746357474, 'coorxLoc': 75876216.10819893, 'cooryLoc': 924999237.6394473, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 12:20:33', 'altitude': 382000.0, 'longitude': -78661230.0, 'latitude': -6783890.0, 'direction': 63.0, 'velocity': 0.0, 'utm_x': 758506.831239488, 'utm_y': 9249517.746357474, 'coorxLoc': 75876216.10819893, 'cooryLoc': 924999237.6394473, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 12:21:30', 'altitude': 382000.0, 'longitude': -78661240.0, 'latitude': -6783890.0, 'direction': 63.0, 'velocity': 0.0, 'utm_x': 758505.7253273453, 'utm_y': 9249517.751692932, 'coorxLoc': 75876105.5169408, 'cooryLoc': 924999238.1744591, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 12:22:30', 'altitude': 382000.0, 'longitude': -78661240.0, 'latitude': -6783890.0, 'direction': 63.0, 'velocity': 0.0, 'utm_x': 758505.7253273453, 'utm_y': 9249517.751692932, 'coorxLoc': 75876105.5169408, 'cooryLoc': 924999238.1744591, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:23:30', 'altitude': 382000.0, 'longitude': -78661240.0, 'latitude': -6783890.0, 'direction': 63.0, 'velocity': 0.0, 'utm_x': 758505.7253273453, 'utm_y': 9249517.751692932, 'coorxLoc': 75876105.5169408, 'cooryLoc': 924999238.1744591, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:24:30', 'altitude': 382000.0, 'longitude': -78661240.0, 'latitude': -6783890.0, 'direction': 63.0, 'velocity': 0.0, 'utm_x': 758505.7253273453, 'utm_y': 9249517.751692932, 'coorxLoc': 75876105.5169408, 'cooryLoc': 924999238.1744591, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 12:25:30', 'altitude': 382000.0, 'longitude': -78661240.0, 'latitude': -6783890.0, 'direction': 63.0, 'velocity': 0.0, 'utm_x': 758505.7253273453, 'utm_y': 9249517.751692932, 'coorxLoc': 75876105.5169408, 'cooryLoc': 924999238.1744591, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:26:30', 'altitude': 382000.0, 'longitude': -78661240.0, 'latitude': -6783890.0, 'direction': 63.0, 'velocity': 0.0, 'utm_x': 758505.7253273453, 'utm_y': 9249517.751692932, 'coorxLoc': 75876105.5169408, 'cooryLoc': 924999238.1744591, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 12:27:30', 'altitude': 382000.0, 'longitude': -78661240.0, 'latitude': -6783890.0, 'direction': 63.0, 'velocity': 0.0, 'utm_x': 758505.7253273453, 'utm_y': 9249517.751692932, 'coorxLoc': 75876105.5169408, 'cooryLoc': 924999238.1744591, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:28:30', 'altitude': 382100.0, 'longitude': -78661240.0, 'latitude': -6783890.0, 'direction': 63.0, 'velocity': 0.0, 'utm_x': 758505.7253273453, 'utm_y': 9249517.751692932, 'coorxLoc': 75876105.5169408, 'cooryLoc': 924999238.1744591, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:29:30', 'altitude': 382100.0, 'longitude': -78661240.0, 'latitude': -6783890.0, 'direction': 63.0, 'velocity': 0.0, 'utm_x': 758505.7253273453, 'utm_y': 9249517.751692932, 'coorxLoc': 75876105.5169408, 'cooryLoc': 924999238.1744591, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 12:30:30', 'altitude': 382100.0, 'longitude': -78661240.0, 'latitude': -6783890.0, 'direction': 63.0, 'velocity': 0.0, 'utm_x': 758505.7253273453, 'utm_y': 9249517.751692932, 'coorxLoc': 75876105.5169408, 'cooryLoc': 924999238.1744591, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:31:30', 'altitude': 382100.0, 'longitude': -78661240.0, 'latitude': -6783890.0, 'direction': 63.0, 'velocity': 0.0, 'utm_x': 758505.7253273453, 'utm_y': 9249517.751692932, 'coorxLoc': 75876105.5169408, 'cooryLoc': 924999238.1744591, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:32:30', 'altitude': 382100.0, 'longitude': -78661240.0, 'latitude': -6783890.0, 'direction': 344.0, 'velocity': 0.0, 'utm_x': 758505.7253273453, 'utm_y': 9249517.751692932, 'coorxLoc': 75876105.5169408, 'cooryLoc': 924999238.1744591, 'gpsAccuracy': 21.0}
+{'time': '2020-06-09 12:33:30', 'altitude': 382100.0, 'longitude': -78661240.0, 'latitude': -6783890.0, 'direction': 344.0, 'velocity': 0.0, 'utm_x': 758505.7253273453, 'utm_y': 9249517.751692932, 'coorxLoc': 75876105.5169408, 'cooryLoc': 924999238.1744591, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:34:30', 'altitude': 382100.0, 'longitude': -78661240.0, 'latitude': -6783890.0, 'direction': 344.0, 'velocity': 0.0, 'utm_x': 758505.7253273453, 'utm_y': 9249517.751692932, 'coorxLoc': 75876105.5169408, 'cooryLoc': 924999238.1744591, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:35:30', 'altitude': 382100.0, 'longitude': -78661240.0, 'latitude': -6783880.0, 'direction': 344.0, 'velocity': 0.0, 'utm_x': 758505.7306649343, 'utm_y': 9249518.858050168, 'coorxLoc': 75876106.04923351, 'cooryLoc': 924999348.8102124, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 12:36:30', 'altitude': 382100.0, 'longitude': -78661240.0, 'latitude': -6783880.0, 'direction': 344.0, 'velocity': 0.0, 'utm_x': 758505.7306649343, 'utm_y': 9249518.858050168, 'coorxLoc': 75876106.04923351, 'cooryLoc': 924999348.8102124, 'gpsAccuracy': 21.0}
+{'time': '2020-06-09 12:37:30', 'altitude': 382100.0, 'longitude': -78661240.0, 'latitude': -6783880.0, 'direction': 344.0, 'velocity': 0.0, 'utm_x': 758505.7306649343, 'utm_y': 9249518.858050168, 'coorxLoc': 75876106.04923351, 'cooryLoc': 924999348.8102124, 'gpsAccuracy': 21.0}
+{'time': '2020-06-09 12:38:30', 'altitude': 382100.0, 'longitude': -78661240.0, 'latitude': -6783880.0, 'direction': 344.0, 'velocity': 0.0, 'utm_x': 758505.7306649343, 'utm_y': 9249518.858050168, 'coorxLoc': 75876106.04923351, 'cooryLoc': 924999348.8102124, 'gpsAccuracy': 21.0}
+{'time': '2020-06-09 12:39:30', 'altitude': 382100.0, 'longitude': -78661240.0, 'latitude': -6783880.0, 'direction': 344.0, 'velocity': 0.0, 'utm_x': 758505.7306649343, 'utm_y': 9249518.858050168, 'coorxLoc': 75876106.04923351, 'cooryLoc': 924999348.8102124, 'gpsAccuracy': 21.0}
+{'time': '2020-06-09 12:40:30', 'altitude': 382100.0, 'longitude': -78661240.0, 'latitude': -6783880.0, 'direction': 344.0, 'velocity': 0.0, 'utm_x': 758505.7306649343, 'utm_y': 9249518.858050168, 'coorxLoc': 75876106.04923351, 'cooryLoc': 924999348.8102124, 'gpsAccuracy': 21.0}
+{'time': '2020-06-09 12:41:30', 'altitude': 382100.0, 'longitude': -78661240.0, 'latitude': -6783880.0, 'direction': 344.0, 'velocity': 0.0, 'utm_x': 758505.7306649343, 'utm_y': 9249518.858050168, 'coorxLoc': 75876106.04923351, 'cooryLoc': 924999348.8102124, 'gpsAccuracy': 21.0}
+{'time': '2020-06-09 12:42:30', 'altitude': 382100.0, 'longitude': -78661240.0, 'latitude': -6783880.0, 'direction': 344.0, 'velocity': 0.0, 'utm_x': 758505.7306649343, 'utm_y': 9249518.858050168, 'coorxLoc': 75876106.04923351, 'cooryLoc': 924999348.8102124, 'gpsAccuracy': 21.0}
+{'time': '2020-06-09 12:43:30', 'altitude': 382100.0, 'longitude': -78661240.0, 'latitude': -6783880.0, 'direction': 344.0, 'velocity': 0.0, 'utm_x': 758505.7306649343, 'utm_y': 9249518.858050168, 'coorxLoc': 75876106.04923351, 'cooryLoc': 924999348.8102124, 'gpsAccuracy': 22.0}
+{'time': '2020-06-09 12:44:30', 'altitude': 382100.0, 'longitude': -78661240.0, 'latitude': -6783880.0, 'direction': 344.0, 'velocity': 0.0, 'utm_x': 758505.7306649343, 'utm_y': 9249518.858050168, 'coorxLoc': 75876106.04923351, 'cooryLoc': 924999348.8102124, 'gpsAccuracy': 21.0}
+{'time': '2020-06-09 12:45:30', 'altitude': 382100.0, 'longitude': -78661240.0, 'latitude': -6783880.0, 'direction': 344.0, 'velocity': 0.0, 'utm_x': 758505.7306649343, 'utm_y': 9249518.858050168, 'coorxLoc': 75876106.04923351, 'cooryLoc': 924999348.8102124, 'gpsAccuracy': 22.0}
+{'time': '2020-06-09 12:46:30', 'altitude': 382100.0, 'longitude': -78661240.0, 'latitude': -6783880.0, 'direction': 344.0, 'velocity': 0.0, 'utm_x': 758505.7306649343, 'utm_y': 9249518.858050168, 'coorxLoc': 75876106.04923351, 'cooryLoc': 924999348.8102124, 'gpsAccuracy': 22.0}
+{'time': '2020-06-09 12:47:30', 'altitude': 382100.0, 'longitude': -78661240.0, 'latitude': -6783880.0, 'direction': 344.0, 'velocity': 0.0, 'utm_x': 758505.7306649343, 'utm_y': 9249518.858050168, 'coorxLoc': 75876106.04923351, 'cooryLoc': 924999348.8102124, 'gpsAccuracy': 22.0}
+{'time': '2020-06-09 12:48:30', 'altitude': 382100.0, 'longitude': -78661240.0, 'latitude': -6783880.0, 'direction': 344.0, 'velocity': 0.0, 'utm_x': 758505.7306649343, 'utm_y': 9249518.858050168, 'coorxLoc': 75876106.04923351, 'cooryLoc': 924999348.8102124, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 12:49:30', 'altitude': 382200.0, 'longitude': -78661240.0, 'latitude': -6783880.0, 'direction': 344.0, 'velocity': 0.0, 'utm_x': 758505.7306649343, 'utm_y': 9249518.858050168, 'coorxLoc': 75876106.04923351, 'cooryLoc': 924999348.8102124, 'gpsAccuracy': 22.0}
+{'time': '2020-06-09 12:50:30', 'altitude': 382200.0, 'longitude': -78661240.0, 'latitude': -6783880.0, 'direction': 344.0, 'velocity': 0.0, 'utm_x': 758505.7306649343, 'utm_y': 9249518.858050168, 'coorxLoc': 75876106.04923351, 'cooryLoc': 924999348.8102124, 'gpsAccuracy': 21.0}
+{'time': '2020-06-09 12:51:30', 'altitude': 382200.0, 'longitude': -78661240.0, 'latitude': -6783880.0, 'direction': 344.0, 'velocity': 0.0, 'utm_x': 758505.7306649343, 'utm_y': 9249518.858050168, 'coorxLoc': 75876106.04923351, 'cooryLoc': 924999348.8102124, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:52:30', 'altitude': 382200.0, 'longitude': -78661240.0, 'latitude': -6783880.0, 'direction': 344.0, 'velocity': 0.0, 'utm_x': 758505.7306649343, 'utm_y': 9249518.858050168, 'coorxLoc': 75876106.04923351, 'cooryLoc': 924999348.8102124, 'gpsAccuracy': 21.0}
+{'time': '2020-06-09 12:53:30', 'altitude': 382200.0, 'longitude': -78661240.0, 'latitude': -6783880.0, 'direction': 344.0, 'velocity': 0.0, 'utm_x': 758505.7306649343, 'utm_y': 9249518.858050168, 'coorxLoc': 75876106.04923351, 'cooryLoc': 924999348.8102124, 'gpsAccuracy': 21.0}
+{'time': '2020-06-09 12:54:30', 'altitude': 382200.0, 'longitude': -78661240.0, 'latitude': -6783880.0, 'direction': 344.0, 'velocity': 0.0, 'utm_x': 758505.7306649343, 'utm_y': 9249518.858050168, 'coorxLoc': 75876106.04923351, 'cooryLoc': 924999348.8102124, 'gpsAccuracy': 21.0}
+{'time': '2020-06-09 12:55:30', 'altitude': 382200.0, 'longitude': -78661240.0, 'latitude': -6783880.0, 'direction': 344.0, 'velocity': 0.0, 'utm_x': 758505.7306649343, 'utm_y': 9249518.858050168, 'coorxLoc': 75876106.04923351, 'cooryLoc': 924999348.8102124, 'gpsAccuracy': 21.0}
+{'time': '2020-06-09 12:56:30', 'altitude': 382200.0, 'longitude': -78661240.0, 'latitude': -6783880.0, 'direction': 344.0, 'velocity': 0.0, 'utm_x': 758505.7306649343, 'utm_y': 9249518.858050168, 'coorxLoc': 75876106.04923351, 'cooryLoc': 924999348.8102124, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:57:30', 'altitude': 382200.0, 'longitude': -78661240.0, 'latitude': -6783880.0, 'direction': 344.0, 'velocity': 0.0, 'utm_x': 758505.7306649343, 'utm_y': 9249518.858050168, 'coorxLoc': 75876106.04923351, 'cooryLoc': 924999348.8102124, 'gpsAccuracy': 21.0}
+{'time': '2020-06-09 12:58:30', 'altitude': 382200.0, 'longitude': -78661240.0, 'latitude': -6783880.0, 'direction': 344.0, 'velocity': 0.0, 'utm_x': 758505.7306649343, 'utm_y': 9249518.858050168, 'coorxLoc': 75876106.04923351, 'cooryLoc': 924999348.8102124, 'gpsAccuracy': 21.0}
+{'time': '2020-06-09 12:59:30', 'altitude': 382200.0, 'longitude': -78661240.0, 'latitude': -6783880.0, 'direction': 344.0, 'velocity': 0.0, 'utm_x': 758505.7306649343, 'utm_y': 9249518.858050168, 'coorxLoc': 75876106.04923351, 'cooryLoc': 924999348.8102124, 'gpsAccuracy': 21.0}
+{'time': '2020-06-09 13:00:30', 'altitude': 382200.0, 'longitude': -78661240.0, 'latitude': -6783880.0, 'direction': 344.0, 'velocity': 0.0, 'utm_x': 758505.7306649343, 'utm_y': 9249518.858050168, 'coorxLoc': 75876106.04923351, 'cooryLoc': 924999348.8102124, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 13:01:30', 'altitude': 382200.0, 'longitude': -78661240.0, 'latitude': -6783880.0, 'direction': 344.0, 'velocity': 0.0, 'utm_x': 758505.7306649343, 'utm_y': 9249518.858050168, 'coorxLoc': 75876106.04923351, 'cooryLoc': 924999348.8102124, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 13:02:30', 'altitude': 382200.0, 'longitude': -78661240.0, 'latitude': -6783880.0, 'direction': 30.0, 'velocity': 0.0, 'utm_x': 758505.7306649343, 'utm_y': 9249518.858050168, 'coorxLoc': 75876106.04923351, 'cooryLoc': 924999348.8102124, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 13:02:51', 'altitude': 382300.0, 'longitude': -78661240.0, 'latitude': -6783860.0, 'direction': 358.0, 'velocity': 8.0, 'utm_x': 758505.7413400888, 'utm_y': 9249521.070764637, 'coorxLoc': 75876107.11381659, 'cooryLoc': 924999570.0817187, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:02:54', 'altitude': 382300.0, 'longitude': -78661240.0, 'latitude': -6783790.0, 'direction': 13.0, 'velocity': 7.0, 'utm_x': 758505.7787028826, 'utm_y': 9249528.81526527, 'coorxLoc': 75876110.83983263, 'cooryLoc': 925000344.53199, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 13:03:17', 'altitude': 382400.0, 'longitude': -78661180.0, 'latitude': -6783490.0, 'direction': 352.0, 'velocity': 11.0, 'utm_x': 758512.5743032582, 'utm_y': 9249561.973970823, 'coorxLoc': 75876790.35614763, 'cooryLoc': 925003660.3946414, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 13:03:19', 'altitude': 382500.0, 'longitude': -78661190.0, 'latitude': -6783440.0, 'direction': 333.0, 'velocity': 9.0, 'utm_x': 758511.4950770336, 'utm_y': 9249567.511092376, 'coorxLoc': 75876682.42615037, 'cooryLoc': 925004214.1084112, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 13:03:21', 'altitude': 382500.0, 'longitude': -78661210.0, 'latitude': -6783390.0, 'direction': 316.0, 'velocity': 9.0, 'utm_x': 758509.3099370834, 'utm_y': 9249573.05354896, 'coorxLoc': 75876463.90473668, 'cooryLoc': 925004768.3571503, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 13:03:24', 'altitude': 382600.0, 'longitude': -78661270.0, 'latitude': -6783350.0, 'direction': 298.0, 'velocity': 9.0, 'utm_x': 758502.6958058528, 'utm_y': 9249577.51098809, 'coorxLoc': 75875802.48548572, 'cooryLoc': 925005214.1099778, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:04:12', 'altitude': 383500.0, 'longitude': -78662950.0, 'latitude': -6782460.0, 'direction': 314.0, 'velocity': 23.0, 'utm_x': 758317.3771005354, 'utm_y': 9249676.872611832, 'coorxLoc': 75857270.4770959, 'cooryLoc': 925015150.5212787, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 13:04:27', 'altitude': 383600.0, 'longitude': -78663540.0, 'latitude': -6781770.0, 'direction': 293.0, 'velocity': 25.0, 'utm_x': 758252.4960173887, 'utm_y': 9249753.525589649, 'coorxLoc': 75850782.26502718, 'cooryLoc': 925022815.9076035, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 13:04:29', 'altitude': 383600.0, 'longitude': -78663670.0, 'latitude': -6781740.0, 'direction': 278.0, 'velocity': 25.0, 'utm_x': 758238.1351113133, 'utm_y': 9249756.913924702, 'coorxLoc': 75849346.16945107, 'cooryLoc': 925023154.7602555, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 13:04:32', 'altitude': 383600.0, 'longitude': -78663860.0, 'latitude': -6781690.0, 'direction': 294.0, 'velocity': 24.0, 'utm_x': 758217.1493736736, 'utm_y': 9249762.546932586, 'coorxLoc': 75847247.58752307, 'cooryLoc': 925023718.0890458, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 13:04:34', 'altitude': 383700.0, 'longitude': -78663960.0, 'latitude': -6781620.0, 'direction': 311.0, 'velocity': 25.0, 'utm_x': 758206.1275298696, 'utm_y': 9249770.344694374, 'coorxLoc': 75846145.3924409, 'cooryLoc': 925024497.8800925, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:04:42', 'altitude': 384000.0, 'longitude': -78664330.0, 'latitude': -6781280.0, 'direction': 292.0, 'velocity': 22.0, 'utm_x': 758165.3898442544, 'utm_y': 9249808.157857075, 'coorxLoc': 75842071.57240675, 'cooryLoc': 925028279.251614, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:04:48', 'altitude': 384200.0, 'longitude': -78664620.0, 'latitude': -6781140.0, 'direction': 307.0, 'velocity': 21.0, 'utm_x': 758133.3928800324, 'utm_y': 9249823.801275432, 'coorxLoc': 75838871.85418646, 'cooryLoc': 925029843.6363789, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:05:10', 'altitude': 385300.0, 'longitude': -78665490.0, 'latitude': -6780360.0, 'direction': 322.0, 'velocity': 20.0, 'utm_x': 758037.5936144922, 'utm_y': 9249910.560115071, 'coorxLoc': 75829291.8094557, 'cooryLoc': 925038519.650201, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 13:05:14', 'altitude': 385500.0, 'longitude': -78665590.0, 'latitude': -6780190.0, 'direction': 338.0, 'velocity': 19.0, 'utm_x': 758026.6249672796, 'utm_y': 9249929.421357624, 'coorxLoc': 75828194.91937087, 'cooryLoc': 925040405.7896216, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 13:05:18', 'altitude': 385600.0, 'longitude': -78665640.0, 'latitude': -6779980.0, 'direction': 355.0, 'velocity': 23.0, 'utm_x': 758021.207196638, 'utm_y': 9249952.681398237, 'coorxLoc': 75827653.1112976, 'cooryLoc': 925042731.8016373, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 13:05:24', 'altitude': 385700.0, 'longitude': -78665620.0, 'latitude': -6779650.0, 'direction': 10.0, 'velocity': 22.0, 'utm_x': 758023.5947366836, 'utm_y': 9249989.180425689, 'coorxLoc': 75827891.81700571, 'cooryLoc': 925046381.7024318, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:05:38', 'altitude': 385900.0, 'longitude': -78665550.0, 'latitude': -6778890.0, 'direction': 356.0, 'velocity': 23.0, 'utm_x': 758031.7407990173, 'utm_y': 9250073.22605405, 'coorxLoc': 75828706.31211583, 'cooryLoc': 925054786.2572668, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 13:05:45', 'altitude': 386000.0, 'longitude': -78665530.0, 'latitude': -6778510.0, 'direction': 11.0, 'velocity': 21.0, 'utm_x': 758034.1549407955, 'utm_y': 9250115.25685232, 'coorxLoc': 75828947.67066626, 'cooryLoc': 925058989.335292, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 13:05:58', 'altitude': 386100.0, 'longitude': -78665370.0, 'latitude': -6777810.0, 'direction': 30.0, 'velocity': 22.0, 'utm_x': 758052.2223362731, 'utm_y': 9250192.616473977, 'coorxLoc': 75830754.3082824, 'cooryLoc': 925066725.2760842, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 13:06:00', 'altitude': 386200.0, 'longitude': -78665300.0, 'latitude': -6777720.0, 'direction': 46.0, 'velocity': 21.0, 'utm_x': 758060.0117081115, 'utm_y': 9250202.536409078, 'coorxLoc': 75831533.23257744, 'cooryLoc': 925067717.2596004, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 13:06:03', 'altitude': 386100.0, 'longitude': -78665160.0, 'latitude': -6777630.0, 'direction': 62.0, 'velocity': 23.0, 'utm_x': 758075.5425464446, 'utm_y': 9250212.419092976, 'coorxLoc': 75833086.3038288, 'cooryLoc': 925068705.5077342, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:06:09', 'altitude': 385900.0, 'longitude': -78664820.0, 'latitude': -6777520.0, 'direction': 78.0, 'velocity': 23.0, 'utm_x': 758113.2025168107, 'utm_y': 9250224.408040093, 'coorxLoc': 75836852.2862279, 'cooryLoc': 925069904.3529302, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 13:06:14', 'altitude': 385800.0, 'longitude': -78664530.0, 'latitude': -6777420.0, 'direction': 63.0, 'velocity': 24.0, 'utm_x': 758145.3275650184, 'utm_y': 9250235.317226967, 'coorxLoc': 75840064.77765815, 'cooryLoc': 925070995.2294018, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 13:06:22', 'altitude': 385500.0, 'longitude': -78664100.0, 'latitude': -6777170.0, 'direction': 45.0, 'velocity': 24.0, 'utm_x': 758193.0154686302, 'utm_y': 9250262.747189222, 'coorxLoc': 75844833.53324981, 'cooryLoc': 925073738.1633341, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 13:06:24', 'altitude': 385500.0, 'longitude': -78664030.0, 'latitude': -6777060.0, 'direction': 19.0, 'velocity': 24.0, 'utm_x': 758200.8155309346, 'utm_y': 9250274.8798257, 'coorxLoc': 75845613.52365907, 'cooryLoc': 925074951.4170471, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:06:28', 'altitude': 385300.0, 'longitude': -78663940.0, 'latitude': -6776840.0, 'direction': 39.0, 'velocity': 25.0, 'utm_x': 758210.8860333869, 'utm_y': 9250299.171718176, 'coorxLoc': 75846620.54204275, 'cooryLoc': 925077380.5937555, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:06:32', 'altitude': 385000.0, 'longitude': -78663810.0, 'latitude': -6776670.0, 'direction': 8.0, 'velocity': 20.0, 'utm_x': 758225.3536185991, 'utm_y': 9250317.910541113, 'coorxLoc': 75848067.27620873, 'cooryLoc': 925079254.457497, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:06:33', 'altitude': 385000.0, 'longitude': -78663820.0, 'latitude': -6776610.0, 'direction': 346.0, 'velocity': 20.0, 'utm_x': 758224.2796480244, 'utm_y': 9250324.553994928, 'coorxLoc': 75847959.87031028, 'cooryLoc': 925079918.8045228, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:06:34', 'altitude': 385000.0, 'longitude': -78663840.0, 'latitude': -6776560.0, 'direction': 326.0, 'velocity': 22.0, 'utm_x': 758222.0944240739, 'utm_y': 9250330.09641751, 'coorxLoc': 75847741.34049663, 'cooryLoc': 925080473.0498619, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:06:35', 'altitude': 384900.0, 'longitude': -78663880.0, 'latitude': -6776520.0, 'direction': 310.0, 'velocity': 22.0, 'utm_x': 758217.6920197369, 'utm_y': 9250334.5431324, 'coorxLoc': 75847301.0940228, 'cooryLoc': 925080917.7273337, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:06:45', 'altitude': 384700.0, 'longitude': -78664390.0, 'latitude': -6776120.0, 'direction': 325.0, 'velocity': 25.0, 'utm_x': 758161.5027332699, 'utm_y': 9250379.068793412, 'coorxLoc': 75841682.10449277, 'cooryLoc': 925085370.3693893, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:06:53', 'altitude': 384700.0, 'longitude': -78664610.0, 'latitude': -6775640.0, 'direction': 340.0, 'velocity': 26.0, 'utm_x': 758137.4278640661, 'utm_y': 9250432.290885396, 'coorxLoc': 75839274.54623097, 'cooryLoc': 925090692.6122668, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:07:15', 'altitude': 384800.0, 'longitude': -78665040.0, 'latitude': -6774190.0, 'direction': 324.0, 'velocity': 28.0, 'utm_x': 758090.6446218421, 'utm_y': 9250592.94100851, 'coorxLoc': 75834596.00752653, 'cooryLoc': 925106757.6919281, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:07:19', 'altitude': 384800.0, 'longitude': -78665250.0, 'latitude': -6773990.0, 'direction': 308.0, 'velocity': 29.0, 'utm_x': 758067.5264793558, 'utm_y': 9250615.179783763, 'coorxLoc': 75832284.16303365, 'cooryLoc': 925108981.600834, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:07:32', 'altitude': 384800.0, 'longitude': -78666030.0, 'latitude': -6773340.0, 'direction': 324.0, 'velocity': 31.0, 'utm_x': 757981.6095426158, 'utm_y': 9250687.507523645, 'coorxLoc': 75823692.3706386, 'cooryLoc': 925116214.4911025, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:08:08', 'altitude': 385000.0, 'longitude': -78667810.0, 'latitude': -6771210.0, 'direction': 320.0, 'velocity': 31.0, 'utm_x': 757785.8854389598, 'utm_y': 9250924.106393205, 'coorxLoc': 75804119.64017434, 'cooryLoc': 925139874.6453412, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:08:15', 'altitude': 385100.0, 'longitude': -78668130.0, 'latitude': -6770770.0, 'direction': 336.0, 'velocity': 31.0, 'utm_x': 757750.729205715, 'utm_y': 9250972.95578578, 'coorxLoc': 75800603.95093545, 'cooryLoc': 925144759.6328195, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:08:17', 'altitude': 385200.0, 'longitude': -78668180.0, 'latitude': -6770620.0, 'direction': 352.0, 'velocity': 30.0, 'utm_x': 757745.2791927566, 'utm_y': 9250989.577604245, 'coorxLoc': 75800058.92742774, 'cooryLoc': 925146421.8224425, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:08:20', 'altitude': 385400.0, 'longitude': -78668180.0, 'latitude': -6770390.0, 'direction': 6.0, 'velocity': 29.0, 'utm_x': 757745.4013516697, 'utm_y': 9251015.023685994, 'coorxLoc': 75800071.10959683, 'cooryLoc': 925148966.4313018, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:08:37', 'altitude': 385800.0, 'longitude': -78667980.0, 'latitude': -6769130.0, 'direction': 351.0, 'velocity': 28.0, 'utm_x': 757768.1893089741, 'utm_y': 9251154.317787573, 'coorxLoc': 75802349.72146463, 'cooryLoc': 925162895.8158897, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:08:39', 'altitude': 385900.0, 'longitude': -78668030.0, 'latitude': -6769000.0, 'direction': 330.0, 'velocity': 27.0, 'utm_x': 757762.7286418054, 'utm_y': 9251168.726899365, 'coorxLoc': 75801803.63546826, 'cooryLoc': 925164336.7347857, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:08:42', 'altitude': 386100.0, 'longitude': -78668160.0, 'latitude': -6768850.0, 'direction': 312.0, 'velocity': 26.0, 'utm_x': 757748.4310611826, 'utm_y': 9251185.391177377, 'coorxLoc': 75800373.85484357, 'cooryLoc': 925166003.1820912, 'gpsAccuracy': 17.0}
+{'time': '2020-06-09 13:08:45', 'altitude': 386300.0, 'longitude': -78668320.0, 'latitude': -6768750.0, 'direction': 294.0, 'velocity': 22.0, 'utm_x': 757730.7890992039, 'utm_y': 9251196.539615203, 'coorxLoc': 75798609.64328273, 'cooryLoc': 925167118.0496273, 'gpsAccuracy': 17.0}
+{'time': '2020-06-09 13:08:57', 'altitude': 386600.0, 'longitude': -78668790.0, 'latitude': -6768560.0, 'direction': 312.0, 'velocity': 15.0, 'utm_x': 757678.9107268379, 'utm_y': 9251217.809713148, 'coorxLoc': 75793421.77612916, 'cooryLoc': 925169245.128889, 'gpsAccuracy': 17.0}
+{'time': '2020-06-09 13:08:59', 'altitude': 386700.0, 'longitude': -78668840.0, 'latitude': -6768490.0, 'direction': 334.0, 'velocity': 16.0, 'utm_x': 757673.4181775266, 'utm_y': 9251225.580700349, 'coorxLoc': 75792872.51071565, 'cooryLoc': 925170022.2351475, 'gpsAccuracy': 16.0}
+{'time': '2020-06-09 13:09:26', 'altitude': 388000.0, 'longitude': -78669280.0, 'latitude': -6767350.0, 'direction': 348.0, 'velocity': 18.0, 'utm_x': 757625.3617263548, 'utm_y': 9251351.938101336, 'coorxLoc': 75788066.69652572, 'cooryLoc': 925182658.0431432, 'gpsAccuracy': 16.0}
+{'time': '2020-06-09 13:09:34', 'altitude': 388300.0, 'longitude': -78669400.0, 'latitude': -6766990.0, 'direction': 330.0, 'velocity': 18.0, 'utm_x': 757612.2814131066, 'utm_y': 9251391.830363028, 'coorxLoc': 75786758.61189257, 'cooryLoc': 925186647.2879758, 'gpsAccuracy': 17.0}
+{'time': '2020-06-09 13:09:48', 'altitude': 388600.0, 'longitude': -78669810.0, 'latitude': -6766490.0, 'direction': 312.0, 'velocity': 18.0, 'utm_x': 757567.2029256005, 'utm_y': 9251447.36529805, 'coorxLoc': 75782250.68803646, 'cooryLoc': 925192200.8430723, 'gpsAccuracy': 17.0}
+{'time': '2020-06-09 13:09:52', 'altitude': 388800.0, 'longitude': -78669970.0, 'latitude': -6766380.0, 'direction': 297.0, 'velocity': 18.0, 'utm_x': 757549.5661455729, 'utm_y': 9251459.619982839, 'coorxLoc': 75780486.9932047, 'cooryLoc': 925193426.3353345, 'gpsAccuracy': 17.0}
+{'time': '2020-06-09 13:10:27', 'altitude': 390100.0, 'longitude': -78671380.0, 'latitude': -6765580.0, 'direction': 279.0, 'velocity': 17.0, 'utm_x': 757394.0519490154, 'utm_y': 9251548.8752394, 'coorxLoc': 75764935.45007719, 'cooryLoc': 925202352.0700785, 'gpsAccuracy': 17.0}
+{'time': '2020-06-09 13:10:41', 'altitude': 390500.0, 'longitude': -78672040.0, 'latitude': -6765460.0, 'direction': 260.0, 'velocity': 20.0, 'utm_x': 757321.1231006143, 'utm_y': 9251562.50104819, 'coorxLoc': 75757642.54475169, 'cooryLoc': 925203714.7480706, 'gpsAccuracy': 17.0}
+{'time': '2020-06-09 13:10:48', 'altitude': 390800.0, 'longitude': -78672390.0, 'latitude': -6765510.0, 'direction': 282.0, 'velocity': 19.0, 'utm_x': 757282.3885085885, 'utm_y': 9251557.154674776, 'coorxLoc': 75753769.09134682, 'cooryLoc': 925203180.1618901, 'gpsAccuracy': 17.0}
+{'time': '2020-06-09 13:10:50', 'altitude': 390900.0, 'longitude': -78672480.0, 'latitude': -6765480.0, 'direction': 296.0, 'velocity': 19.0, 'utm_x': 757272.4508914282, 'utm_y': 9251560.521379892, 'coorxLoc': 75752775.324838, 'cooryLoc': 925203516.8456852, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 13:10:53', 'altitude': 391000.0, 'longitude': -78672590.0, 'latitude': -6765390.0, 'direction': 313.0, 'velocity': 18.0, 'utm_x': 757260.3331658039, 'utm_y': 9251570.536760207, 'coorxLoc': 75751563.53859812, 'cooryLoc': 925204518.4001107, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 13:11:10', 'altitude': 391700.0, 'longitude': -78673180.0, 'latitude': -6764810.0, 'direction': 294.0, 'velocity': 20.0, 'utm_x': 757195.3895301309, 'utm_y': 9251635.017286817, 'coorxLoc': 75745069.08740808, 'cooryLoc': 925210966.5409929, 'gpsAccuracy': 17.0}
+{'time': '2020-06-09 13:11:12', 'altitude': 391800.0, 'longitude': -78673280.0, 'latitude': -6764780.0, 'direction': 276.0, 'velocity': 21.0, 'utm_x': 757184.345950457, 'utm_y': 9251638.389262216, 'coorxLoc': 75743964.72460413, 'cooryLoc': 925211303.7532821, 'gpsAccuracy': 17.0}
+{'time': '2020-06-09 13:11:14', 'altitude': 391800.0, 'longitude': -78673390.0, 'latitude': -6764790.0, 'direction': 261.0, 'velocity': 21.0, 'utm_x': 757172.1752440253, 'utm_y': 9251637.341139203, 'coorxLoc': 75742747.65494533, 'cooryLoc': 925211198.9570769, 'gpsAccuracy': 17.0}
+{'time': '2020-06-09 13:11:24', 'altitude': 391800.0, 'longitude': -78674060.0, 'latitude': -6764960.0, 'direction': 240.0, 'velocity': 32.0, 'utm_x': 757097.9868614068, 'utm_y': 9251618.887825074, 'coorxLoc': 75735328.83867389, 'cooryLoc': 925209353.7233796, 'gpsAccuracy': 17.0}
+{'time': '2020-06-09 13:11:34', 'altitude': 391600.0, 'longitude': -78674730.0, 'latitude': -6765370.0, 'direction': 217.0, 'velocity': 31.0, 'utm_x': 757023.6715500628, 'utm_y': 9251573.88211837, 'coorxLoc': 75727897.36471826, 'cooryLoc': 925204853.2497098, 'gpsAccuracy': 17.0}
+{'time': '2020-06-09 13:11:49', 'altitude': 391700.0, 'longitude': -78675470.0, 'latitude': -6766330.0, 'direction': 237.0, 'velocity': 32.0, 'utm_x': 756941.3237743448, 'utm_y': 9251468.06436577, 'coorxLoc': 75719662.72465843, 'cooryLoc': 925194271.5800742, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:11:53', 'altitude': 391800.0, 'longitude': -78675760.0, 'latitude': -6766460.0, 'direction': 252.0, 'velocity': 31.0, 'utm_x': 756909.1826993898, 'utm_y': 9251453.835259229, 'coorxLoc': 75716448.63495314, 'cooryLoc': 925192848.7115465, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:12:12', 'altitude': 393000.0, 'longitude': -78676910.0, 'latitude': -6766770.0, 'direction': 269.0, 'velocity': 19.0, 'utm_x': 756781.8356201018, 'utm_y': 9251420.146647012, 'coorxLoc': 75703713.96743949, 'cooryLoc': 925189480.0179902, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:12:24', 'altitude': 393400.0, 'longitude': -78677480.0, 'latitude': -6766720.0, 'direction': 287.0, 'velocity': 17.0, 'utm_x': 756718.8235325254, 'utm_y': 9251425.979659475, 'coorxLoc': 75697412.74885488, 'cooryLoc': 925190063.4029471, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:12:26', 'altitude': 393400.0, 'longitude': -78677550.0, 'latitude': -6766670.0, 'direction': 318.0, 'velocity': 18.0, 'utm_x': 756711.1083949032, 'utm_y': 9251431.548375065, 'coorxLoc': 75696641.22745526, 'cooryLoc': 925190620.2849169, 'gpsAccuracy': 18.0}
+====== teminar :  20-06-09 13:38:16
+Si tiene data
+========= Empieza Insertar en BD ===> 200
+====== temina :  20-06-09 13:38:17
+====== Empieza actualizar position :  20-06-09 13:38:17
+====== temina :  20-06-09 13:38:17
+======== Equipo : BBD-836 ======== 
+======= Empieza traer API === 20-06-09 13:38:17=== Last | until =>  2020-06-09 12:08:17|2020-06-09 13:38:17
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:38:17
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:38:18
+====== Empieza actualizar position :  20-06-09 13:38:18
+====== temina :  20-06-09 13:38:18
+======== Equipo : T9Z-911 ======== 
+======= Empieza traer API === 20-06-09 13:38:18=== Last | until =>  2020-06-09 12:08:18|2020-06-09 13:38:18
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:38:18
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:38:18
+====== Empieza actualizar position :  20-06-09 13:38:18
+====== temina :  20-06-09 13:38:18
+======== Equipo : T9X-902 ======== 
+======= Empieza traer API === 20-06-09 13:38:18=== Last | until =>  2020-06-09 12:08:18|2020-06-09 13:38:18
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:38:18
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:38:19
+====== Empieza actualizar position :  20-06-09 13:38:19
+====== temina :  20-06-09 13:38:19
+======== Equipo : T9Q-892 ======== 
+======= Empieza traer API === 20-06-09 13:38:19=== Last | until =>  2020-06-09 12:08:19|2020-06-09 13:38:19
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:38:19
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:38:19
+====== Empieza actualizar position :  20-06-09 13:38:19
+====== temina :  20-06-09 13:38:19
+======== Equipo : T9V-947 ======== 
+======= Empieza traer API === 20-06-09 13:38:19=== Last | until =>  2020-06-09 12:08:19|2020-06-09 13:38:19
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:38:20
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:38:20
+====== Empieza actualizar position :  20-06-09 13:38:20
+====== temina :  20-06-09 13:38:20
+======== Equipo : T9H-807 ======== 
+======= Empieza traer API === 20-06-09 13:38:20=== Last | until =>  2020-06-09 12:08:20|2020-06-09 13:38:20
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:38:20
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:38:20
+====== Empieza actualizar position :  20-06-09 13:38:20
+====== temina :  20-06-09 13:38:20
+======== Equipo : T9D-884 ======== 
+======= Empieza traer API === 20-06-09 13:38:20=== Last | until =>  2020-06-09 12:08:20|2020-06-09 13:38:20
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:38:21
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:38:21
+====== Empieza actualizar position :  20-06-09 13:38:21
+====== temina :  20-06-09 13:38:21
+======== Equipo : T9Q-800 ======== 
+======= Empieza traer API === 20-06-09 13:38:21=== Last | until =>  2020-06-09 12:08:21|2020-06-09 13:38:21
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:38:21
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:38:22
+====== Empieza actualizar position :  20-06-09 13:38:22
+====== temina :  20-06-09 13:38:22
+======== Equipo : T9O-928 ======== 
+======= Empieza traer API === 20-06-09 13:38:22=== Last | until =>  2020-06-09 12:08:22|2020-06-09 13:38:22
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:38:22
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:38:22
+====== Empieza actualizar position :  20-06-09 13:38:22
+====== temina :  20-06-09 13:38:22
+======== Equipo : BAB-758 ======== 
+======= Empieza traer API === 20-06-09 13:38:22=== Last | until =>  2020-06-09 12:08:22|2020-06-09 13:38:22
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:38:22
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:38:23
+====== Empieza actualizar position :  20-06-09 13:38:23
+====== temina :  20-06-09 13:38:23
+======== Equipo : AMK-760 ======== 
+======= Empieza traer API === 20-06-09 13:38:23=== Last | until =>  2020-06-09 12:08:23|2020-06-09 13:38:23
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:38:23
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:38:23
+====== Empieza actualizar position :  20-06-09 13:38:23
+====== temina :  20-06-09 13:38:23
+======== Equipo : T9V-923 ======== 
+======= Empieza traer API === 20-06-09 13:38:23=== Last | until =>  2020-06-09 12:08:23|2020-06-09 13:38:23
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:38:24
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:38:24
+====== Empieza actualizar position :  20-06-09 13:38:24
+====== temina :  20-06-09 13:38:24
+======== Equipo : T9S-877 ======== 
+======= Empieza traer API === 20-06-09 13:38:24=== Last | until =>  2020-06-09 12:08:24|2020-06-09 13:38:24
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:38:24
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:38:25
+====== Empieza actualizar position :  20-06-09 13:38:25
+====== temina :  20-06-09 13:38:25
+======== Equipo : ART-880 ======== 
+======= Empieza traer API === 20-06-09 13:38:25=== Last | until =>  2020-06-09 12:08:25|2020-06-09 13:38:25
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:38:25
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:38:25
+====== Empieza actualizar position :  20-06-09 13:38:25
+====== temina :  20-06-09 13:38:25
+======== Equipo : T9B-820 ======== 
+======= Empieza traer API === 20-06-09 13:38:25=== Last | until =>  2020-06-09 12:08:25|2020-06-09 13:38:25
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:38:25
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:38:26
+====== Empieza actualizar position :  20-06-09 13:38:26
+====== temina :  20-06-09 13:38:26
+======== Equipo : T9Y-928 ======== 
+======= Empieza traer API === 20-06-09 13:38:26=== Last | until =>  2020-06-09 12:08:26|2020-06-09 13:38:26
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:38:26
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:38:26
+====== Empieza actualizar position :  20-06-09 13:38:26
+====== temina :  20-06-09 13:38:26
+======== Equipo : T9I-849 ======== 
+======= Empieza traer API === 20-06-09 13:38:26=== Last | until =>  2020-06-09 12:08:26|2020-06-09 13:38:26
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:38:26
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:38:27
+====== Empieza actualizar position :  20-06-09 13:38:27
+====== temina :  20-06-09 13:38:27
+======== Equipo : AXN-788 ======== 
+======= Empieza traer API === 20-06-09 13:38:27=== Last | until =>  2020-06-09 12:08:27|2020-06-09 13:38:27
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:38:27
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:38:27
+====== Empieza actualizar position :  20-06-09 13:38:27
+====== temina :  20-06-09 13:38:27
+======== Equipo : T9I-871 ======== 
+======= Empieza traer API === 20-06-09 13:38:27=== Last | until =>  2020-06-09 12:08:27|2020-06-09 13:38:27
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:38:28
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:38:28
+====== Empieza actualizar position :  20-06-09 13:38:28
+====== temina :  20-06-09 13:38:28
+======== Equipo : T8R-821 ======== 
+======= Empieza traer API === 20-06-09 13:38:28=== Last | until =>  2020-06-09 12:08:28|2020-06-09 13:38:28
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:38:28
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:38:28
+====== Empieza actualizar position :  20-06-09 13:38:28
+====== temina :  20-06-09 13:38:28
+======== Equipo : AWN-842 ======== 
+======= Empieza traer API === 20-06-09 13:38:28=== Last | until =>  2020-06-09 12:08:28|2020-06-09 13:38:28
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:38:29
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:38:29
+====== Empieza actualizar position :  20-06-09 13:38:29
+====== temina :  20-06-09 13:38:29
+======== Equipo : BAF-795 ======== 
+======= Empieza traer API === 20-06-09 13:38:29=== Last | until =>  2020-06-09 12:08:29|2020-06-09 13:38:29
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:38:29
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:38:30
+====== Empieza actualizar position :  20-06-09 13:38:30
+====== temina :  20-06-09 13:38:30
+======== Equipo : AXN-901 ======== 
+======= Empieza traer API === 20-06-09 13:38:30=== Last | until =>  2020-06-09 12:08:30|2020-06-09 13:38:30
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:38:30
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:38:30
+====== Empieza actualizar position :  20-06-09 13:38:30
+====== temina :  20-06-09 13:38:30
+======== Equipo : T9Q-818 ======== 
+======= Empieza traer API === 20-06-09 13:38:30=== Last | until =>  2020-06-09 12:08:30|2020-06-09 13:38:30
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:38:30
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:38:31
+====== Empieza actualizar position :  20-06-09 13:38:31
+====== temina :  20-06-09 13:38:31
+======== Equipo : T9O-805 ======== 
+======= Empieza traer API === 20-06-09 13:38:31=== Last | until =>  2020-06-09 12:08:31|2020-06-09 13:38:31
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:38:31
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:38:31
+====== Empieza actualizar position :  20-06-09 13:38:31
+====== temina :  20-06-09 13:38:31
+======== Equipo : T9Q-910 ======== 
+======= Empieza traer API === 20-06-09 13:38:31=== Last | until =>  2020-06-09 12:08:31|2020-06-09 13:38:31
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:38:32
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:38:32
+====== Empieza actualizar position :  20-06-09 13:38:32
+====== temina :  20-06-09 13:38:32
+======== Equipo : ATU-770 ======== 
+======= Empieza traer API === 20-06-09 13:38:32=== Last | until =>  2020-06-09 12:08:32|2020-06-09 13:38:32
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:38:32
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:38:32
+====== Empieza actualizar position :  20-06-09 13:38:32
+====== temina :  20-06-09 13:38:32
+======== Equipo : AWN-875 ======== 
+======= Empieza traer API === 20-06-09 13:38:32=== Last | until =>  2020-06-09 12:08:32|2020-06-09 13:38:32
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:38:33
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:38:33
+====== Empieza actualizar position :  20-06-09 13:38:33
+====== temina :  20-06-09 13:38:33
+======== Equipo : ANM-700 ======== 
+======= Empieza traer API === 20-06-09 13:38:33=== Last | until =>  2020-06-09 12:08:33|2020-06-09 13:38:33
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:38:33
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:38:34
+====== Empieza actualizar position :  20-06-09 13:38:34
+====== temina :  20-06-09 13:38:34
+======== Equipo : T0E-940 ======== 
+======= Empieza traer API === 20-06-09 13:38:34=== Last | until =>  2020-06-09 12:08:34|2020-06-09 13:38:34
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:38:34
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:38:34
+====== Empieza actualizar position :  20-06-09 13:38:34
+====== temina :  20-06-09 13:38:34
+======== Equipo : AXB-750 ======== 
+======= Empieza traer API === 20-06-09 13:38:34=== Last | until =>  2020-06-09 12:08:34|2020-06-09 13:38:34
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:38:35
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:38:35
+====== Empieza actualizar position :  20-06-09 13:38:35
+====== temina :  20-06-09 13:38:35
+======== Equipo : T9O-911 ======== 
+======= Empieza traer API === 20-06-09 13:38:35=== Last | until =>  2020-06-09 12:08:35|2020-06-09 13:38:35
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:38:35
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:38:35
+====== Empieza actualizar position :  20-06-09 13:38:35
+====== temina :  20-06-09 13:38:35
+======== Equipo : BBM-930 ======== 
+======= Empieza traer API === 20-06-09 13:38:35=== Last | until =>  2020-06-09 12:08:35|2020-06-09 13:38:35
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:38:36
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:38:36
+====== Empieza actualizar position :  20-06-09 13:38:36
+====== temina :  20-06-09 13:38:36
+======== Equipo : ATT-707 ======== 
+======= Empieza traer API === 20-06-09 13:38:36=== Last | until =>  2020-06-09 12:08:36|2020-06-09 13:38:36
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:38:36
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:38:36
+====== Empieza actualizar position :  20-06-09 13:38:36
+====== temina :  20-06-09 13:38:36
 ========= Empieza traer equipos === 
-====== teminar :  20-04-06 14:05:03
-======== Equipo : 76 ======== 
-======= Empieza traer API === 20-04-06 14:05:03=== Last | until =>  2020-02-11 17:37:02|2020-02-11 19:07:02
+====== teminar :  20-06-09 13:38:54
+======== Equipo : 2020 ======== 
+======= Empieza traer API === 20-06-09 13:38:54=== Last | until =>  2020-06-09 12:08:54|2020-06-09 13:38:54
 http://190.12.73.86/json/minesense/history.php
 <Response [200]>
-====== teminar :  20-04-06 14:05:03
-========= Empieza Insertar en BD ===> 1
-b"select public.datacamiones_tracking_update_last(76 ::bigint, ARRAY[0] ::  integer[],ARRAY[0.0] :: smallint[],ARRAY[292185.6992028999] :: bigint[],ARRAY[8645129.340095486] :: bigint[], ARRAY[46.0] :: bigint[],ARRAY[196.0] :: smallint[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY[291930.53251284827] :: bigint[], ARRAY[8644766.840711238] :: bigint[])"
-====== temina :  20-04-06 14:05:05
-========= Empieza traer equipos === 
-====== teminar :  20-04-06 15:00:02
-======== Equipo : 76 ======== 
-======= Empieza traer API === 20-04-06 15:00:02=== Last | until =>  2020-02-11 17:37:02|2020-02-11 19:07:02
+error al traer la data del api
+====== teminar :  20-06-09 13:38:54
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:38:54
+====== Empieza actualizar position :  20-06-09 13:38:54
+====== temina :  20-06-09 13:38:54
+======== Equipo : T9X-845 ======== 
+======= Empieza traer API === 20-06-09 13:38:54=== Last | until =>  2020-06-09 12:08:54|2020-06-09 13:38:54
 http://190.12.73.86/json/minesense/history.php
 <Response [200]>
-====== teminar :  20-04-06 15:00:02
-========= Empieza Insertar en BD ===> 1
-b"select public.datacamiones_tracking_update_last(76 ::bigint, ARRAY[0] ::  integer[],ARRAY[0.0] :: smallint[],ARRAY[292185.6992028999] :: bigint[],ARRAY[8645129.340095486] :: bigint[], ARRAY[46.0] :: bigint[],ARRAY[196.0] :: smallint[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY[291930.53251284827] :: bigint[], ARRAY[8644766.840711238] :: bigint[])"
-====== temina :  20-04-06 15:00:03
-========= Empieza traer equipos === 
-====== teminar :  20-04-06 15:05:03
-======== Equipo : 76 ======== 
-======= Empieza traer API === 20-04-06 15:05:03=== Last | until =>  2020-02-11 17:37:02|2020-02-11 19:07:02
+error al traer la data del api
+====== teminar :  20-06-09 13:38:54
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:38:55
+====== Empieza actualizar position :  20-06-09 13:38:55
+====== temina :  20-06-09 13:38:55
+======== Equipo : T9X-852 ======== 
+======= Empieza traer API === 20-06-09 13:38:55=== Last | until =>  2020-06-09 12:08:55|2020-06-09 13:38:55
 http://190.12.73.86/json/minesense/history.php
 <Response [200]>
-====== teminar :  20-04-06 15:05:03
-========= Empieza Insertar en BD ===> 1
-b"select public.datacamiones_tracking_update_last(76 ::bigint, ARRAY[0] ::  integer[],ARRAY[0.0] :: smallint[],ARRAY[292185.6992028999] :: bigint[],ARRAY[8645129.340095486] :: bigint[], ARRAY[46.0] :: bigint[],ARRAY[196.0] :: smallint[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY[291930.53251284827] :: bigint[], ARRAY[8644766.840711238] :: bigint[])"
-====== temina :  20-04-06 15:05:04
-========= Empieza traer equipos === 
-====== teminar :  20-04-06 15:10:02
-======== Equipo : 76 ======== 
-======= Empieza traer API === 20-04-06 15:10:02=== Last | until =>  2020-02-11 17:37:02|2020-02-11 19:07:02
+error al traer la data del api
+====== teminar :  20-06-09 13:38:55
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:38:55
+====== Empieza actualizar position :  20-06-09 13:38:55
+====== temina :  20-06-09 13:38:55
+======== Equipo : T9G-907 ======== 
+======= Empieza traer API === 20-06-09 13:38:55=== Last | until =>  2020-06-09 12:08:55|2020-06-09 13:38:55
 http://190.12.73.86/json/minesense/history.php
 <Response [200]>
-====== teminar :  20-04-06 15:10:03
-========= Empieza Insertar en BD ===> 1
-b"select public.datacamiones_tracking_update_last(76 ::bigint, ARRAY[0] ::  integer[],ARRAY[0.0] :: smallint[],ARRAY[292185.6992028999] :: bigint[],ARRAY[8645129.340095486] :: bigint[], ARRAY[46.0] :: bigint[],ARRAY[196.0] :: smallint[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY[291930.53251284827] :: bigint[], ARRAY[8644766.840711238] :: bigint[])"
-====== temina :  20-04-06 15:10:04
-========= Empieza traer equipos === 
-====== teminar :  20-04-06 15:15:03
-======== Equipo : 76 ======== 
-======= Empieza traer API === 20-04-06 15:15:03=== Last | until =>  2020-02-11 17:37:02|2020-02-11 19:07:02
+error al traer la data del api
+====== teminar :  20-06-09 13:38:56
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:38:56
+====== Empieza actualizar position :  20-06-09 13:38:56
+====== temina :  20-06-09 13:38:56
+======== Equipo : T9Y-936 ======== 
+======= Empieza traer API === 20-06-09 13:38:56=== Last | until =>  2020-06-09 12:08:56|2020-06-09 13:38:56
 http://190.12.73.86/json/minesense/history.php
 <Response [200]>
-====== teminar :  20-04-06 15:15:03
-========= Empieza Insertar en BD ===> 1
-b"select public.datacamiones_tracking_update_last(76 ::bigint, ARRAY[0] ::  integer[],ARRAY[0.0] :: smallint[],ARRAY[292185.6992028999] :: bigint[],ARRAY[8645129.340095486] :: bigint[], ARRAY[46.0] :: bigint[],ARRAY[196.0] :: smallint[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY[291930.53251284827] :: bigint[], ARRAY[8644766.840711238] :: bigint[])"
-====== temina :  20-04-06 15:15:04
-========= Empieza traer equipos === 
-====== teminar :  20-04-06 15:20:02
-======== Equipo : 76 ======== 
-======= Empieza traer API === 20-04-06 15:20:02=== Last | until =>  2020-02-11 17:37:02|2020-02-11 19:07:02
+error al traer la data del api
+====== teminar :  20-06-09 13:38:56
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:38:57
+====== Empieza actualizar position :  20-06-09 13:38:57
+====== temina :  20-06-09 13:38:57
+======== Equipo : T9S-812 ======== 
+======= Empieza traer API === 20-06-09 13:38:57=== Last | until =>  2020-06-09 12:08:57|2020-06-09 13:38:57
 http://190.12.73.86/json/minesense/history.php
 <Response [200]>
-====== teminar :  20-04-06 15:20:03
-========= Empieza Insertar en BD ===> 1
-b"select public.datacamiones_tracking_update_last(76 ::bigint, ARRAY[0] ::  integer[],ARRAY[0.0] :: smallint[],ARRAY[292185.6992028999] :: bigint[],ARRAY[8645129.340095486] :: bigint[], ARRAY[46.0] :: bigint[],ARRAY[196.0] :: smallint[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY[291930.53251284827] :: bigint[], ARRAY[8644766.840711238] :: bigint[])"
-====== temina :  20-04-06 15:20:04
-========= Empieza traer equipos === 
-====== teminar :  20-04-06 15:25:02
-======== Equipo : 76 ======== 
-======= Empieza traer API === 20-04-06 15:25:02=== Last | until =>  2020-02-11 17:37:02|2020-02-11 19:07:02
+error al traer la data del api
+====== teminar :  20-06-09 13:38:57
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:38:57
+====== Empieza actualizar position :  20-06-09 13:38:57
+====== temina :  20-06-09 13:38:57
+======== Equipo : T9G-913 ======== 
+======= Empieza traer API === 20-06-09 13:38:57=== Last | until =>  2020-06-09 12:08:57|2020-06-09 13:38:57
 http://190.12.73.86/json/minesense/history.php
 <Response [200]>
-====== teminar :  20-04-06 15:25:02
-========= Empieza Insertar en BD ===> 1
-b"select public.datacamiones_tracking_update_last(76 ::bigint, ARRAY[0] ::  integer[],ARRAY[0.0] :: smallint[],ARRAY[292185.6992028999] :: bigint[],ARRAY[8645129.340095486] :: bigint[], ARRAY[46.0] :: bigint[],ARRAY[196.0] :: smallint[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY[291930.53251284827] :: bigint[], ARRAY[8644766.840711238] :: bigint[])"
-====== temina :  20-04-06 15:25:03
-========= Empieza traer equipos === 
-====== teminar :  20-04-06 15:30:03
-======== Equipo : 76 ======== 
-======= Empieza traer API === 20-04-06 15:30:03=== Last | until =>  2020-02-11 17:37:02|2020-02-11 19:07:02
+error al traer la data del api
+====== teminar :  20-06-09 13:38:57
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:38:58
+====== Empieza actualizar position :  20-06-09 13:38:58
+====== temina :  20-06-09 13:38:58
+======== Equipo : T9H-889 ======== 
+======= Empieza traer API === 20-06-09 13:38:58=== Last | until =>  2020-06-09 12:08:58|2020-06-09 13:38:58
 http://190.12.73.86/json/minesense/history.php
 <Response [200]>
-====== teminar :  20-04-06 15:30:04
-========= Empieza Insertar en BD ===> 1
-b"select public.datacamiones_tracking_update_last(76 ::bigint, ARRAY[0] ::  integer[],ARRAY[0.0] :: smallint[],ARRAY[292185.6992028999] :: bigint[],ARRAY[8645129.340095486] :: bigint[], ARRAY[46.0] :: bigint[],ARRAY[196.0] :: smallint[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY[291930.53251284827] :: bigint[], ARRAY[8644766.840711238] :: bigint[])"
-====== temina :  20-04-06 15:30:05
-========= Empieza traer equipos === 
-====== teminar :  20-04-06 15:35:02
-======== Equipo : 76 ======== 
-======= Empieza traer API === 20-04-06 15:35:02=== Last | until =>  2020-02-11 17:37:02|2020-02-11 19:07:02
+error al traer la data del api
+====== teminar :  20-06-09 13:38:58
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:38:58
+====== Empieza actualizar position :  20-06-09 13:38:58
+====== temina :  20-06-09 13:38:58
+======== Equipo : AEU-862 ======== 
+======= Empieza traer API === 20-06-09 13:38:58=== Last | until =>  2020-06-09 12:08:58|2020-06-09 13:38:58
 http://190.12.73.86/json/minesense/history.php
 <Response [200]>
-====== teminar :  20-04-06 15:35:02
-========= Empieza Insertar en BD ===> 1
-b"select public.datacamiones_tracking_update_last(76 ::bigint, ARRAY[0] ::  integer[],ARRAY[0.0] :: smallint[],ARRAY[292185.6992028999] :: bigint[],ARRAY[8645129.340095486] :: bigint[], ARRAY[46.0] :: bigint[],ARRAY[196.0] :: smallint[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY[291930.53251284827] :: bigint[], ARRAY[8644766.840711238] :: bigint[])"
-====== temina :  20-04-06 15:35:03
-========= Empieza traer equipos === 
-====== teminar :  20-04-06 15:40:02
-======== Equipo : 76 ======== 
-======= Empieza traer API === 20-04-06 15:40:02=== Last | until =>  2020-02-11 17:37:02|2020-02-11 19:07:02
+error al traer la data del api
+====== teminar :  20-06-09 13:38:58
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:38:59
+====== Empieza actualizar position :  20-06-09 13:38:59
+====== temina :  20-06-09 13:38:59
+======== Equipo : ASM-855 ======== 
+======= Empieza traer API === 20-06-09 13:38:59=== Last | until =>  2020-06-09 12:08:59|2020-06-09 13:38:59
 http://190.12.73.86/json/minesense/history.php
 <Response [200]>
-====== teminar :  20-04-06 15:40:03
-========= Empieza Insertar en BD ===> 1
-b"select public.datacamiones_tracking_update_last(76 ::bigint, ARRAY[0] ::  integer[],ARRAY[0.0] :: smallint[],ARRAY[292185.6992028999] :: bigint[],ARRAY[8645129.340095486] :: bigint[], ARRAY[46.0] :: bigint[],ARRAY[196.0] :: smallint[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY[291930.53251284827] :: bigint[], ARRAY[8644766.840711238] :: bigint[])"
-====== temina :  20-04-06 15:40:03
-========= Empieza traer equipos === 
-====== teminar :  20-04-06 15:45:03
-======== Equipo : 76 ======== 
-======= Empieza traer API === 20-04-06 15:45:03=== Last | until =>  2020-02-11 17:37:02|2020-02-11 19:07:02
+====== teminar :  20-06-09 13:38:59
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:39:00
+====== Empieza actualizar position :  20-06-09 13:39:00
+====== temina :  20-06-09 13:39:00
+======== Equipo : T9G-874 ======== 
+======= Empieza traer API === 20-06-09 13:39:00=== Last | until =>  2020-06-09 12:09:00|2020-06-09 13:39:00
 http://190.12.73.86/json/minesense/history.php
 <Response [200]>
-====== teminar :  20-04-06 15:45:03
-========= Empieza Insertar en BD ===> 1
-b"select public.datacamiones_tracking_update_last(76 ::bigint, ARRAY[0] ::  integer[],ARRAY[0.0] :: smallint[],ARRAY[292185.6992028999] :: bigint[],ARRAY[8645129.340095486] :: bigint[], ARRAY[46.0] :: bigint[],ARRAY[196.0] :: smallint[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY[291930.53251284827] :: bigint[], ARRAY[8644766.840711238] :: bigint[])"
-====== temina :  20-04-06 15:45:04
-========= Empieza traer equipos === 
-====== teminar :  20-04-06 15:50:02
-======== Equipo : 76 ======== 
-======= Empieza traer API === 20-04-06 15:50:02=== Last | until =>  2020-02-11 17:37:02|2020-02-11 19:07:02
+error al traer la data del api
+====== teminar :  20-06-09 13:39:00
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:39:00
+====== Empieza actualizar position :  20-06-09 13:39:00
+====== temina :  20-06-09 13:39:00
+======== Equipo : AXM-920 ======== 
+======= Empieza traer API === 20-06-09 13:39:00=== Last | until =>  2020-06-09 12:09:00|2020-06-09 13:39:00
 http://190.12.73.86/json/minesense/history.php
 <Response [200]>
-====== teminar :  20-04-06 15:50:02
-========= Empieza Insertar en BD ===> 1
-b"select public.datacamiones_tracking_update_last(76 ::bigint, ARRAY[0] ::  integer[],ARRAY[0.0] :: smallint[],ARRAY[292185.6992028999] :: bigint[],ARRAY[8645129.340095486] :: bigint[], ARRAY[46.0] :: bigint[],ARRAY[196.0] :: smallint[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY[291930.53251284827] :: bigint[], ARRAY[8644766.840711238] :: bigint[])"
-====== temina :  20-04-06 15:50:03
-========= Empieza traer equipos === 
-====== teminar :  20-04-06 15:55:02
-======== Equipo : 76 ======== 
-======= Empieza traer API === 20-04-06 15:55:02=== Last | until =>  2020-02-11 17:37:02|2020-02-11 19:07:02
+{'time': '2020-06-09 12:09:02', 'altitude': 395800.0, 'longitude': -78637550.0, 'latitude': -6774210.0, 'direction': 157.0, 'velocity': 17.0, 'utm_x': 761130.8684704099, 'utm_y': 9250576.019243615, 'coorxLoc': 76138618.51593487, 'cooryLoc': 925105061.4853585, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 12:09:05', 'altitude': 396000.0, 'longitude': -78637510.0, 'latitude': -6774340.0, 'direction': 173.0, 'velocity': 17.0, 'utm_x': 761135.222285234, 'utm_y': 9250561.61483641, 'coorxLoc': 76139053.91665372, 'cooryLoc': 925103621.0383883, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 12:09:06', 'altitude': 396000.0, 'longitude': -78637510.0, 'latitude': -6774380.0, 'direction': 189.0, 'velocity': 16.0, 'utm_x': 761135.2007477887, 'utm_y': 9250557.189335275, 'coorxLoc': 76139051.76877403, 'cooryLoc': 925103178.4881562, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 12:09:07', 'altitude': 396000.0, 'longitude': -78637530.0, 'latitude': -6774420.0, 'direction': 210.0, 'velocity': 16.0, 'utm_x': 761132.9673058379, 'utm_y': 9250552.774598788, 'coorxLoc': 76138828.43035597, 'cooryLoc': 925102737.0173209, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 12:09:08', 'altitude': 396100.0, 'longitude': -78637560.0, 'latitude': -6774450.0, 'direction': 227.0, 'velocity': 16.0, 'utm_x': 761129.6332964082, 'utm_y': 9250549.471619856, 'coorxLoc': 76138495.03367987, 'cooryLoc': 925102406.7237366, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 12:09:09', 'altitude': 396200.0, 'longitude': -78637590.0, 'latitude': -6774470.0, 'direction': 246.0, 'velocity': 15.0, 'utm_x': 761126.3046716558, 'utm_y': 9250547.275016079, 'coorxLoc': 76138162.1740053, 'cooryLoc': 925102187.0676975, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 12:09:10', 'altitude': 396200.0, 'longitude': -78637630.0, 'latitude': -6774480.0, 'direction': 263.0, 'velocity': 16.0, 'utm_x': 761121.8754794564, 'utm_y': 9250546.190169526, 'coorxLoc': 76137719.25607589, 'cooryLoc': 925102078.5888767, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 12:09:11', 'altitude': 396200.0, 'longitude': -78637670.0, 'latitude': -6774480.0, 'direction': 278.0, 'velocity': 17.0, 'utm_x': 761117.45167165, 'utm_y': 9250546.211697834, 'coorxLoc': 76137276.87511958, 'cooryLoc': 925102080.7475716, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 12:09:26', 'altitude': 396500.0, 'longitude': -78638360.0, 'latitude': -6774420.0, 'direction': 260.0, 'velocity': 17.0, 'utm_x': 761041.1733015634, 'utm_y': 9250553.221251333, 'coorxLoc': 76129649.02628328, 'cooryLoc': 925102781.804254, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 12:09:49', 'altitude': 396300.0, 'longitude': -78640100.0, 'latitude': -6775020.0, 'direction': 246.0, 'velocity': 43.0, 'utm_x': 760848.4151287404, 'utm_y': 9250487.774699707, 'coorxLoc': 76110373.28933246, 'cooryLoc': 925096237.4023964, 'gpsAccuracy': 17.0}
+{'time': '2020-06-09 12:10:12', 'altitude': 396900.0, 'longitude': -78642220.0, 'latitude': -6775920.0, 'direction': 262.0, 'velocity': 39.0, 'utm_x': 760613.4704535822, 'utm_y': 9250389.340639899, 'coorxLoc': 76086878.9444666, 'cooryLoc': 925086394.3045375, 'gpsAccuracy': 15.0}
+{'time': '2020-06-09 12:10:17', 'altitude': 397100.0, 'longitude': -78642710.0, 'latitude': -6775890.0, 'direction': 278.0, 'velocity': 38.0, 'utm_x': 760559.2952740188, 'utm_y': 9250392.922991395, 'coorxLoc': 76081461.41996025, 'cooryLoc': 925086752.6116103, 'gpsAccuracy': 15.0}
+{'time': '2020-06-09 12:10:28', 'altitude': 397000.0, 'longitude': -78643740.0, 'latitude': -6775780.0, 'direction': 260.0, 'velocity': 32.0, 'utm_x': 760445.4420861166, 'utm_y': 9250405.646221705, 'coorxLoc': 76070076.08051968, 'cooryLoc': 925088025.0859658, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:10:30', 'altitude': 396900.0, 'longitude': -78643890.0, 'latitude': -6775840.0, 'direction': 238.0, 'velocity': 29.0, 'utm_x': 760428.8206978461, 'utm_y': 9250399.088534521, 'coorxLoc': 76068413.94983134, 'cooryLoc': 925087369.3390594, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:10:32', 'altitude': 396800.0, 'longitude': -78643990.0, 'latitude': -6775940.0, 'direction': 213.0, 'velocity': 28.0, 'utm_x': 760417.7075507864, 'utm_y': 9250388.078519197, 'coorxLoc': 76067302.64934841, 'cooryLoc': 925086268.35189, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:10:38', 'altitude': 396400.0, 'longitude': -78644180.0, 'latitude': -6776360.0, 'direction': 197.0, 'velocity': 33.0, 'utm_x': 760396.4690600355, 'utm_y': 9250341.712974252, 'coorxLoc': 76065178.86101985, 'cooryLoc': 925081631.8240027, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 12:10:41', 'altitude': 396200.0, 'longitude': -78644210.0, 'latitude': -6776630.0, 'direction': 182.0, 'velocity': 37.0, 'utm_x': 760393.0062225627, 'utm_y': 9250311.85708602, 'coorxLoc': 76064832.61672844, 'cooryLoc': 925078646.2387761, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 12:10:51', 'altitude': 395700.0, 'longitude': -78644310.0, 'latitude': -6777560.0, 'direction': 166.0, 'velocity': 35.0, 'utm_x': 760381.4473026975, 'utm_y': 9250209.018353876, 'coorxLoc': 76063676.86066006, 'cooryLoc': 925068362.3774614, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 12:10:52', 'altitude': 395700.0, 'longitude': -78644280.0, 'latitude': -6777630.0, 'direction': 151.0, 'velocity': 33.0, 'utm_x': 760384.7275218286, 'utm_y': 9250201.257655064, 'coorxLoc': 76064004.89296831, 'cooryLoc': 925067586.3029745, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 12:10:54', 'altitude': 395600.0, 'longitude': -78644170.0, 'latitude': -6777760.0, 'direction': 132.0, 'velocity': 33.0, 'utm_x': 760396.8230247675, 'utm_y': 9250186.815777607, 'coorxLoc': 76065214.46280581, 'cooryLoc': 925066142.098717, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 12:11:00', 'altitude': 395400.0, 'longitude': -78643800.0, 'latitude': -6778130.0, 'direction': 150.0, 'velocity': 29.0, 'utm_x': 760437.5439929646, 'utm_y': 9250145.68137264, 'coorxLoc': 76069286.61549957, 'cooryLoc': 925062028.6028806, 'gpsAccuracy': 17.0}
+{'time': '2020-06-09 12:11:01', 'altitude': 395300.0, 'longitude': -78643780.0, 'latitude': -6778190.0, 'direction': 165.0, 'velocity': 25.0, 'utm_x': 760439.7236324392, 'utm_y': 9250139.032407599, 'coorxLoc': 76069504.58833209, 'cooryLoc': 925061363.7032664, 'gpsAccuracy': 17.0}
+{'time': '2020-06-09 12:11:02', 'altitude': 395200.0, 'longitude': -78643770.0, 'latitude': -6778240.0, 'direction': 184.0, 'velocity': 20.0, 'utm_x': 760440.80270566, 'utm_y': 9250133.495183857, 'coorxLoc': 76069612.50302911, 'cooryLoc': 925060809.9792776, 'gpsAccuracy': 17.0}
+{'time': '2020-06-09 12:11:03', 'altitude': 395200.0, 'longitude': -78643790.0, 'latitude': -6778290.0, 'direction': 201.0, 'velocity': 20.0, 'utm_x': 760438.5639630418, 'utm_y': 9250127.974073142, 'coorxLoc': 76069388.63601051, 'cooryLoc': 925060257.8709898, 'gpsAccuracy': 17.0}
+{'time': '2020-06-09 12:11:04', 'altitude': 395200.0, 'longitude': -78643820.0, 'latitude': -6778340.0, 'direction': 219.0, 'velocity': 22.0, 'utm_x': 760435.2192823833, 'utm_y': 9250122.458333476, 'coorxLoc': 76069054.17514399, 'cooryLoc': 925059706.3012729, 'gpsAccuracy': 17.0}
+{'time': '2020-06-09 12:11:05', 'altitude': 395100.0, 'longitude': -78643860.0, 'latitude': -6778380.0, 'direction': 238.0, 'velocity': 24.0, 'utm_x': 760430.7740371277, 'utm_y': 9250118.054335259, 'coorxLoc': 76068609.65630764, 'cooryLoc': 925059265.9071963, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 12:11:06', 'altitude': 395000.0, 'longitude': -78643920.0, 'latitude': -6778400.0, 'direction': 257.0, 'velocity': 25.0, 'utm_x': 760424.1276622728, 'utm_y': 9250115.873819487, 'coorxLoc': 76067945.02149113, 'cooryLoc': 925059047.8643557, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 12:11:07', 'altitude': 395000.0, 'longitude': -78643990.0, 'latitude': -6778400.0, 'direction': 276.0, 'velocity': 28.0, 'utm_x': 760416.3860956943, 'utm_y': 9250115.911414525, 'coorxLoc': 76067170.86452594, 'cooryLoc': 925059051.6341215, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 12:11:08', 'altitude': 394900.0, 'longitude': -78644060.0, 'latitude': -6778380.0, 'direction': 294.0, 'velocity': 30.0, 'utm_x': 760408.655274642, 'utm_y': 9250118.161749115, 'coorxLoc': 76066397.77918099, 'cooryLoc': 925059276.6779019, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 12:11:10', 'altitude': 394600.0, 'longitude': -78644180.0, 'latitude': -6778280.0, 'direction': 315.0, 'velocity': 32.0, 'utm_x': 760395.4377411357, 'utm_y': 9250129.289895443, 'coorxLoc': 76065076.01064146, 'cooryLoc': 925060389.5104233, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 12:11:16', 'altitude': 394100.0, 'longitude': -78644530.0, 'latitude': -6777800.0, 'direction': 337.0, 'velocity': 41.0, 'utm_x': 760356.9877281016, 'utm_y': 9250182.583593313, 'coorxLoc': 76061230.93742357, 'cooryLoc': 925065718.9329445, 'gpsAccuracy': 17.0}
+{'time': '2020-06-09 12:11:18', 'altitude': 394000.0, 'longitude': -78644570.0, 'latitude': -6777590.0, 'direction': 357.0, 'velocity': 41.0, 'utm_x': 760352.676760125, 'utm_y': 9250205.838837061, 'coorxLoc': 76060799.80965999, 'cooryLoc': 925068044.4638066, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 12:11:24', 'altitude': 393600.0, 'longitude': -78644660.0, 'latitude': -6776970.0, 'direction': 334.0, 'velocity': 40.0, 'utm_x': 760343.056265388, 'utm_y': 9250274.482083598, 'coorxLoc': 76059837.66888644, 'cooryLoc': 925074908.8034947, 'gpsAccuracy': 17.0}
+{'time': '2020-06-09 12:11:27', 'altitude': 393500.0, 'longitude': -78644830.0, 'latitude': -6776730.0, 'direction': 316.0, 'velocity': 40.0, 'utm_x': 760324.3841431306, 'utm_y': 9250301.126208536, 'coorxLoc': 76057970.42072546, 'cooryLoc': 925077573.2416227, 'gpsAccuracy': 17.0}
+{'time': '2020-06-09 12:11:33', 'altitude': 393000.0, 'longitude': -78645330.0, 'latitude': -6776270.0, 'direction': 301.0, 'velocity': 47.0, 'utm_x': 760269.3340279036, 'utm_y': 9250352.287537806, 'coorxLoc': 76052465.33956237, 'cooryLoc': 925082689.4492149, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 12:11:35', 'altitude': 392800.0, 'longitude': -78645550.0, 'latitude': -6776180.0, 'direction': 283.0, 'velocity': 47.0, 'utm_x': 760245.0516154375, 'utm_y': 9250362.362904413, 'coorxLoc': 76050037.08415417, 'cooryLoc': 925083697.0183946, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 12:11:37', 'altitude': 392700.0, 'longitude': -78645790.0, 'latitude': -6776160.0, 'direction': 266.0, 'velocity': 47.0, 'utm_x': 760218.5197453424, 'utm_y': 9250364.704404015, 'coorxLoc': 76047383.89315875, 'cooryLoc': 925083931.2035981, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 12:11:46', 'altitude': 391800.0, 'longitude': -78646850.0, 'latitude': -6776210.0, 'direction': 288.0, 'velocity': 41.0, 'utm_x': 760101.2631381806, 'utm_y': 9250359.741102397, 'coorxLoc': 76035658.23512076, 'cooryLoc': 925083435.0286834, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 12:12:03', 'altitude': 390500.0, 'longitude': -78648710.0, 'latitude': -6775570.0, 'direction': 272.0, 'velocity': 46.0, 'utm_x': 759895.9013139746, 'utm_y': 9250431.545578046, 'coorxLoc': 76015121.95069969, 'cooryLoc': 925090615.7508235, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 12:12:19', 'altitude': 389100.0, 'longitude': -78650570.0, 'latitude': -6775540.0, 'direction': 255.0, 'velocity': 36.0, 'utm_x': 759690.2125143516, 'utm_y': 9250435.860802004, 'coorxLoc': 75994553.0581764, 'cooryLoc': 925091047.5459831, 'gpsAccuracy': 17.0}
+{'time': '2020-06-09 12:12:43', 'altitude': 388300.0, 'longitude': -78652090.0, 'latitude': -6776110.0, 'direction': 240.0, 'velocity': 25.0, 'utm_x': 759521.8047269045, 'utm_y': 9250373.61150359, 'coorxLoc': 75977712.35633546, 'cooryLoc': 925084822.837279, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 12:12:50', 'altitude': 388000.0, 'longitude': -78652590.0, 'latitude': -6776360.0, 'direction': 255.0, 'velocity': 37.0, 'utm_x': 759466.3741019901, 'utm_y': 9250346.21990164, 'coorxLoc': 75972169.32830517, 'cooryLoc': 925082083.749641, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 12:13:10', 'altitude': 387000.0, 'longitude': -78654660.0, 'latitude': -6776860.0, 'direction': 238.0, 'velocity': 41.0, 'utm_x': 759237.1781592864, 'utm_y': 9250292.008635689, 'coorxLoc': 75949249.79826301, 'cooryLoc': 925076662.9250191, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 12:13:21', 'altitude': 386300.0, 'longitude': -78655610.0, 'latitude': -6777340.0, 'direction': 224.0, 'velocity': 33.0, 'utm_x': 759131.8579634477, 'utm_y': 9250239.410969205, 'coorxLoc': 75938717.84488903, 'cooryLoc': 925071403.2962129, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 12:13:23', 'altitude': 386100.0, 'longitude': -78655700.0, 'latitude': -6777490.0, 'direction': 202.0, 'velocity': 35.0, 'utm_x': 759121.8244027155, 'utm_y': 9250222.863638526, 'coorxLoc': 75937714.51041393, 'cooryLoc': 925069748.575893, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:13:30', 'altitude': 385800.0, 'longitude': -78655920.0, 'latitude': -6778070.0, 'direction': 221.0, 'velocity': 32.0, 'utm_x': 759097.1839129952, 'utm_y': 9250158.812238019, 'coorxLoc': 75935250.54551615, 'cooryLoc': 925063343.4663706, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:13:32', 'altitude': 385700.0, 'longitude': -78656060.0, 'latitude': -6778170.0, 'direction': 247.0, 'velocity': 35.0, 'utm_x': 759081.647450714, 'utm_y': 9250147.823429175, 'coorxLoc': 75933696.91333584, 'cooryLoc': 925062244.6057127, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:13:57', 'altitude': 384400.0, 'longitude': -78658690.0, 'latitude': -6779090.0, 'direction': 248.0, 'velocity': 44.0, 'utm_x': 758790.2971160297, 'utm_y': 9250047.442785233, 'coorxLoc': 75904562.00322123, 'cooryLoc': 925052206.9241358, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:14:05', 'altitude': 384000.0, 'longitude': -78659480.0, 'latitude': -6779600.0, 'direction': 232.0, 'velocity': 46.0, 'utm_x': 758702.656817209, 'utm_y': 9249991.440102411, 'coorxLoc': 75895798.04465012, 'cooryLoc': 925046606.7701495, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:14:10', 'altitude': 383700.0, 'longitude': -78659870.0, 'latitude': -6780020.0, 'direction': 217.0, 'velocity': 44.0, 'utm_x': 758659.3016376442, 'utm_y': 9249945.181153368, 'coorxLoc': 75891462.58656324, 'cooryLoc': 925041980.9311695, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 12:14:17', 'altitude': 383300.0, 'longitude': -78660280.0, 'latitude': -6780720.0, 'direction': 199.0, 'velocity': 47.0, 'utm_x': 758613.5852478738, 'utm_y': 9249867.954844344, 'coorxLoc': 75886891.04842147, 'cooryLoc': 925034258.358291, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:14:29', 'altitude': 382900.0, 'longitude': -78660640.0, 'latitude': -6781960.0, 'direction': 174.0, 'velocity': 30.0, 'utm_x': 758573.1103440683, 'utm_y': 9249730.958553838, 'coorxLoc': 75882843.73826975, 'cooryLoc': 925020558.778329, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:14:31', 'altitude': 382800.0, 'longitude': -78660590.0, 'latitude': -6782100.0, 'direction': 157.0, 'velocity': 30.0, 'utm_x': 758578.5652025318, 'utm_y': 9249715.442869574, 'coorxLoc': 75883389.24486203, 'cooryLoc': 925019007.2021567, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:14:40', 'altitude': 382500.0, 'longitude': -78660350.0, 'latitude': -6782740.0, 'direction': 172.0, 'velocity': 19.0, 'utm_x': 758604.7655438441, 'utm_y': 9249644.507906284, 'coorxLoc': 75886009.37388207, 'cooryLoc': 925011913.6687424, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:14:43', 'altitude': 382400.0, 'longitude': -78660360.0, 'latitude': -6782880.0, 'direction': 190.0, 'velocity': 16.0, 'utm_x': 758603.5848857423, 'utm_y': 9249629.02423263, 'coorxLoc': 75885891.32855469, 'cooryLoc': 925010365.3024267, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:14:45', 'altitude': 382400.0, 'longitude': -78660390.0, 'latitude': -6782950.0, 'direction': 211.0, 'velocity': 13.0, 'utm_x': 758600.2297689707, 'utm_y': 9249621.295737578, 'coorxLoc': 75885555.8270093, 'cooryLoc': 925009592.4571114, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:14:48', 'altitude': 382300.0, 'longitude': -78660450.0, 'latitude': -6783030.0, 'direction': 229.0, 'velocity': 15.0, 'utm_x': 758593.5515698716, 'utm_y': 9249612.476894662, 'coorxLoc': 75884888.01856576, 'cooryLoc': 925008710.5813777, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:15:05', 'altitude': 382000.0, 'longitude': -78661030.0, 'latitude': -6783540.0, 'direction': 206.0, 'velocity': 17.0, 'utm_x': 758529.1363117336, 'utm_y': 9249556.36215222, 'coorxLoc': 75878446.56498398, 'cooryLoc': 925003099.1906432, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:15:09', 'altitude': 382000.0, 'longitude': -78661090.0, 'latitude': -6783700.0, 'direction': 188.0, 'velocity': 15.0, 'utm_x': 758522.4154296672, 'utm_y': 9249538.692448284, 'coorxLoc': 75877774.49997324, 'cooryLoc': 925001332.2285697, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:15:10', 'altitude': 382000.0, 'longitude': -78661080.0, 'latitude': -6783740.0, 'direction': 169.0, 'velocity': 16.0, 'utm_x': 758523.499991057, 'utm_y': 9249534.26168322, 'coorxLoc': 75877882.96202083, 'cooryLoc': 925000889.1504785, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:15:11', 'altitude': 382000.0, 'longitude': -78661070.0, 'latitude': -6783780.0, 'direction': 147.0, 'velocity': 17.0, 'utm_x': 758524.584552146, 'utm_y': 9249529.830918064, 'coorxLoc': 75877991.42403834, 'cooryLoc': 925000446.072378, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:15:15', 'altitude': 382000.0, 'longitude': -78660980.0, 'latitude': -6783920.0, 'direction': 180.0, 'velocity': 15.0, 'utm_x': 758534.4630309604, 'utm_y': 9249514.293891305, 'coorxLoc': 75878979.29284117, 'cooryLoc': 924998892.3560923, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:15:16', 'altitude': 382000.0, 'longitude': -78660990.0, 'latitude': -6783950.0, 'direction': 197.0, 'velocity': 14.0, 'utm_x': 758533.3411040927, 'utm_y': 9249510.980155066, 'coorxLoc': 75878867.1045091, 'cooryLoc': 924998560.9838452, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:15:17', 'altitude': 382000.0, 'longitude': -78661010.0, 'latitude': -6783990.0, 'direction': 215.0, 'velocity': 14.0, 'utm_x': 758531.1079269918, 'utm_y': 9249506.565397482, 'coorxLoc': 75878643.79257606, 'cooryLoc': 924998119.5108999, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:15:19', 'altitude': 381900.0, 'longitude': -78661060.0, 'latitude': -6784030.0, 'direction': 242.0, 'velocity': 11.0, 'utm_x': 758525.5570142558, 'utm_y': 9249502.166647924, 'coorxLoc': 75878088.70694794, 'cooryLoc': 924997679.6431549, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 12:15:21', 'altitude': 381900.0, 'longitude': -78661110.0, 'latitude': -6784040.0, 'direction': 264.0, 'velocity': 10.0, 'utm_x': 758520.0221165647, 'utm_y': 9249501.086970124, 'coorxLoc': 75877535.21842574, 'cooryLoc': 924997571.682675, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 12:15:23', 'altitude': 381900.0, 'longitude': -78661160.0, 'latitude': -6784040.0, 'direction': 292.0, 'velocity': 9.0, 'utm_x': 758514.492557182, 'utm_y': 9249501.113649132, 'coorxLoc': 75876982.26226817, 'cooryLoc': 924997574.3579054, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:15:24', 'altitude': 381900.0, 'longitude': -78661180.0, 'latitude': -6784020.0, 'direction': 306.0, 'velocity': 9.0, 'utm_x': 758512.2914091627, 'utm_y': 9249503.33703515, 'coorxLoc': 75876762.14444615, 'cooryLoc': 924997796.6994987, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:15:26', 'altitude': 382000.0, 'longitude': -78661210.0, 'latitude': -6783990.0, 'direction': 328.0, 'velocity': 7.0, 'utm_x': 758508.9896867909, 'utm_y': 9249506.672113884, 'coorxLoc': 75876431.96767883, 'cooryLoc': 924998130.2118592, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:15:28', 'altitude': 381900.0, 'longitude': -78661220.0, 'latitude': -6783950.0, 'direction': 351.0, 'velocity': 8.0, 'utm_x': 758507.9051256655, 'utm_y': 9249511.102878481, 'coorxLoc': 75876323.50565767, 'cooryLoc': 924998573.2899036, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:15:51', 'altitude': 381900.0, 'longitude': -78661230.0, 'latitude': -6783910.0, 'direction': 121.0, 'velocity': 0.0, 'utm_x': 758506.8205642408, 'utm_y': 9249515.533642987, 'coorxLoc': 75876215.0436066, 'cooryLoc': 924999016.3679391, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:20:30', 'altitude': 382000.0, 'longitude': -78661230.0, 'latitude': -6783890.0, 'direction': 63.0, 'velocity': 0.0, 'utm_x': 758506.831239488, 'utm_y': 9249517.746357474, 'coorxLoc': 75876216.10819893, 'cooryLoc': 924999237.6394473, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 12:20:33', 'altitude': 382000.0, 'longitude': -78661230.0, 'latitude': -6783890.0, 'direction': 63.0, 'velocity': 0.0, 'utm_x': 758506.831239488, 'utm_y': 9249517.746357474, 'coorxLoc': 75876216.10819893, 'cooryLoc': 924999237.6394473, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 12:21:30', 'altitude': 382000.0, 'longitude': -78661240.0, 'latitude': -6783890.0, 'direction': 63.0, 'velocity': 0.0, 'utm_x': 758505.7253273453, 'utm_y': 9249517.751692932, 'coorxLoc': 75876105.5169408, 'cooryLoc': 924999238.1744591, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 12:22:30', 'altitude': 382000.0, 'longitude': -78661240.0, 'latitude': -6783890.0, 'direction': 63.0, 'velocity': 0.0, 'utm_x': 758505.7253273453, 'utm_y': 9249517.751692932, 'coorxLoc': 75876105.5169408, 'cooryLoc': 924999238.1744591, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:23:30', 'altitude': 382000.0, 'longitude': -78661240.0, 'latitude': -6783890.0, 'direction': 63.0, 'velocity': 0.0, 'utm_x': 758505.7253273453, 'utm_y': 9249517.751692932, 'coorxLoc': 75876105.5169408, 'cooryLoc': 924999238.1744591, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:24:30', 'altitude': 382000.0, 'longitude': -78661240.0, 'latitude': -6783890.0, 'direction': 63.0, 'velocity': 0.0, 'utm_x': 758505.7253273453, 'utm_y': 9249517.751692932, 'coorxLoc': 75876105.5169408, 'cooryLoc': 924999238.1744591, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 12:25:30', 'altitude': 382000.0, 'longitude': -78661240.0, 'latitude': -6783890.0, 'direction': 63.0, 'velocity': 0.0, 'utm_x': 758505.7253273453, 'utm_y': 9249517.751692932, 'coorxLoc': 75876105.5169408, 'cooryLoc': 924999238.1744591, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:26:30', 'altitude': 382000.0, 'longitude': -78661240.0, 'latitude': -6783890.0, 'direction': 63.0, 'velocity': 0.0, 'utm_x': 758505.7253273453, 'utm_y': 9249517.751692932, 'coorxLoc': 75876105.5169408, 'cooryLoc': 924999238.1744591, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 12:27:30', 'altitude': 382000.0, 'longitude': -78661240.0, 'latitude': -6783890.0, 'direction': 63.0, 'velocity': 0.0, 'utm_x': 758505.7253273453, 'utm_y': 9249517.751692932, 'coorxLoc': 75876105.5169408, 'cooryLoc': 924999238.1744591, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:28:30', 'altitude': 382100.0, 'longitude': -78661240.0, 'latitude': -6783890.0, 'direction': 63.0, 'velocity': 0.0, 'utm_x': 758505.7253273453, 'utm_y': 9249517.751692932, 'coorxLoc': 75876105.5169408, 'cooryLoc': 924999238.1744591, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:29:30', 'altitude': 382100.0, 'longitude': -78661240.0, 'latitude': -6783890.0, 'direction': 63.0, 'velocity': 0.0, 'utm_x': 758505.7253273453, 'utm_y': 9249517.751692932, 'coorxLoc': 75876105.5169408, 'cooryLoc': 924999238.1744591, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 12:30:30', 'altitude': 382100.0, 'longitude': -78661240.0, 'latitude': -6783890.0, 'direction': 63.0, 'velocity': 0.0, 'utm_x': 758505.7253273453, 'utm_y': 9249517.751692932, 'coorxLoc': 75876105.5169408, 'cooryLoc': 924999238.1744591, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:31:30', 'altitude': 382100.0, 'longitude': -78661240.0, 'latitude': -6783890.0, 'direction': 63.0, 'velocity': 0.0, 'utm_x': 758505.7253273453, 'utm_y': 9249517.751692932, 'coorxLoc': 75876105.5169408, 'cooryLoc': 924999238.1744591, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:32:30', 'altitude': 382100.0, 'longitude': -78661240.0, 'latitude': -6783890.0, 'direction': 344.0, 'velocity': 0.0, 'utm_x': 758505.7253273453, 'utm_y': 9249517.751692932, 'coorxLoc': 75876105.5169408, 'cooryLoc': 924999238.1744591, 'gpsAccuracy': 21.0}
+{'time': '2020-06-09 12:33:30', 'altitude': 382100.0, 'longitude': -78661240.0, 'latitude': -6783890.0, 'direction': 344.0, 'velocity': 0.0, 'utm_x': 758505.7253273453, 'utm_y': 9249517.751692932, 'coorxLoc': 75876105.5169408, 'cooryLoc': 924999238.1744591, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:34:30', 'altitude': 382100.0, 'longitude': -78661240.0, 'latitude': -6783890.0, 'direction': 344.0, 'velocity': 0.0, 'utm_x': 758505.7253273453, 'utm_y': 9249517.751692932, 'coorxLoc': 75876105.5169408, 'cooryLoc': 924999238.1744591, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:35:30', 'altitude': 382100.0, 'longitude': -78661240.0, 'latitude': -6783880.0, 'direction': 344.0, 'velocity': 0.0, 'utm_x': 758505.7306649343, 'utm_y': 9249518.858050168, 'coorxLoc': 75876106.04923351, 'cooryLoc': 924999348.8102124, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 12:36:30', 'altitude': 382100.0, 'longitude': -78661240.0, 'latitude': -6783880.0, 'direction': 344.0, 'velocity': 0.0, 'utm_x': 758505.7306649343, 'utm_y': 9249518.858050168, 'coorxLoc': 75876106.04923351, 'cooryLoc': 924999348.8102124, 'gpsAccuracy': 21.0}
+{'time': '2020-06-09 12:37:30', 'altitude': 382100.0, 'longitude': -78661240.0, 'latitude': -6783880.0, 'direction': 344.0, 'velocity': 0.0, 'utm_x': 758505.7306649343, 'utm_y': 9249518.858050168, 'coorxLoc': 75876106.04923351, 'cooryLoc': 924999348.8102124, 'gpsAccuracy': 21.0}
+{'time': '2020-06-09 12:38:30', 'altitude': 382100.0, 'longitude': -78661240.0, 'latitude': -6783880.0, 'direction': 344.0, 'velocity': 0.0, 'utm_x': 758505.7306649343, 'utm_y': 9249518.858050168, 'coorxLoc': 75876106.04923351, 'cooryLoc': 924999348.8102124, 'gpsAccuracy': 21.0}
+{'time': '2020-06-09 12:39:30', 'altitude': 382100.0, 'longitude': -78661240.0, 'latitude': -6783880.0, 'direction': 344.0, 'velocity': 0.0, 'utm_x': 758505.7306649343, 'utm_y': 9249518.858050168, 'coorxLoc': 75876106.04923351, 'cooryLoc': 924999348.8102124, 'gpsAccuracy': 21.0}
+{'time': '2020-06-09 12:40:30', 'altitude': 382100.0, 'longitude': -78661240.0, 'latitude': -6783880.0, 'direction': 344.0, 'velocity': 0.0, 'utm_x': 758505.7306649343, 'utm_y': 9249518.858050168, 'coorxLoc': 75876106.04923351, 'cooryLoc': 924999348.8102124, 'gpsAccuracy': 21.0}
+{'time': '2020-06-09 12:41:30', 'altitude': 382100.0, 'longitude': -78661240.0, 'latitude': -6783880.0, 'direction': 344.0, 'velocity': 0.0, 'utm_x': 758505.7306649343, 'utm_y': 9249518.858050168, 'coorxLoc': 75876106.04923351, 'cooryLoc': 924999348.8102124, 'gpsAccuracy': 21.0}
+{'time': '2020-06-09 12:42:30', 'altitude': 382100.0, 'longitude': -78661240.0, 'latitude': -6783880.0, 'direction': 344.0, 'velocity': 0.0, 'utm_x': 758505.7306649343, 'utm_y': 9249518.858050168, 'coorxLoc': 75876106.04923351, 'cooryLoc': 924999348.8102124, 'gpsAccuracy': 21.0}
+{'time': '2020-06-09 12:43:30', 'altitude': 382100.0, 'longitude': -78661240.0, 'latitude': -6783880.0, 'direction': 344.0, 'velocity': 0.0, 'utm_x': 758505.7306649343, 'utm_y': 9249518.858050168, 'coorxLoc': 75876106.04923351, 'cooryLoc': 924999348.8102124, 'gpsAccuracy': 22.0}
+{'time': '2020-06-09 12:44:30', 'altitude': 382100.0, 'longitude': -78661240.0, 'latitude': -6783880.0, 'direction': 344.0, 'velocity': 0.0, 'utm_x': 758505.7306649343, 'utm_y': 9249518.858050168, 'coorxLoc': 75876106.04923351, 'cooryLoc': 924999348.8102124, 'gpsAccuracy': 21.0}
+{'time': '2020-06-09 12:45:30', 'altitude': 382100.0, 'longitude': -78661240.0, 'latitude': -6783880.0, 'direction': 344.0, 'velocity': 0.0, 'utm_x': 758505.7306649343, 'utm_y': 9249518.858050168, 'coorxLoc': 75876106.04923351, 'cooryLoc': 924999348.8102124, 'gpsAccuracy': 22.0}
+{'time': '2020-06-09 12:46:30', 'altitude': 382100.0, 'longitude': -78661240.0, 'latitude': -6783880.0, 'direction': 344.0, 'velocity': 0.0, 'utm_x': 758505.7306649343, 'utm_y': 9249518.858050168, 'coorxLoc': 75876106.04923351, 'cooryLoc': 924999348.8102124, 'gpsAccuracy': 22.0}
+{'time': '2020-06-09 12:47:30', 'altitude': 382100.0, 'longitude': -78661240.0, 'latitude': -6783880.0, 'direction': 344.0, 'velocity': 0.0, 'utm_x': 758505.7306649343, 'utm_y': 9249518.858050168, 'coorxLoc': 75876106.04923351, 'cooryLoc': 924999348.8102124, 'gpsAccuracy': 22.0}
+{'time': '2020-06-09 12:48:30', 'altitude': 382100.0, 'longitude': -78661240.0, 'latitude': -6783880.0, 'direction': 344.0, 'velocity': 0.0, 'utm_x': 758505.7306649343, 'utm_y': 9249518.858050168, 'coorxLoc': 75876106.04923351, 'cooryLoc': 924999348.8102124, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 12:49:30', 'altitude': 382200.0, 'longitude': -78661240.0, 'latitude': -6783880.0, 'direction': 344.0, 'velocity': 0.0, 'utm_x': 758505.7306649343, 'utm_y': 9249518.858050168, 'coorxLoc': 75876106.04923351, 'cooryLoc': 924999348.8102124, 'gpsAccuracy': 22.0}
+{'time': '2020-06-09 12:50:30', 'altitude': 382200.0, 'longitude': -78661240.0, 'latitude': -6783880.0, 'direction': 344.0, 'velocity': 0.0, 'utm_x': 758505.7306649343, 'utm_y': 9249518.858050168, 'coorxLoc': 75876106.04923351, 'cooryLoc': 924999348.8102124, 'gpsAccuracy': 21.0}
+{'time': '2020-06-09 12:51:30', 'altitude': 382200.0, 'longitude': -78661240.0, 'latitude': -6783880.0, 'direction': 344.0, 'velocity': 0.0, 'utm_x': 758505.7306649343, 'utm_y': 9249518.858050168, 'coorxLoc': 75876106.04923351, 'cooryLoc': 924999348.8102124, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:52:30', 'altitude': 382200.0, 'longitude': -78661240.0, 'latitude': -6783880.0, 'direction': 344.0, 'velocity': 0.0, 'utm_x': 758505.7306649343, 'utm_y': 9249518.858050168, 'coorxLoc': 75876106.04923351, 'cooryLoc': 924999348.8102124, 'gpsAccuracy': 21.0}
+{'time': '2020-06-09 12:53:30', 'altitude': 382200.0, 'longitude': -78661240.0, 'latitude': -6783880.0, 'direction': 344.0, 'velocity': 0.0, 'utm_x': 758505.7306649343, 'utm_y': 9249518.858050168, 'coorxLoc': 75876106.04923351, 'cooryLoc': 924999348.8102124, 'gpsAccuracy': 21.0}
+{'time': '2020-06-09 12:54:30', 'altitude': 382200.0, 'longitude': -78661240.0, 'latitude': -6783880.0, 'direction': 344.0, 'velocity': 0.0, 'utm_x': 758505.7306649343, 'utm_y': 9249518.858050168, 'coorxLoc': 75876106.04923351, 'cooryLoc': 924999348.8102124, 'gpsAccuracy': 21.0}
+{'time': '2020-06-09 12:55:30', 'altitude': 382200.0, 'longitude': -78661240.0, 'latitude': -6783880.0, 'direction': 344.0, 'velocity': 0.0, 'utm_x': 758505.7306649343, 'utm_y': 9249518.858050168, 'coorxLoc': 75876106.04923351, 'cooryLoc': 924999348.8102124, 'gpsAccuracy': 21.0}
+{'time': '2020-06-09 12:56:30', 'altitude': 382200.0, 'longitude': -78661240.0, 'latitude': -6783880.0, 'direction': 344.0, 'velocity': 0.0, 'utm_x': 758505.7306649343, 'utm_y': 9249518.858050168, 'coorxLoc': 75876106.04923351, 'cooryLoc': 924999348.8102124, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 12:57:30', 'altitude': 382200.0, 'longitude': -78661240.0, 'latitude': -6783880.0, 'direction': 344.0, 'velocity': 0.0, 'utm_x': 758505.7306649343, 'utm_y': 9249518.858050168, 'coorxLoc': 75876106.04923351, 'cooryLoc': 924999348.8102124, 'gpsAccuracy': 21.0}
+{'time': '2020-06-09 12:58:30', 'altitude': 382200.0, 'longitude': -78661240.0, 'latitude': -6783880.0, 'direction': 344.0, 'velocity': 0.0, 'utm_x': 758505.7306649343, 'utm_y': 9249518.858050168, 'coorxLoc': 75876106.04923351, 'cooryLoc': 924999348.8102124, 'gpsAccuracy': 21.0}
+{'time': '2020-06-09 12:59:30', 'altitude': 382200.0, 'longitude': -78661240.0, 'latitude': -6783880.0, 'direction': 344.0, 'velocity': 0.0, 'utm_x': 758505.7306649343, 'utm_y': 9249518.858050168, 'coorxLoc': 75876106.04923351, 'cooryLoc': 924999348.8102124, 'gpsAccuracy': 21.0}
+{'time': '2020-06-09 13:00:30', 'altitude': 382200.0, 'longitude': -78661240.0, 'latitude': -6783880.0, 'direction': 344.0, 'velocity': 0.0, 'utm_x': 758505.7306649343, 'utm_y': 9249518.858050168, 'coorxLoc': 75876106.04923351, 'cooryLoc': 924999348.8102124, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 13:01:30', 'altitude': 382200.0, 'longitude': -78661240.0, 'latitude': -6783880.0, 'direction': 344.0, 'velocity': 0.0, 'utm_x': 758505.7306649343, 'utm_y': 9249518.858050168, 'coorxLoc': 75876106.04923351, 'cooryLoc': 924999348.8102124, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 13:02:30', 'altitude': 382200.0, 'longitude': -78661240.0, 'latitude': -6783880.0, 'direction': 30.0, 'velocity': 0.0, 'utm_x': 758505.7306649343, 'utm_y': 9249518.858050168, 'coorxLoc': 75876106.04923351, 'cooryLoc': 924999348.8102124, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 13:02:51', 'altitude': 382300.0, 'longitude': -78661240.0, 'latitude': -6783860.0, 'direction': 358.0, 'velocity': 8.0, 'utm_x': 758505.7413400888, 'utm_y': 9249521.070764637, 'coorxLoc': 75876107.11381659, 'cooryLoc': 924999570.0817187, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:02:54', 'altitude': 382300.0, 'longitude': -78661240.0, 'latitude': -6783790.0, 'direction': 13.0, 'velocity': 7.0, 'utm_x': 758505.7787028826, 'utm_y': 9249528.81526527, 'coorxLoc': 75876110.83983263, 'cooryLoc': 925000344.53199, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 13:03:17', 'altitude': 382400.0, 'longitude': -78661180.0, 'latitude': -6783490.0, 'direction': 352.0, 'velocity': 11.0, 'utm_x': 758512.5743032582, 'utm_y': 9249561.973970823, 'coorxLoc': 75876790.35614763, 'cooryLoc': 925003660.3946414, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 13:03:19', 'altitude': 382500.0, 'longitude': -78661190.0, 'latitude': -6783440.0, 'direction': 333.0, 'velocity': 9.0, 'utm_x': 758511.4950770336, 'utm_y': 9249567.511092376, 'coorxLoc': 75876682.42615037, 'cooryLoc': 925004214.1084112, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 13:03:21', 'altitude': 382500.0, 'longitude': -78661210.0, 'latitude': -6783390.0, 'direction': 316.0, 'velocity': 9.0, 'utm_x': 758509.3099370834, 'utm_y': 9249573.05354896, 'coorxLoc': 75876463.90473668, 'cooryLoc': 925004768.3571503, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 13:03:24', 'altitude': 382600.0, 'longitude': -78661270.0, 'latitude': -6783350.0, 'direction': 298.0, 'velocity': 9.0, 'utm_x': 758502.6958058528, 'utm_y': 9249577.51098809, 'coorxLoc': 75875802.48548572, 'cooryLoc': 925005214.1099778, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:04:12', 'altitude': 383500.0, 'longitude': -78662950.0, 'latitude': -6782460.0, 'direction': 314.0, 'velocity': 23.0, 'utm_x': 758317.3771005354, 'utm_y': 9249676.872611832, 'coorxLoc': 75857270.4770959, 'cooryLoc': 925015150.5212787, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 13:04:27', 'altitude': 383600.0, 'longitude': -78663540.0, 'latitude': -6781770.0, 'direction': 293.0, 'velocity': 25.0, 'utm_x': 758252.4960173887, 'utm_y': 9249753.525589649, 'coorxLoc': 75850782.26502718, 'cooryLoc': 925022815.9076035, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 13:04:29', 'altitude': 383600.0, 'longitude': -78663670.0, 'latitude': -6781740.0, 'direction': 278.0, 'velocity': 25.0, 'utm_x': 758238.1351113133, 'utm_y': 9249756.913924702, 'coorxLoc': 75849346.16945107, 'cooryLoc': 925023154.7602555, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 13:04:32', 'altitude': 383600.0, 'longitude': -78663860.0, 'latitude': -6781690.0, 'direction': 294.0, 'velocity': 24.0, 'utm_x': 758217.1493736736, 'utm_y': 9249762.546932586, 'coorxLoc': 75847247.58752307, 'cooryLoc': 925023718.0890458, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 13:04:34', 'altitude': 383700.0, 'longitude': -78663960.0, 'latitude': -6781620.0, 'direction': 311.0, 'velocity': 25.0, 'utm_x': 758206.1275298696, 'utm_y': 9249770.344694374, 'coorxLoc': 75846145.3924409, 'cooryLoc': 925024497.8800925, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:04:42', 'altitude': 384000.0, 'longitude': -78664330.0, 'latitude': -6781280.0, 'direction': 292.0, 'velocity': 22.0, 'utm_x': 758165.3898442544, 'utm_y': 9249808.157857075, 'coorxLoc': 75842071.57240675, 'cooryLoc': 925028279.251614, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:04:48', 'altitude': 384200.0, 'longitude': -78664620.0, 'latitude': -6781140.0, 'direction': 307.0, 'velocity': 21.0, 'utm_x': 758133.3928800324, 'utm_y': 9249823.801275432, 'coorxLoc': 75838871.85418646, 'cooryLoc': 925029843.6363789, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:05:10', 'altitude': 385300.0, 'longitude': -78665490.0, 'latitude': -6780360.0, 'direction': 322.0, 'velocity': 20.0, 'utm_x': 758037.5936144922, 'utm_y': 9249910.560115071, 'coorxLoc': 75829291.8094557, 'cooryLoc': 925038519.650201, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 13:05:14', 'altitude': 385500.0, 'longitude': -78665590.0, 'latitude': -6780190.0, 'direction': 338.0, 'velocity': 19.0, 'utm_x': 758026.6249672796, 'utm_y': 9249929.421357624, 'coorxLoc': 75828194.91937087, 'cooryLoc': 925040405.7896216, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 13:05:18', 'altitude': 385600.0, 'longitude': -78665640.0, 'latitude': -6779980.0, 'direction': 355.0, 'velocity': 23.0, 'utm_x': 758021.207196638, 'utm_y': 9249952.681398237, 'coorxLoc': 75827653.1112976, 'cooryLoc': 925042731.8016373, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 13:05:24', 'altitude': 385700.0, 'longitude': -78665620.0, 'latitude': -6779650.0, 'direction': 10.0, 'velocity': 22.0, 'utm_x': 758023.5947366836, 'utm_y': 9249989.180425689, 'coorxLoc': 75827891.81700571, 'cooryLoc': 925046381.7024318, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:05:38', 'altitude': 385900.0, 'longitude': -78665550.0, 'latitude': -6778890.0, 'direction': 356.0, 'velocity': 23.0, 'utm_x': 758031.7407990173, 'utm_y': 9250073.22605405, 'coorxLoc': 75828706.31211583, 'cooryLoc': 925054786.2572668, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 13:05:45', 'altitude': 386000.0, 'longitude': -78665530.0, 'latitude': -6778510.0, 'direction': 11.0, 'velocity': 21.0, 'utm_x': 758034.1549407955, 'utm_y': 9250115.25685232, 'coorxLoc': 75828947.67066626, 'cooryLoc': 925058989.335292, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 13:05:58', 'altitude': 386100.0, 'longitude': -78665370.0, 'latitude': -6777810.0, 'direction': 30.0, 'velocity': 22.0, 'utm_x': 758052.2223362731, 'utm_y': 9250192.616473977, 'coorxLoc': 75830754.3082824, 'cooryLoc': 925066725.2760842, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 13:06:00', 'altitude': 386200.0, 'longitude': -78665300.0, 'latitude': -6777720.0, 'direction': 46.0, 'velocity': 21.0, 'utm_x': 758060.0117081115, 'utm_y': 9250202.536409078, 'coorxLoc': 75831533.23257744, 'cooryLoc': 925067717.2596004, 'gpsAccuracy': 20.0}
+{'time': '2020-06-09 13:06:03', 'altitude': 386100.0, 'longitude': -78665160.0, 'latitude': -6777630.0, 'direction': 62.0, 'velocity': 23.0, 'utm_x': 758075.5425464446, 'utm_y': 9250212.419092976, 'coorxLoc': 75833086.3038288, 'cooryLoc': 925068705.5077342, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:06:09', 'altitude': 385900.0, 'longitude': -78664820.0, 'latitude': -6777520.0, 'direction': 78.0, 'velocity': 23.0, 'utm_x': 758113.2025168107, 'utm_y': 9250224.408040093, 'coorxLoc': 75836852.2862279, 'cooryLoc': 925069904.3529302, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 13:06:14', 'altitude': 385800.0, 'longitude': -78664530.0, 'latitude': -6777420.0, 'direction': 63.0, 'velocity': 24.0, 'utm_x': 758145.3275650184, 'utm_y': 9250235.317226967, 'coorxLoc': 75840064.77765815, 'cooryLoc': 925070995.2294018, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 13:06:22', 'altitude': 385500.0, 'longitude': -78664100.0, 'latitude': -6777170.0, 'direction': 45.0, 'velocity': 24.0, 'utm_x': 758193.0154686302, 'utm_y': 9250262.747189222, 'coorxLoc': 75844833.53324981, 'cooryLoc': 925073738.1633341, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 13:06:24', 'altitude': 385500.0, 'longitude': -78664030.0, 'latitude': -6777060.0, 'direction': 19.0, 'velocity': 24.0, 'utm_x': 758200.8155309346, 'utm_y': 9250274.8798257, 'coorxLoc': 75845613.52365907, 'cooryLoc': 925074951.4170471, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:06:28', 'altitude': 385300.0, 'longitude': -78663940.0, 'latitude': -6776840.0, 'direction': 39.0, 'velocity': 25.0, 'utm_x': 758210.8860333869, 'utm_y': 9250299.171718176, 'coorxLoc': 75846620.54204275, 'cooryLoc': 925077380.5937555, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:06:32', 'altitude': 385000.0, 'longitude': -78663810.0, 'latitude': -6776670.0, 'direction': 8.0, 'velocity': 20.0, 'utm_x': 758225.3536185991, 'utm_y': 9250317.910541113, 'coorxLoc': 75848067.27620873, 'cooryLoc': 925079254.457497, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:06:33', 'altitude': 385000.0, 'longitude': -78663820.0, 'latitude': -6776610.0, 'direction': 346.0, 'velocity': 20.0, 'utm_x': 758224.2796480244, 'utm_y': 9250324.553994928, 'coorxLoc': 75847959.87031028, 'cooryLoc': 925079918.8045228, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:06:34', 'altitude': 385000.0, 'longitude': -78663840.0, 'latitude': -6776560.0, 'direction': 326.0, 'velocity': 22.0, 'utm_x': 758222.0944240739, 'utm_y': 9250330.09641751, 'coorxLoc': 75847741.34049663, 'cooryLoc': 925080473.0498619, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:06:35', 'altitude': 384900.0, 'longitude': -78663880.0, 'latitude': -6776520.0, 'direction': 310.0, 'velocity': 22.0, 'utm_x': 758217.6920197369, 'utm_y': 9250334.5431324, 'coorxLoc': 75847301.0940228, 'cooryLoc': 925080917.7273337, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:06:45', 'altitude': 384700.0, 'longitude': -78664390.0, 'latitude': -6776120.0, 'direction': 325.0, 'velocity': 25.0, 'utm_x': 758161.5027332699, 'utm_y': 9250379.068793412, 'coorxLoc': 75841682.10449277, 'cooryLoc': 925085370.3693893, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:06:53', 'altitude': 384700.0, 'longitude': -78664610.0, 'latitude': -6775640.0, 'direction': 340.0, 'velocity': 26.0, 'utm_x': 758137.4278640661, 'utm_y': 9250432.290885396, 'coorxLoc': 75839274.54623097, 'cooryLoc': 925090692.6122668, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:07:15', 'altitude': 384800.0, 'longitude': -78665040.0, 'latitude': -6774190.0, 'direction': 324.0, 'velocity': 28.0, 'utm_x': 758090.6446218421, 'utm_y': 9250592.94100851, 'coorxLoc': 75834596.00752653, 'cooryLoc': 925106757.6919281, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:07:19', 'altitude': 384800.0, 'longitude': -78665250.0, 'latitude': -6773990.0, 'direction': 308.0, 'velocity': 29.0, 'utm_x': 758067.5264793558, 'utm_y': 9250615.179783763, 'coorxLoc': 75832284.16303365, 'cooryLoc': 925108981.600834, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:07:32', 'altitude': 384800.0, 'longitude': -78666030.0, 'latitude': -6773340.0, 'direction': 324.0, 'velocity': 31.0, 'utm_x': 757981.6095426158, 'utm_y': 9250687.507523645, 'coorxLoc': 75823692.3706386, 'cooryLoc': 925116214.4911025, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:08:08', 'altitude': 385000.0, 'longitude': -78667810.0, 'latitude': -6771210.0, 'direction': 320.0, 'velocity': 31.0, 'utm_x': 757785.8854389598, 'utm_y': 9250924.106393205, 'coorxLoc': 75804119.64017434, 'cooryLoc': 925139874.6453412, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:08:15', 'altitude': 385100.0, 'longitude': -78668130.0, 'latitude': -6770770.0, 'direction': 336.0, 'velocity': 31.0, 'utm_x': 757750.729205715, 'utm_y': 9250972.95578578, 'coorxLoc': 75800603.95093545, 'cooryLoc': 925144759.6328195, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:08:17', 'altitude': 385200.0, 'longitude': -78668180.0, 'latitude': -6770620.0, 'direction': 352.0, 'velocity': 30.0, 'utm_x': 757745.2791927566, 'utm_y': 9250989.577604245, 'coorxLoc': 75800058.92742774, 'cooryLoc': 925146421.8224425, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:08:20', 'altitude': 385400.0, 'longitude': -78668180.0, 'latitude': -6770390.0, 'direction': 6.0, 'velocity': 29.0, 'utm_x': 757745.4013516697, 'utm_y': 9251015.023685994, 'coorxLoc': 75800071.10959683, 'cooryLoc': 925148966.4313018, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:08:37', 'altitude': 385800.0, 'longitude': -78667980.0, 'latitude': -6769130.0, 'direction': 351.0, 'velocity': 28.0, 'utm_x': 757768.1893089741, 'utm_y': 9251154.317787573, 'coorxLoc': 75802349.72146463, 'cooryLoc': 925162895.8158897, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:08:39', 'altitude': 385900.0, 'longitude': -78668030.0, 'latitude': -6769000.0, 'direction': 330.0, 'velocity': 27.0, 'utm_x': 757762.7286418054, 'utm_y': 9251168.726899365, 'coorxLoc': 75801803.63546826, 'cooryLoc': 925164336.7347857, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:08:42', 'altitude': 386100.0, 'longitude': -78668160.0, 'latitude': -6768850.0, 'direction': 312.0, 'velocity': 26.0, 'utm_x': 757748.4310611826, 'utm_y': 9251185.391177377, 'coorxLoc': 75800373.85484357, 'cooryLoc': 925166003.1820912, 'gpsAccuracy': 17.0}
+{'time': '2020-06-09 13:08:45', 'altitude': 386300.0, 'longitude': -78668320.0, 'latitude': -6768750.0, 'direction': 294.0, 'velocity': 22.0, 'utm_x': 757730.7890992039, 'utm_y': 9251196.539615203, 'coorxLoc': 75798609.64328273, 'cooryLoc': 925167118.0496273, 'gpsAccuracy': 17.0}
+{'time': '2020-06-09 13:08:57', 'altitude': 386600.0, 'longitude': -78668790.0, 'latitude': -6768560.0, 'direction': 312.0, 'velocity': 15.0, 'utm_x': 757678.9107268379, 'utm_y': 9251217.809713148, 'coorxLoc': 75793421.77612916, 'cooryLoc': 925169245.128889, 'gpsAccuracy': 17.0}
+{'time': '2020-06-09 13:08:59', 'altitude': 386700.0, 'longitude': -78668840.0, 'latitude': -6768490.0, 'direction': 334.0, 'velocity': 16.0, 'utm_x': 757673.4181775266, 'utm_y': 9251225.580700349, 'coorxLoc': 75792872.51071565, 'cooryLoc': 925170022.2351475, 'gpsAccuracy': 16.0}
+{'time': '2020-06-09 13:09:26', 'altitude': 388000.0, 'longitude': -78669280.0, 'latitude': -6767350.0, 'direction': 348.0, 'velocity': 18.0, 'utm_x': 757625.3617263548, 'utm_y': 9251351.938101336, 'coorxLoc': 75788066.69652572, 'cooryLoc': 925182658.0431432, 'gpsAccuracy': 16.0}
+{'time': '2020-06-09 13:09:34', 'altitude': 388300.0, 'longitude': -78669400.0, 'latitude': -6766990.0, 'direction': 330.0, 'velocity': 18.0, 'utm_x': 757612.2814131066, 'utm_y': 9251391.830363028, 'coorxLoc': 75786758.61189257, 'cooryLoc': 925186647.2879758, 'gpsAccuracy': 17.0}
+{'time': '2020-06-09 13:09:48', 'altitude': 388600.0, 'longitude': -78669810.0, 'latitude': -6766490.0, 'direction': 312.0, 'velocity': 18.0, 'utm_x': 757567.2029256005, 'utm_y': 9251447.36529805, 'coorxLoc': 75782250.68803646, 'cooryLoc': 925192200.8430723, 'gpsAccuracy': 17.0}
+{'time': '2020-06-09 13:09:52', 'altitude': 388800.0, 'longitude': -78669970.0, 'latitude': -6766380.0, 'direction': 297.0, 'velocity': 18.0, 'utm_x': 757549.5661455729, 'utm_y': 9251459.619982839, 'coorxLoc': 75780486.9932047, 'cooryLoc': 925193426.3353345, 'gpsAccuracy': 17.0}
+{'time': '2020-06-09 13:10:27', 'altitude': 390100.0, 'longitude': -78671380.0, 'latitude': -6765580.0, 'direction': 279.0, 'velocity': 17.0, 'utm_x': 757394.0519490154, 'utm_y': 9251548.8752394, 'coorxLoc': 75764935.45007719, 'cooryLoc': 925202352.0700785, 'gpsAccuracy': 17.0}
+{'time': '2020-06-09 13:10:41', 'altitude': 390500.0, 'longitude': -78672040.0, 'latitude': -6765460.0, 'direction': 260.0, 'velocity': 20.0, 'utm_x': 757321.1231006143, 'utm_y': 9251562.50104819, 'coorxLoc': 75757642.54475169, 'cooryLoc': 925203714.7480706, 'gpsAccuracy': 17.0}
+{'time': '2020-06-09 13:10:48', 'altitude': 390800.0, 'longitude': -78672390.0, 'latitude': -6765510.0, 'direction': 282.0, 'velocity': 19.0, 'utm_x': 757282.3885085885, 'utm_y': 9251557.154674776, 'coorxLoc': 75753769.09134682, 'cooryLoc': 925203180.1618901, 'gpsAccuracy': 17.0}
+{'time': '2020-06-09 13:10:50', 'altitude': 390900.0, 'longitude': -78672480.0, 'latitude': -6765480.0, 'direction': 296.0, 'velocity': 19.0, 'utm_x': 757272.4508914282, 'utm_y': 9251560.521379892, 'coorxLoc': 75752775.324838, 'cooryLoc': 925203516.8456852, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 13:10:53', 'altitude': 391000.0, 'longitude': -78672590.0, 'latitude': -6765390.0, 'direction': 313.0, 'velocity': 18.0, 'utm_x': 757260.3331658039, 'utm_y': 9251570.536760207, 'coorxLoc': 75751563.53859812, 'cooryLoc': 925204518.4001107, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 13:11:10', 'altitude': 391700.0, 'longitude': -78673180.0, 'latitude': -6764810.0, 'direction': 294.0, 'velocity': 20.0, 'utm_x': 757195.3895301309, 'utm_y': 9251635.017286817, 'coorxLoc': 75745069.08740808, 'cooryLoc': 925210966.5409929, 'gpsAccuracy': 17.0}
+{'time': '2020-06-09 13:11:12', 'altitude': 391800.0, 'longitude': -78673280.0, 'latitude': -6764780.0, 'direction': 276.0, 'velocity': 21.0, 'utm_x': 757184.345950457, 'utm_y': 9251638.389262216, 'coorxLoc': 75743964.72460413, 'cooryLoc': 925211303.7532821, 'gpsAccuracy': 17.0}
+{'time': '2020-06-09 13:11:14', 'altitude': 391800.0, 'longitude': -78673390.0, 'latitude': -6764790.0, 'direction': 261.0, 'velocity': 21.0, 'utm_x': 757172.1752440253, 'utm_y': 9251637.341139203, 'coorxLoc': 75742747.65494533, 'cooryLoc': 925211198.9570769, 'gpsAccuracy': 17.0}
+{'time': '2020-06-09 13:11:24', 'altitude': 391800.0, 'longitude': -78674060.0, 'latitude': -6764960.0, 'direction': 240.0, 'velocity': 32.0, 'utm_x': 757097.9868614068, 'utm_y': 9251618.887825074, 'coorxLoc': 75735328.83867389, 'cooryLoc': 925209353.7233796, 'gpsAccuracy': 17.0}
+{'time': '2020-06-09 13:11:34', 'altitude': 391600.0, 'longitude': -78674730.0, 'latitude': -6765370.0, 'direction': 217.0, 'velocity': 31.0, 'utm_x': 757023.6715500628, 'utm_y': 9251573.88211837, 'coorxLoc': 75727897.36471826, 'cooryLoc': 925204853.2497098, 'gpsAccuracy': 17.0}
+{'time': '2020-06-09 13:11:49', 'altitude': 391700.0, 'longitude': -78675470.0, 'latitude': -6766330.0, 'direction': 237.0, 'velocity': 32.0, 'utm_x': 756941.3237743448, 'utm_y': 9251468.06436577, 'coorxLoc': 75719662.72465843, 'cooryLoc': 925194271.5800742, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:11:53', 'altitude': 391800.0, 'longitude': -78675760.0, 'latitude': -6766460.0, 'direction': 252.0, 'velocity': 31.0, 'utm_x': 756909.1826993898, 'utm_y': 9251453.835259229, 'coorxLoc': 75716448.63495314, 'cooryLoc': 925192848.7115465, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:12:12', 'altitude': 393000.0, 'longitude': -78676910.0, 'latitude': -6766770.0, 'direction': 269.0, 'velocity': 19.0, 'utm_x': 756781.8356201018, 'utm_y': 9251420.146647012, 'coorxLoc': 75703713.96743949, 'cooryLoc': 925189480.0179902, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:12:24', 'altitude': 393400.0, 'longitude': -78677480.0, 'latitude': -6766720.0, 'direction': 287.0, 'velocity': 17.0, 'utm_x': 756718.8235325254, 'utm_y': 9251425.979659475, 'coorxLoc': 75697412.74885488, 'cooryLoc': 925190063.4029471, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:12:26', 'altitude': 393400.0, 'longitude': -78677550.0, 'latitude': -6766670.0, 'direction': 318.0, 'velocity': 18.0, 'utm_x': 756711.1083949032, 'utm_y': 9251431.548375065, 'coorxLoc': 75696641.22745526, 'cooryLoc': 925190620.2849169, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 13:12:27', 'altitude': 393500.0, 'longitude': -78677580.0, 'latitude': -6766630.0, 'direction': 340.0, 'velocity': 18.0, 'utm_x': 756707.811725224, 'utm_y': 9251435.989605835, 'coorxLoc': 75696311.55449125, 'cooryLoc': 925191064.412511, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 13:12:28', 'altitude': 393600.0, 'longitude': -78677580.0, 'latitude': -6766590.0, 'direction': 2.0, 'velocity': 19.0, 'utm_x': 756707.8328722569, 'utm_y': 9251440.414981889, 'coorxLoc': 75696313.66332985, 'cooryLoc': 925191506.9502356, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:12:29', 'altitude': 393600.0, 'longitude': -78677570.0, 'latitude': -6766540.0, 'direction': 22.0, 'velocity': 18.0, 'utm_x': 756708.9652451077, 'utm_y': 9251445.941417167, 'coorxLoc': 75696426.89332783, 'cooryLoc': 925192059.5924463, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:12:30', 'altitude': 393600.0, 'longitude': -78677540.0, 'latitude': -6766500.0, 'direction': 43.0, 'velocity': 18.0, 'utm_x': 756712.3042099755, 'utm_y': 9251450.350938851, 'coorxLoc': 75696760.7840813, 'cooryLoc': 925192500.5403359, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:12:31', 'altitude': 393700.0, 'longitude': -78677500.0, 'latitude': -6766480.0, 'direction': 63.0, 'velocity': 18.0, 'utm_x': 756716.7385411425, 'utm_y': 9251452.542487487, 'coorxLoc': 75697204.21444082, 'cooryLoc': 925192719.6893951, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 13:12:33', 'altitude': 393800.0, 'longitude': -78677410.0, 'latitude': -6766460.0, 'direction': 92.0, 'velocity': 17.0, 'utm_x': 756726.7025703873, 'utm_y': 9251454.707610685, 'coorxLoc': 75698200.61482705, 'cooryLoc': 925192936.1885806, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:12:39', 'altitude': 394000.0, 'longitude': -78677130.0, 'latitude': -6766460.0, 'direction': 73.0, 'velocity': 20.0, 'utm_x': 756757.6688806069, 'utm_y': 9251454.55961905, 'coorxLoc': 75701297.24707516, 'cooryLoc': 925192921.3483695, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:12:41', 'altitude': 394000.0, 'longitude': -78677030.0, 'latitude': -6766410.0, 'direction': 58.0, 'velocity': 21.0, 'utm_x': 756768.7547179582, 'utm_y': 9251460.038482703, 'coorxLoc': 75702405.82391733, 'cooryLoc': 925193469.2202238, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 13:12:44', 'altitude': 394100.0, 'longitude': -78676910.0, 'latitude': -6766290.0, 'direction': 36.0, 'velocity': 24.0, 'utm_x': 756782.0894549178, 'utm_y': 9251473.25118417, 'coorxLoc': 75703739.2805447, 'cooryLoc': 925194790.473136, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:12:49', 'altitude': 394300.0, 'longitude': -78676780.0, 'latitude': -6766020.0, 'direction': 20.0, 'velocity': 23.0, 'utm_x': 756796.6094618756, 'utm_y': 9251503.053767312, 'coorxLoc': 75705191.24222305, 'cooryLoc': 925197770.7131968, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 13:12:51', 'altitude': 394300.0, 'longitude': -78676750.0, 'latitude': -6765900.0, 'direction': 2.0, 'velocity': 22.0, 'utm_x': 756799.9907427651, 'utm_y': 9251516.314044124, 'coorxLoc': 75705529.35284927, 'cooryLoc': 925199096.7368374, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 13:12:53', 'altitude': 394400.0, 'longitude': -78676770.0, 'latitude': -6765780.0, 'direction': 342.0, 'velocity': 23.0, 'utm_x': 756797.8423162211, 'utm_y': 9251529.600751687, 'coorxLoc': 75705314.4925132, 'cooryLoc': 925200425.4108832, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:13:11', 'altitude': 395200.0, 'longitude': -78677180.0, 'latitude': -6764830.0, 'direction': 358.0, 'velocity': 22.0, 'utm_x': 756753.0009499572, 'utm_y': 9251634.920165662, 'coorxLoc': 75700830.21480477, 'cooryLoc': 925210957.4152166, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:13:15', 'altitude': 395300.0, 'longitude': -78677150.0, 'latitude': -6764600.0, 'direction': 14.0, 'velocity': 23.0, 'utm_x': 756756.4403644186, 'utm_y': 9251660.350230685, 'coorxLoc': 75701174.12266026, 'cooryLoc': 925213500.4180061, 'gpsAccuracy': 19.0}
+{'time': '2020-06-09 13:13:25', 'altitude': 395600.0, 'longitude': -78677010.0, 'latitude': -6764040.0, 'direction': 32.0, 'velocity': 22.0, 'utm_x': 756772.2196125427, 'utm_y': 9251722.231533129, 'coorxLoc': 75702751.96597995, 'cooryLoc': 925219688.529395, 'gpsAccuracy': 18.0}
+{'time': '2020-06-09 13:13:27', 'altitude': 395600.0, 'longitude': -78676940.0, 'latitude': -6763960.0, 'direction': 50.0, 'velocity': 21.0, 'utm_x': 756780.0035198466, 'utm_y': 9251731.045298737, 'coorxLoc': 75703530.34528747, 'cooryLoc': 925220569.8959321, 'gpsAccuracy': 17.0}
+{'time': '2020-06-09 13:13:29', 'altitude': 395700.0, 'longitude': -78676850.0, 'latitude': -6763910.0, 'direction': 67.0, 'velocity': 21.0, 'utm_x': 756789.9834623537, 'utm_y': 9251736.529461907, 'coorxLoc': 75704528.33260141, 'cooryLoc': 925221118.2992041, 'gpsAccuracy': 17.0}
+{'time': '2020-06-09 13:14:00', 'altitude': 397000.0, 'longitude': -78675260.0, 'latitude': -6763360.0, 'direction': 83.0, 'velocity': 20.0, 'utm_x': 756966.1198757598, 'utm_y': 9251796.53796341, 'coorxLoc': 75722141.90026529, 'cooryLoc': 925227118.917899, 'gpsAccuracy': 17.0}
+{'time': '2020-06-09 13:14:08', 'altitude': 397100.0, 'longitude': -78674830.0, 'latitude': -6763380.0, 'direction': 98.0, 'velocity': 22.0, 'utm_x': 757013.6650772658, 'utm_y': 9251794.097882522, 'coorxLoc': 75726896.42523141, 'cooryLoc': 925226874.8467125, 'gpsAccuracy': 16.0}
+{'time': '2020-06-09 13:14:26', 'altitude': 398100.0, 'longitude': -78673870.0, 'latitude': -6763490.0, 'direction': 82.0, 'velocity': 21.0, 'utm_x': 757119.7779531605, 'utm_y': 9251781.420255832, 'coorxLoc': 75737507.73315333, 'cooryLoc': 925225606.9429796, 'gpsAccuracy': 17.0}
+====== teminar :  20-06-09 13:39:01
+Si tiene data
+========= Empieza Insertar en BD ===> 200
+====== temina :  20-06-09 13:39:01
+====== Empieza actualizar position :  20-06-09 13:39:01
+====== temina :  20-06-09 13:39:02
+======== Equipo : BBD-836 ======== 
+======= Empieza traer API === 20-06-09 13:39:02=== Last | until =>  2020-06-09 12:09:02|2020-06-09 13:39:02
 http://190.12.73.86/json/minesense/history.php
 <Response [200]>
-====== teminar :  20-04-06 15:55:02
-========= Empieza Insertar en BD ===> 1
-b"select public.datacamiones_tracking_update_last(76 ::bigint, ARRAY[0] ::  integer[],ARRAY[0.0] :: smallint[],ARRAY[292185.6992028999] :: bigint[],ARRAY[8645129.340095486] :: bigint[], ARRAY[46.0] :: bigint[],ARRAY[196.0] :: smallint[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY[291930.53251284827] :: bigint[], ARRAY[8644766.840711238] :: bigint[])"
-====== temina :  20-04-06 15:55:03
-========= Empieza traer equipos === 
-====== teminar :  20-04-06 16:00:02
-======== Equipo : 76 ======== 
-======= Empieza traer API === 20-04-06 16:00:02=== Last | until =>  2020-02-11 17:37:02|2020-02-11 19:07:02
+error al traer la data del api
+====== teminar :  20-06-09 13:39:02
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:39:02
+====== Empieza actualizar position :  20-06-09 13:39:02
+====== temina :  20-06-09 13:39:02
+======== Equipo : T9Z-911 ======== 
+======= Empieza traer API === 20-06-09 13:39:02=== Last | until =>  2020-06-09 12:09:02|2020-06-09 13:39:02
 http://190.12.73.86/json/minesense/history.php
 <Response [200]>
-====== teminar :  20-04-06 16:00:02
-========= Empieza Insertar en BD ===> 1
-b"select public.datacamiones_tracking_update_last(76 ::bigint, ARRAY[0] ::  integer[],ARRAY[0.0] :: smallint[],ARRAY[292185.6992028999] :: bigint[],ARRAY[8645129.340095486] :: bigint[], ARRAY[46.0] :: bigint[],ARRAY[196.0] :: smallint[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY[291930.53251284827] :: bigint[], ARRAY[8644766.840711238] :: bigint[])"
-====== temina :  20-04-06 16:00:03
-========= Empieza traer equipos === 
-====== teminar :  20-04-06 16:05:03
-======== Equipo : 76 ======== 
-======= Empieza traer API === 20-04-06 16:05:03=== Last | until =>  2020-02-11 17:37:02|2020-02-11 19:07:02
+error al traer la data del api
+====== teminar :  20-06-09 13:39:02
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:39:03
+====== Empieza actualizar position :  20-06-09 13:39:03
+====== temina :  20-06-09 13:39:03
+======== Equipo : T9X-902 ======== 
+======= Empieza traer API === 20-06-09 13:39:03=== Last | until =>  2020-06-09 12:09:03|2020-06-09 13:39:03
 http://190.12.73.86/json/minesense/history.php
 <Response [200]>
-====== teminar :  20-04-06 16:05:03
-========= Empieza Insertar en BD ===> 1
-b"select public.datacamiones_tracking_update_last(76 ::bigint, ARRAY[0] ::  integer[],ARRAY[0.0] :: smallint[],ARRAY[292185.6992028999] :: bigint[],ARRAY[8645129.340095486] :: bigint[], ARRAY[46.0] :: bigint[],ARRAY[196.0] :: smallint[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY[291930.53251284827] :: bigint[], ARRAY[8644766.840711238] :: bigint[])"
-====== temina :  20-04-06 16:05:04
-========= Empieza traer equipos === 
-====== teminar :  20-04-06 16:10:03
-======== Equipo : 76 ======== 
-======= Empieza traer API === 20-04-06 16:10:03=== Last | until =>  2020-02-11 17:37:02|2020-02-11 19:07:02
+error al traer la data del api
+====== teminar :  20-06-09 13:39:03
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:39:03
+====== Empieza actualizar position :  20-06-09 13:39:03
+====== temina :  20-06-09 13:39:03
+======== Equipo : T9Q-892 ======== 
+======= Empieza traer API === 20-06-09 13:39:03=== Last | until =>  2020-06-09 12:09:03|2020-06-09 13:39:03
 http://190.12.73.86/json/minesense/history.php
 <Response [200]>
-====== teminar :  20-04-06 16:10:03
-========= Empieza Insertar en BD ===> 1
-b"select public.datacamiones_tracking_update_last(76 ::bigint, ARRAY[0] ::  integer[],ARRAY[0.0] :: smallint[],ARRAY[292185.6992028999] :: bigint[],ARRAY[8645129.340095486] :: bigint[], ARRAY[46.0] :: bigint[],ARRAY[196.0] :: smallint[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY[291930.53251284827] :: bigint[], ARRAY[8644766.840711238] :: bigint[])"
-====== temina :  20-04-06 16:10:04
-========= Empieza traer equipos === 
-====== teminar :  20-04-06 16:15:03
-======== Equipo : 76 ======== 
-======= Empieza traer API === 20-04-06 16:15:03=== Last | until =>  2020-02-11 17:37:02|2020-02-11 19:07:02
+error al traer la data del api
+====== teminar :  20-06-09 13:39:03
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:39:04
+====== Empieza actualizar position :  20-06-09 13:39:04
+====== temina :  20-06-09 13:39:04
+======== Equipo : T9V-947 ======== 
+======= Empieza traer API === 20-06-09 13:39:04=== Last | until =>  2020-06-09 12:09:04|2020-06-09 13:39:04
 http://190.12.73.86/json/minesense/history.php
 <Response [200]>
-====== teminar :  20-04-06 16:15:03
-========= Empieza Insertar en BD ===> 1
-b"select public.datacamiones_tracking_update_last(76 ::bigint, ARRAY[0] ::  integer[],ARRAY[0.0] :: smallint[],ARRAY[292185.6992028999] :: bigint[],ARRAY[8645129.340095486] :: bigint[], ARRAY[46.0] :: bigint[],ARRAY[196.0] :: smallint[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY[291930.53251284827] :: bigint[], ARRAY[8644766.840711238] :: bigint[])"
-====== temina :  20-04-06 16:15:04
-========= Empieza traer equipos === 
-====== teminar :  20-04-06 16:20:15
-======== Equipo : 76 ======== 
-======= Empieza traer API === 20-04-06 16:20:15=== Last | until =>  2020-02-11 17:37:02|2020-02-11 19:07:02
+error al traer la data del api
+====== teminar :  20-06-09 13:39:04
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:39:04
+====== Empieza actualizar position :  20-06-09 13:39:04
+====== temina :  20-06-09 13:39:04
+======== Equipo : T9H-807 ======== 
+======= Empieza traer API === 20-06-09 13:39:04=== Last | until =>  2020-06-09 12:09:04|2020-06-09 13:39:04
 http://190.12.73.86/json/minesense/history.php
 <Response [200]>
-====== teminar :  20-04-06 16:20:15
-========= Empieza Insertar en BD ===> 1
-b"select public.datacamiones_tracking_update_last(76 ::bigint, ARRAY[0] ::  integer[],ARRAY[0.0] :: smallint[],ARRAY[292185.6992028999] :: bigint[],ARRAY[8645129.340095486] :: bigint[], ARRAY[46.0] :: bigint[],ARRAY[196.0] :: smallint[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY[291930.53251284827] :: bigint[], ARRAY[8644766.840711238] :: bigint[])"
-====== temina :  20-04-06 16:20:20
-========= Empieza traer equipos === 
-====== teminar :  20-04-06 16:25:03
-======== Equipo : 76 ======== 
-======= Empieza traer API === 20-04-06 16:25:03=== Last | until =>  2020-02-11 17:37:02|2020-02-11 19:07:02
+error al traer la data del api
+====== teminar :  20-06-09 13:39:05
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:39:05
+====== Empieza actualizar position :  20-06-09 13:39:05
+====== temina :  20-06-09 13:39:05
+======== Equipo : T9D-884 ======== 
+======= Empieza traer API === 20-06-09 13:39:05=== Last | until =>  2020-06-09 12:09:05|2020-06-09 13:39:05
 http://190.12.73.86/json/minesense/history.php
 <Response [200]>
-====== teminar :  20-04-06 16:25:03
-========= Empieza Insertar en BD ===> 1
-b"select public.datacamiones_tracking_update_last(76 ::bigint, ARRAY[0] ::  integer[],ARRAY[0.0] :: smallint[],ARRAY[292185.6992028999] :: bigint[],ARRAY[8645129.340095486] :: bigint[], ARRAY[46.0] :: bigint[],ARRAY[196.0] :: smallint[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY[291930.53251284827] :: bigint[], ARRAY[8644766.840711238] :: bigint[])"
-====== temina :  20-04-06 16:25:04
-========= Empieza traer equipos === 
-====== teminar :  20-04-06 16:30:03
-======== Equipo : 76 ======== 
-======= Empieza traer API === 20-04-06 16:30:03=== Last | until =>  2020-02-11 17:37:02|2020-02-11 19:07:02
+error al traer la data del api
+====== teminar :  20-06-09 13:39:05
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:39:06
+====== Empieza actualizar position :  20-06-09 13:39:06
+====== temina :  20-06-09 13:39:06
+======== Equipo : T9Q-800 ======== 
+======= Empieza traer API === 20-06-09 13:39:06=== Last | until =>  2020-06-09 12:09:06|2020-06-09 13:39:06
 http://190.12.73.86/json/minesense/history.php
 <Response [200]>
-====== teminar :  20-04-06 16:30:03
-========= Empieza Insertar en BD ===> 1
-b"select public.datacamiones_tracking_update_last(76 ::bigint, ARRAY[0] ::  integer[],ARRAY[0.0] :: smallint[],ARRAY[292185.6992028999] :: bigint[],ARRAY[8645129.340095486] :: bigint[], ARRAY[46.0] :: bigint[],ARRAY[196.0] :: smallint[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY[291930.53251284827] :: bigint[], ARRAY[8644766.840711238] :: bigint[])"
-====== temina :  20-04-06 16:30:04
-========= Empieza traer equipos === 
-====== teminar :  20-04-06 16:35:05
-======== Equipo : 76 ======== 
-======= Empieza traer API === 20-04-06 16:35:05=== Last | until =>  2020-02-11 17:37:02|2020-02-11 19:07:02
+error al traer la data del api
+====== teminar :  20-06-09 13:39:06
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:39:07
+====== Empieza actualizar position :  20-06-09 13:39:07
+====== temina :  20-06-09 13:39:07
+======== Equipo : T9O-928 ======== 
+======= Empieza traer API === 20-06-09 13:39:07=== Last | until =>  2020-06-09 12:09:07|2020-06-09 13:39:07
 http://190.12.73.86/json/minesense/history.php
 <Response [200]>
-====== teminar :  20-04-06 16:35:05
-========= Empieza Insertar en BD ===> 1
-b"select public.datacamiones_tracking_update_last(76 ::bigint, ARRAY[0] ::  integer[],ARRAY[0.0] :: smallint[],ARRAY[292185.6992028999] :: bigint[],ARRAY[8645129.340095486] :: bigint[], ARRAY[46.0] :: bigint[],ARRAY[196.0] :: smallint[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY['2020-02-11 17:37:03'] :: timestamp without time zone[],ARRAY[291930.53251284827] :: bigint[], ARRAY[8644766.840711238] :: bigint[])"
-====== temina :  20-04-06 16:35:11
+error al traer la data del api
+====== teminar :  20-06-09 13:39:07
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:39:09
+====== Empieza actualizar position :  20-06-09 13:39:09
+====== temina :  20-06-09 13:39:09
+======== Equipo : BAB-758 ======== 
+======= Empieza traer API === 20-06-09 13:39:09=== Last | until =>  2020-06-09 12:09:09|2020-06-09 13:39:09
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:39:09
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:39:10
+====== Empieza actualizar position :  20-06-09 13:39:10
+====== temina :  20-06-09 13:39:10
+======== Equipo : AMK-760 ======== 
+======= Empieza traer API === 20-06-09 13:39:10=== Last | until =>  2020-06-09 12:09:10|2020-06-09 13:39:10
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:39:10
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:39:11
+====== Empieza actualizar position :  20-06-09 13:39:11
+====== temina :  20-06-09 13:39:11
+======== Equipo : T9V-923 ======== 
+======= Empieza traer API === 20-06-09 13:39:11=== Last | until =>  2020-06-09 12:09:11|2020-06-09 13:39:11
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:39:11
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:39:11
+====== Empieza actualizar position :  20-06-09 13:39:11
+====== temina :  20-06-09 13:39:11
+======== Equipo : T9S-877 ======== 
+======= Empieza traer API === 20-06-09 13:39:11=== Last | until =>  2020-06-09 12:09:11|2020-06-09 13:39:11
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:39:11
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:39:12
+====== Empieza actualizar position :  20-06-09 13:39:12
+====== temina :  20-06-09 13:39:12
+======== Equipo : ART-880 ======== 
+======= Empieza traer API === 20-06-09 13:39:12=== Last | until =>  2020-06-09 12:09:12|2020-06-09 13:39:12
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:39:12
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:39:12
+====== Empieza actualizar position :  20-06-09 13:39:12
+====== temina :  20-06-09 13:39:12
+======== Equipo : T9B-820 ======== 
+======= Empieza traer API === 20-06-09 13:39:12=== Last | until =>  2020-06-09 12:09:12|2020-06-09 13:39:12
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:39:12
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:39:13
+====== Empieza actualizar position :  20-06-09 13:39:13
+====== temina :  20-06-09 13:39:13
+======== Equipo : T9Y-928 ======== 
+======= Empieza traer API === 20-06-09 13:39:13=== Last | until =>  2020-06-09 12:09:13|2020-06-09 13:39:13
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:39:13
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:39:13
+====== Empieza actualizar position :  20-06-09 13:39:13
+====== temina :  20-06-09 13:39:13
+======== Equipo : T9I-849 ======== 
+======= Empieza traer API === 20-06-09 13:39:13=== Last | until =>  2020-06-09 12:09:13|2020-06-09 13:39:13
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:39:13
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:39:14
+====== Empieza actualizar position :  20-06-09 13:39:14
+====== temina :  20-06-09 13:39:14
+======== Equipo : AXN-788 ======== 
+======= Empieza traer API === 20-06-09 13:39:14=== Last | until =>  2020-06-09 12:09:14|2020-06-09 13:39:14
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:39:14
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:39:14
+====== Empieza actualizar position :  20-06-09 13:39:14
+====== temina :  20-06-09 13:39:14
+======== Equipo : T9I-871 ======== 
+======= Empieza traer API === 20-06-09 13:39:14=== Last | until =>  2020-06-09 12:09:14|2020-06-09 13:39:14
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:39:15
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:39:15
+====== Empieza actualizar position :  20-06-09 13:39:15
+====== temina :  20-06-09 13:39:15
+======== Equipo : T8R-821 ======== 
+======= Empieza traer API === 20-06-09 13:39:15=== Last | until =>  2020-06-09 12:09:15|2020-06-09 13:39:15
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:39:15
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:39:15
+====== Empieza actualizar position :  20-06-09 13:39:15
+====== temina :  20-06-09 13:39:15
+======== Equipo : AWN-842 ======== 
+======= Empieza traer API === 20-06-09 13:39:15=== Last | until =>  2020-06-09 12:09:15|2020-06-09 13:39:15
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:39:16
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:39:16
+====== Empieza actualizar position :  20-06-09 13:39:16
+====== temina :  20-06-09 13:39:16
+======== Equipo : BAF-795 ======== 
+======= Empieza traer API === 20-06-09 13:39:16=== Last | until =>  2020-06-09 12:09:16|2020-06-09 13:39:16
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:39:16
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:39:17
+====== Empieza actualizar position :  20-06-09 13:39:17
+====== temina :  20-06-09 13:39:17
+======== Equipo : AXN-901 ======== 
+======= Empieza traer API === 20-06-09 13:39:17=== Last | until =>  2020-06-09 12:09:17|2020-06-09 13:39:17
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:39:17
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:39:17
+====== Empieza actualizar position :  20-06-09 13:39:17
+====== temina :  20-06-09 13:39:17
+======== Equipo : T9Q-818 ======== 
+======= Empieza traer API === 20-06-09 13:39:17=== Last | until =>  2020-06-09 12:09:17|2020-06-09 13:39:17
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:39:17
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:39:18
+====== Empieza actualizar position :  20-06-09 13:39:18
+====== temina :  20-06-09 13:39:18
+======== Equipo : T9O-805 ======== 
+======= Empieza traer API === 20-06-09 13:39:18=== Last | until =>  2020-06-09 12:09:18|2020-06-09 13:39:18
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:39:18
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:39:18
+====== Empieza actualizar position :  20-06-09 13:39:18
+====== temina :  20-06-09 13:39:18
+======== Equipo : T9Q-910 ======== 
+======= Empieza traer API === 20-06-09 13:39:18=== Last | until =>  2020-06-09 12:09:18|2020-06-09 13:39:18
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:39:18
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:39:19
+====== Empieza actualizar position :  20-06-09 13:39:19
+====== temina :  20-06-09 13:39:19
+======== Equipo : ATU-770 ======== 
+======= Empieza traer API === 20-06-09 13:39:19=== Last | until =>  2020-06-09 12:09:19|2020-06-09 13:39:19
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:39:19
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:39:19
+====== Empieza actualizar position :  20-06-09 13:39:19
+====== temina :  20-06-09 13:39:19
+======== Equipo : AWN-875 ======== 
+======= Empieza traer API === 20-06-09 13:39:19=== Last | until =>  2020-06-09 12:09:19|2020-06-09 13:39:19
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:39:20
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:39:20
+====== Empieza actualizar position :  20-06-09 13:39:20
+====== temina :  20-06-09 13:39:20
+======== Equipo : ANM-700 ======== 
+======= Empieza traer API === 20-06-09 13:39:20=== Last | until =>  2020-06-09 12:09:20|2020-06-09 13:39:20
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:39:20
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:39:21
+====== Empieza actualizar position :  20-06-09 13:39:21
+====== temina :  20-06-09 13:39:21
+======== Equipo : T0E-940 ======== 
+======= Empieza traer API === 20-06-09 13:39:21=== Last | until =>  2020-06-09 12:09:21|2020-06-09 13:39:21
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:39:21
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:39:21
+====== Empieza actualizar position :  20-06-09 13:39:21
+====== temina :  20-06-09 13:39:21
+======== Equipo : AXB-750 ======== 
+======= Empieza traer API === 20-06-09 13:39:21=== Last | until =>  2020-06-09 12:09:21|2020-06-09 13:39:21
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:39:21
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:39:22
+====== Empieza actualizar position :  20-06-09 13:39:22
+====== temina :  20-06-09 13:39:22
+======== Equipo : T9O-911 ======== 
+======= Empieza traer API === 20-06-09 13:39:22=== Last | until =>  2020-06-09 12:09:22|2020-06-09 13:39:22
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:39:22
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:39:22
+====== Empieza actualizar position :  20-06-09 13:39:22
+====== temina :  20-06-09 13:39:22
+======== Equipo : BBM-930 ======== 
+======= Empieza traer API === 20-06-09 13:39:22=== Last | until =>  2020-06-09 12:09:22|2020-06-09 13:39:22
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:39:22
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:39:23
+====== Empieza actualizar position :  20-06-09 13:39:23
+====== temina :  20-06-09 13:39:23
+======== Equipo : ATT-707 ======== 
+======= Empieza traer API === 20-06-09 13:39:23=== Last | until =>  2020-06-09 12:09:23|2020-06-09 13:39:23
+http://190.12.73.86/json/minesense/history.php
+<Response [200]>
+error al traer la data del api
+====== teminar :  20-06-09 13:39:23
+========= Empieza Insertar en BD ===> 0
+====== temina :  20-06-09 13:39:23
+====== Empieza actualizar position :  20-06-09 13:39:23
+====== temina :  20-06-09 13:39:23

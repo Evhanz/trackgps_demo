@@ -1,4 +1,5 @@
 #!/usr/bin/python
+from datetime import datetime, date, time, timedelta
 import psycopg2
 from facade import *
 from config import config
@@ -33,6 +34,29 @@ def connectDemo():
         if conn is not None:
             conn.close()
             #print('Database connection closed.')
+
+def executeQueryThatInsert(query=""):
+    conn = None
+    result = []
+    try:
+        # read connection parameters
+        params = config()
+        # connect to the PostgreSQL server
+        conn = psycopg2.connect(**params)
+        # create a cursor
+        cur = conn.cursor()
+        # execute a statement
+        cur.execute(query)
+        conn.commit()
+        # close the communication with the PostgreSQL
+        cur.close()
+    except (Exception, psycopg2.DatabaseError) as error:
+        print(error)
+    finally:
+        if conn is not None:
+            conn.close()
+    return result
+
 
 def executeQuery(query=""):
     conn = None
@@ -69,7 +93,7 @@ def executeQueryWithValues(query="", values={}):
          # execute a statement
         cur.execute(query, values)
         conn.commit()
-        print(cur.query)
+        #print(cur.query)
         result = cur.fetchall()
        # close the communication with the PostgreSQL
         cur.close()
@@ -90,6 +114,40 @@ def getConfiguration():
     query = "select id, valordefecto from public.ts_configuracion_equipo where id in (201,202,203,204,205,206,207) order by id asc"
     configuration = executeQuery(query)
     return configuration
+
+def updatePositionEquipment(idEquipo,points = []):
+
+    majorTime = '1991-09-05 00:00:00' # for example
+    FMT = '%Y-%m-%d %H:%M:%S'
+    selectPoint = []
+    if len(points) > 0:
+        for point in points:
+            diference_time = datetime.strptime(majorTime, FMT) - datetime.strptime(point['time'], FMT)
+            if diference_time.total_seconds() < 0:
+                majorTime = point['time']
+                selectPoint = point
+
+        values = {
+            "idequipo_temp":idEquipo,
+            "xcoor":   selectPoint['coorxLoc'],
+            "ycoor":   selectPoint['cooryLoc'],
+            "zcoor" :  selectPoint['altitude'],
+            "direccion" :   selectPoint['direction'],
+            "latitud" :     selectPoint['latitude'],
+            "longitud":     selectPoint['longitude'],
+            "tonelaje":      0,
+            "precisiongpstemp": selectPoint['gpsAccuracy'],
+            "tiem_update_temp":  selectPoint['time']
+        }
+
+        query="select public.update_posicion_equipos( "+str(idEquipo)+" ::bigint,"+str(selectPoint['coorxLoc'])+" ::integer, "
+        query+=str(selectPoint['cooryLoc'])+" ::integer, "+str(selectPoint['altitude'])+" ::integer,"
+        query+= str(selectPoint['direction'])+"::integer,"+str(selectPoint['latitude'])+" ::integer, "
+        query+= str(selectPoint['longitude'])+"::integer,  0::smallint,  "+str(selectPoint['gpsAccuracy'])+" ::smallint,"
+        query+= "'"+selectPoint['time']+"'::timestamp without time zone)"
+
+        executeQueryThatInsert(query)
+
 
 def insertPoints(idEquipo , points = []):
     cant_values = len(points)
@@ -115,8 +173,8 @@ def insertPoints(idEquipo , points = []):
         tiem_updatev.append(point['time'])
         #latitudev.append(point['utm_x']*1000000)
         #longitudv.append(point['utm_y']*1000000)
-        latitudev.append(point['utm_x'])
-        longitudv.append(point['utm_y'])
+        latitudev.append(point['latitude'])
+        longitudv.append(point['longitude'])
 
     values = {
         "idEquipo":idEquipo,

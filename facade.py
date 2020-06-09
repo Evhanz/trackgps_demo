@@ -1,4 +1,3 @@
-
 #Esta libreria es para formatear los datos si son necesario
 from datetime import datetime, date, time, timedelta
 from math import sin , cos
@@ -48,7 +47,6 @@ def getPointFormatedLast(point):
 
     utmValues = getCordinateToUTM(position["latitude"], position["longitude"])
     localValues = getUTMtoLocal(utmValues[0], utmValues[1], mainConfiguration)
-
     response = {
             "time":point["utc"],
             "altitude": position["altitude"],
@@ -69,15 +67,16 @@ def getPointFormated(point, configuration):
 
     response = {
             "time":point["timeReg"],
-            "altitude":     float(point["altitude"]),
-            "longitude":    float(point["longitude"]),
-            "latitude":     float(point["latitude"]),
+            "altitude":     float(point["altitude"])*100,
+            "longitude":    float(point["longitude"])* 1000000,
+            "latitude":     float(point["latitude"])* 1000000,
             "direction":    float(point["heading"]),
             "velocity":     float(point["velocity"]),
             "utm_x":        utmValues[0], #utmValues[0],
             "utm_y":        utmValues[1],
-            "coorxLoc":     localValues['coorxLoc'],
-            "cooryLoc":     localValues['cooryLoc']
+            "coorxLoc":     localValues['coorxLoc'] * 100,
+            "cooryLoc":     localValues['cooryLoc'] * 100,
+            "gpsAccuracy":  float(point["gpsAccuracy"])
             }
     return response      
 

@@ -1,15 +1,15 @@
 Para instalar es necesario :
 
 Con pip3 - para python 3 
-Pip3 install umm
+Pip3 install utm
 pip3 install pytz
 pip3 install requests
-#for Mac pip3 install psycopg2-binary
 pip3 install psycopg2
 pip3 install Faker
+#for Mac pip3 install psycopg2-binary
 
 Con pip - para python
-pip install umm
+pip install utm
 pip install pytz
 pip install requests
 #for Mac pip install psycopg2-binary

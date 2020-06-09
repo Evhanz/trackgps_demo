@@ -60,8 +60,11 @@ def getPoints(placa = "", idDevice = 10, fecha = None, timeRange = []):
     print(apiGetPoints)
     response = requests.post(apiGetPoints, json=params)
     print(response)
-    if response.status_code == 200:
-        data = response.json()
+    try:
+        if response.status_code == 200:
+            data = response.json()
+    except:
+        print('error al traer la data del api')
 
     return data
             
